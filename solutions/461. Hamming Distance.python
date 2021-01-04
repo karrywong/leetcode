@@ -1,0 +1,20 @@
+class Solution(object):
+    def hammingDistance(self, x, y):
+        """
+        :type x: int
+        :type y: int
+        :rtype: int
+        """
+        ### Super solution
+        #return bin(x^y).count('1')
+    
+        xbin = bin(x)[2:]
+        ybin = bin(y)[2:]
+        if len(xbin) != len(ybin):
+            xbin = xbin.zfill(max(len(xbin), len(ybin)))
+            ybin = ybin.zfill(max(len(xbin), len(ybin)))
+        dis = 0
+        for i in range(0, len(xbin)):
+            if xbin[i] != ybin[i]:
+                dis += 1
+        return dis
