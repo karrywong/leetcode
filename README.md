@@ -12,6 +12,7 @@
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Python](./solutions/119.%20Pascal's%20Triangle%20II.python)|28 ms|
 |151|[ Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Python3](./solutions/151.%20Reverse%20Words%20in%20a%20String.py)|40 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.python)|48 ms|
+|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|164 ms|
 |186|[ Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)|[Python3](./solutions/186.%20Reverse%20Words%20in%20a%20String%20II.py)|264 ms|
 |190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Python3](./solutions/190.%20Reverse%20Bits.py)|28 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Python](./solutions/191.%20Number%20of%201%20Bits.python)|24 ms|
