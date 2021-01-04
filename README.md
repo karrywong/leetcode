@@ -7,6 +7,7 @@
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|44 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python](./solutions/112.%20Path%20Sum.python)|36 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|32 ms|
+|119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Python](./solutions/119.%20Pascal's%20Triangle%20II.python)|28 ms|
 |151|[ Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Python3](./solutions/151.%20Reverse%20Words%20in%20a%20String.py)|40 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.python)|48 ms|
 |186|[ Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)|[Python3](./solutions/186.%20Reverse%20Words%20in%20a%20String%20II.py)|264 ms|
