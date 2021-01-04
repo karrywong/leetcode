@@ -13,3 +13,4 @@
 |186|[ Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)|[Python3](./solutions/186.%20Reverse%20Words%20in%20a%20String%20II.py)|264 ms|
 |190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Python3](./solutions/190.%20Reverse%20Bits.py)|28 ms|
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Python3](./solutions/240.%20Search%20a%202D%20Matrix%20II.py)|168 ms|
+|461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python](./solutions/461.%20Hamming%20Distance.python)|16 ms|
