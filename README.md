@@ -8,6 +8,7 @@
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|56 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|32 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|44 ms|
+|100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|28 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python](./solutions/112.%20Path%20Sum.python)|36 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|32 ms|
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Python](./solutions/119.%20Pascal's%20Triangle%20II.python)|28 ms|
