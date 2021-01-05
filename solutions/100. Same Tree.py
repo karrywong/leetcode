@@ -7,10 +7,7 @@
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if p and q:
-            if p.val == q.val:
-                return True and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right) 
-            else: 
-                return False
+            return True and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right) if p.val == q.val else False
         elif not p and not q:
             return True
         else: 
