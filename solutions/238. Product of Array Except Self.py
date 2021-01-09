@@ -1,3 +1,23 @@
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        
+#         temp1 = 1
+#         lst1 = []
+#         for n in nums[:len(nums)-1]:
+#             temp1 = temp1 * n
+#             lst1.append(temp1) 
+#         #lst1 = [1,2,6]
+            
+#         temp2 = 1
+#         lst2 = []
+#         for i in range(len(nums)-1, 0, -1):
+#             temp2 = temp2 * nums[i]
+#             lst2.append(temp2)
+#         #lst2 = [4,12,24] -> [12,4]
+        
+#         res = []
+#         res.append(lst2[-1])
+#         lst2.pop(-1)
 #         lst2 = lst2[::-1]
 #         for i in range(0, len(nums)-2):
 #             res.append(lst1[i] * lst2[i])
@@ -5,28 +25,11 @@
         
 #         return res
 ​
-​
-        # ### Soln - clever from discussion by ZitaoWang
-        # res = [1]*len(nums)
-        # lprod = 1
-        # rprod = 1
-        # for i in range(len(nums)):
-        #     res[i] *= lprod
-        #     lprod *= nums[i]
-        #     res[~i] *= rprod
-        #     rprod *= nums[~i]
-        #     # print(i, ~i, res, lprod, rprod)
-        # return res
-        
-        
-        ### Soln - solution by Haotian Li, second for-loop faster
+    
+        ### Soln - solution suggested by Haotian Li, left & right products
         n = len(nums)
         left = [1] * n
         right = [1] * n
         
         for i in range(1, n):
             left[i] = left[i-1] * nums[i-1]
-            right[n-i -1] = right[n-i] * nums[n-i]
-        
-        return [left[i]*right[i] for i in range(n)]
-        
