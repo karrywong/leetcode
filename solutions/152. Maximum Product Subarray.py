@@ -1,6 +1,6 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        ### Soln 2 - Dynamic Programming, keeping track of max_val and min_val
+        ### Soln 2 - Dynamic Programming O(n), keeping track of max_val and min_val
         res = nums[0]
         max_val = nums[0]
         min_val = nums[0]
@@ -15,3 +15,15 @@ class Solution:
             res = max(max_val, min_val, res)
         return res
 ​
+        ### Soln 1 - brute force, time exceeded
+#         if len(nums) == 0 : 
+#             return 0
+#         else: 
+#             res = nums[0]
+        
+#         for i in range(len(nums)):
+#             accu = 1 
+#             for j in range(i, len(nums)):
+#                 accu = accu * nums[j]
+#                 res = max(res, accu)
+#         return res
