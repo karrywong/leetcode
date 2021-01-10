@@ -37,6 +37,7 @@
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|204 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python](./solutions/461.%20Hamming%20Distance.python)|16 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|352 ms|
+|487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|348 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|44 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Python3](./solutions/503.%20Next%20Greater%20Element%20II.py)|208 ms|
 |541|[ Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Python3](./solutions/541.%20Reverse%20String%20II.py)|32 ms|
