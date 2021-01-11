@@ -1,0 +1,44 @@
+class TwoSum(object):
+​
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.answer = []
+        
+​
+    def add(self, number):
+        """
+        Add the number to an internal data structure..
+        :type number: int
+        :rtype: None
+        """
+        self.answer.append(number)
+​
+    def find(self, value):
+        """
+        Find if there exists any pair of numbers which sum is equal to the value.
+        :type value: int
+        :rtype: bool
+        """
+        if not self.answer or len(self.answer) == 1:
+            return False
+        
+        self.answer.sort()
+        i1, i2 = 0, len(self.answer) - 1
+        while self.answer[i1] + self.answer[i2] != value:
+            if i1 == i2 - 1:
+                return False
+            
+            if self.answer[i1] + self.answer[i2] > value:
+                i2 -= 1
+            else:
+                i1 += 1
+​
+        return True
+        
+        # for j in range(0, len(self.answer)-1):
+        #     temp = value - self.answer[j]
+        #     for i in range(j+1, len(self.answer)):
+        #         if self.answer[i] == temp:
+        #             return True
