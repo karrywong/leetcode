@@ -15,6 +15,7 @@
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Python3](./solutions/78.%20Subsets.py)|64 ms|
 |80|[ Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](./solutions/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.py)|88 ms|
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|20 ms|
+|101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Python3](./solutions/101.%20Symmetric%20Tree.py)|24 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python](./solutions/112.%20Path%20Sum.python)|36 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|32 ms|
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Python](./solutions/119.%20Pascal's%20Triangle%20II.python)|28 ms|
