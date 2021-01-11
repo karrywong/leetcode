@@ -1,5 +1,6 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
+        ### Reduce the given problem into two original problems of House Robber
         if len(nums) == 0: return 0
         elif len(nums) == 1: return nums[0]
         elif len(nums) == 2: return max(nums)
