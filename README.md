@@ -60,6 +60,7 @@
 |680|[ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python3](./solutions/680.%20Valid%20Palindrome%20II.py)|152 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Python3](./solutions/697.%20Degree%20of%20an%20Array.py)|192 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|468 ms|
+|767|[ Reorganize String](https://leetcode.com/problems/reorganize-string/)|[Python3](./solutions/767.%20Reorganize%20String.py)|28 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Python3](./solutions/938.%20Range%20Sum%20of%20BST.py)|200 ms|
 |946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Python3](./solutions/946.%20Validate%20Stack%20Sequences.py)|64 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Python3](./solutions/1004.%20Max%20Consecutive%20Ones%20III.py)|592 ms|
