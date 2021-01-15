@@ -1,0 +1,9 @@
+class Solution(object):
+    def validWordSquare(self, words):
+        """
+        :type words: List[str]
+        :rtype: bool
+        """
+        ### Soln one-linear by creating tranpose, from discussion by StefanPochmann
+        t = map(None, *words)
+        return t == map(None, *t)
