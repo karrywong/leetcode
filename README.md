@@ -46,6 +46,7 @@
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Python3](./solutions/337.%20House%20Robber%20III.py)|44 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|28 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|204 ms|
+|422|[ Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Python3](./solutions/422.%20Valid%20Word%20Square.py)|44 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python](./solutions/461.%20Hamming%20Distance.python)|16 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|352 ms|
 |487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|348 ms|
