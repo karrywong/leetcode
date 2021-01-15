@@ -1,41 +1,33 @@
-​
-#             while True:
-#                 while i < j and dist(i) < pivot:
-#                     i += 1
-#                 while i <= j and dist(j) >= pivot:
-#                     j -= 1
-#                 if i >= j: break
-#                 points[i], points[j] = points[j], points[i]
-​
-#             points[oi], points[j] = points[j], points[oi]
-#             return j
-​
-#         sort(0, len(points) - 1, K)
-#         return points[:K]
+class Solution:
+    def kClosest(self, points: List[List[int]], K: int) -> List[List[int]]:
+        ### Soln 2 - Divide and Conquer, LeetCode O(N), with the help of Jake Reschke
+        L = len(points)
         
-        # ### Soln 0 - LeetCode O(NlogN) (We should learn from it, lambda!!!):
-        points.sort(key = lambda P: P[0]**2 + P[1]**2)
-        return points[:K]
-        
-#         ### Soln 1 - Hashmap O(NlogN), my original attempt
-#         lib = {}
-        
-#         for n in points:
-#             dist = n[0]**2 + n[1]**2
-#             if dist not in lib:
-#                 lib[dist] = [n]
-#             else:
-#                 lib[dist].append(n)
-                
-#         res = []
-#         lst = [v for v in sorted(lib.keys())]
-#         i = 0
-#         while K > 0: 
-#             k = lst[i]
-#             val = len(lib[k])
-#             res += lib[k]
-            
-#             K -= val
-#             i += 1
-            
-#         return res
+        #corner case
+        if L == 0 or K == 0: return []
+        if L == 1: return points
+​
+        i = randrange(1,L)
+        randPoint = points[i]
+​
+        leftBin = []
+        rightBin = []
+​
+        # sort elements into left and right bins
+        for j in range(0,L):
+            if j == i:
+                continue
+​
+            temp = points[j]
+​
+            if temp[0]**2 + temp[1]**2 < randPoint[0]**2 + randPoint[1]**2:
+                leftBin.append(temp)
+            else:
+                rightBin.append(temp)
+​
+        # if left bin empty add skipped number, else add to right
+        # This ensures that both bins are nonempty and disjoint
+        if len(leftBin) == 0:
+            leftBin.append(randPoint)
+        else:
+            rightBin.append(randPoint)
