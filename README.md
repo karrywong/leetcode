@@ -50,6 +50,7 @@
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|352 ms|
 |487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|348 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|44 ms|
+|498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|184 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Python3](./solutions/503.%20Next%20Greater%20Element%20II.py)|208 ms|
 |516|[ Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Python3](./solutions/516.%20Longest%20Palindromic%20Subsequence.py)|1264 ms|
 |541|[ Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Python3](./solutions/541.%20Reverse%20String%20II.py)|32 ms|
