@@ -72,4 +72,5 @@
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Python3](./solutions/1004.%20Max%20Consecutive%20Ones%20III.py)|592 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|52 ms|
 |1124|[ Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Python3](./solutions/1124.%20Longest%20Well-Performing%20Interval.py)|204 ms|
+|1221|[ Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Python3](./solutions/1221.%20Split%20a%20String%20in%20Balanced%20Strings.py)|32 ms|
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|104 ms|
