@@ -8,10 +8,6 @@ class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         # Soln 1 - recursion
         def inorder(root):
-            if root:
-                return inorder(root.left) +  [root.val] + inorder(root.right)
-            else:
-                return []
-                
+            return inorder(root.left) +  [root.val] + inorder(root.right) if root else []
         return inorder(root)
 ​
