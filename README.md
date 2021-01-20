@@ -60,7 +60,7 @@
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |422|[ Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Python](./solutions/422.%20Valid%20Word%20Square.python)|28 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python](./solutions/461.%20Hamming%20Distance.python)|16 ms|
-|475|[ Heaters](https://leetcode.com/problems/heaters/)|[Python3](./solutions/475.%20Heaters.py)|432 ms|
+|475|[ Heaters](https://leetcode.com/problems/heaters/)|[Python3](./solutions/475.%20Heaters.py)|248 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|352 ms|
 |487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|348 ms|
 |495|[ Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Python3](./solutions/495.%20Teemo%20Attacking.py)|260 ms|
