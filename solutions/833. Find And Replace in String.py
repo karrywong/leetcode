@@ -8,20 +8,16 @@ class Solution:
         #         S[i:i+len(d[i][0])] = list(d[i][1])
         # return ''.join(S)
 ​
-        ## Solution by Jake Reschke
+        ## Solution by Jake Reschke, going forward
         output = []
         d = {indexes[i]:(sources[i],targets[i]) for i in range(len(indexes))}
         i = 0
 ​
         while i < len(S):
-            if i in d:
+            if i in d and S[i:i+len(d[i][0])] == d[i][0]:
                 source,target = d[i]
-                if S[i:i+len(source)] == source:
-                    output.append(target)
-                    i += len(source)
-                else:
-                    output.append(S[i])
-                    i += 1                       
+                output.append(target)
+                i += len(source)                    
             else:
                 output.append(S[i])
                 i += 1
