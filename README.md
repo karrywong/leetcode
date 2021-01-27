@@ -100,6 +100,7 @@
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)||
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|52 ms|
 |1124|[ Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Python3](./solutions/1124.%20Longest%20Well-Performing%20Interval.py)|204 ms|
+|1213|[ Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Python3](./solutions/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py)|76 ms|
 |1214|[ Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Python3](./solutions/1214.%20Two%20Sum%20BSTs.py)|76 ms|
 |1221|[ Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Python3](./solutions/1221.%20Split%20a%20String%20in%20Balanced%20Strings.py)|32 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|80 ms|
