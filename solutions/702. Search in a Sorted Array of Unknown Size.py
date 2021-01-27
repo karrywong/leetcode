@@ -16,7 +16,7 @@ class Solution:
         r = 10000
         l = 0
         while (l <= r):
-            mid = (l+r) // 2
+            mid = l + (r-l) // 2
             val = reader.get(mid)
             if val == target:
                 return mid
