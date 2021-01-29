@@ -92,6 +92,7 @@
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|36 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|220 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|468 ms|
+|760|[ Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Python3](./solutions/760.%20Find%20Anagram%20Mappings.py)|44 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|36 ms|
 |766|[ Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Python3](./solutions/766.%20Toeplitz%20Matrix.py)|84 ms|
 |767|[ Reorganize String](https://leetcode.com/problems/reorganize-string/)|[Python3](./solutions/767.%20Reorganize%20String.py)|28 ms|
