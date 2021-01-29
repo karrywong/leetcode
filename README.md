@@ -16,6 +16,7 @@
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Python3](./solutions/46.%20Permutations.py)|28 ms|
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[Python3](./solutions/47.%20Permutations%20II.py)|104 ms|
 |48|[ Rotate Image](https://leetcode.com/problems/rotate-image/)|[Python3](./solutions/48.%20Rotate%20Image.py)|36 ms|
+|49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python3](./solutions/49.%20Group%20Anagrams.py)|112 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|56 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](./solutions/62.%20Unique%20Paths.py)|28 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python3](./solutions/63.%20Unique%20Paths%20II.py)|44 ms|
