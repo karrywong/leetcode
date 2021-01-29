@@ -71,7 +71,7 @@
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|24 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |422|[ Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Python](./solutions/422.%20Valid%20Word%20Square.python)|28 ms|
-|438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|2004 ms|
+|438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|144 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python](./solutions/461.%20Hamming%20Distance.python)|16 ms|
 |475|[ Heaters](https://leetcode.com/problems/heaters/)|[Python3](./solutions/475.%20Heaters.py)|248 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|352 ms|
