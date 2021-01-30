@@ -87,6 +87,7 @@
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python3](./solutions/605.%20Can%20Place%20Flowers.py)|172 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python3](./solutions/617.%20Merge%20Two%20Binary%20Trees.py)|80 ms|
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Python3](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.py)|248 ms|
+|633|[ Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[Python3](./solutions/633.%20Sum%20of%20Square%20Numbers.py)|152 ms|
 |643|[ Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Python3](./solutions/643.%20Maximum%20Average%20Subarray%20I.py)|808 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.python)|72 ms|
 |680|[ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python3](./solutions/680.%20Valid%20Palindrome%20II.py)|152 ms|
