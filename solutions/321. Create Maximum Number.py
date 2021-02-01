@@ -1,5 +1,6 @@
 class Solution:
     def maxNumber(self, nums1: List[int], nums2: List[int], k: int) -> List[int]:
+        ### Soln - my attempts all failed, solutions by caunion and StefanPochmann
         n, m= len(nums1),len(nums2)
         ret = [0] * k
         for i in range(0, k+1):
@@ -12,15 +13,16 @@ class Solution:
         return ret
 ​
     def mergeMax(self, nums1, nums2):
-        ans = []
-        while nums1 or nums2:
-            if nums1 > nums2:
-                ans += nums1[0],
-                nums1 = nums1[1:]
-            else:
-                ans += nums2[0],
-                nums2 = nums2[1:]
-        return ans
+        return [max(nums1, nums2).pop(0) for _ in nums1 + nums2]
+        # ans = []
+        # while nums1 or nums2:
+        #     if nums1 > nums2:
+        #         ans += nums1[0],
+        #         nums1 = nums1[1:]
+        #     else:
+        #         ans += nums2[0],
+        #         nums2 = nums2[1:]
+        # return ans
 ​
     def maxSingleNumber(self, nums, selects):
         n = len(nums)
@@ -31,5 +33,3 @@ class Solution:
             end = n-selects + 1 #search end
             ret.append( max(range(start, end), key = nums.__getitem__))
             selects -= 1
-        ret = [nums[item] for item in ret[1:]]
-        return ret
