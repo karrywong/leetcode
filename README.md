@@ -65,6 +65,7 @@
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|48 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python3](./solutions/287.%20Find%20the%20Duplicate%20Number.py)|60 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|36 ms|
+|321|[ Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|[Python3](./solutions/321.%20Create%20Maximum%20Number.py)|336 ms|
 |326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|80 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Python3](./solutions/337.%20House%20Robber%20III.py)|44 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|28 ms|
