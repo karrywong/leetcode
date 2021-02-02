@@ -1,5 +1,9 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        ### Cheating - using the built-in function from itertools
+        # all_perm = set(itertools.permutations(nums))
+        # return [list(i) for i in all_perm]
+        
         ### Soln 1 - recursion II from Permutations I with slight modification
         def helper(nums):
             if len(nums) == 1:
