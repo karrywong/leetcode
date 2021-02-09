@@ -10,6 +10,7 @@
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python3](./solutions/11.%20Container%20With%20Most%20Water.py)|176 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Python3](./solutions/15.%203Sum.py)|888 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python3](./solutions/20.%20Valid%20Parentheses.py)|28 ms|
+|22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Python3](./solutions/22.%20Generate%20Parentheses.py)|28 ms|
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python3](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)|108 ms|
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[Python3](./solutions/27.%20Remove%20Element.py)|32 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[Python3](./solutions/31.%20Next%20Permutation.py)|40 ms|
