@@ -87,7 +87,7 @@
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|28 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
 |386|[ Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Python3](./solutions/386.%20Lexicographical%20Numbers.py)|92 ms|
-|387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|168 ms|
+|387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|92 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|24 ms|
 |398|[ Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[Python3](./solutions/398.%20Random%20Pick%20Index.py)|308 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
