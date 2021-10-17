@@ -86,6 +86,7 @@
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|40 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|28 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
+|386|[ Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Python3](./solutions/386.%20Lexicographical%20Numbers.py)|96 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|24 ms|
 |398|[ Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[Python3](./solutions/398.%20Random%20Pick%20Index.py)|308 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
