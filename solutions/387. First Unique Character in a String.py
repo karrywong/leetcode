@@ -1,5 +1,12 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
+        # leetcode soln
+        count = collections.Counter(s)
+        for idx, ch in enumerate(s):
+            if count[ch] == 1:
+                return idx  
+        return -1
+    
         # soln 1
         seen = {}
         for i, e in enumerate(s):
