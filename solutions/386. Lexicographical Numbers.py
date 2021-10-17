@@ -15,7 +15,6 @@ class Solution:
         #return res
     
         #soln 2, idea by SharpQuagga (miscellaneous)
-        lst = [str(i) for i in range(1,n+1)]
-        return sorted(lst)
+        return sorted([str(i) for i in range(1,n+1)])
         
 ​
