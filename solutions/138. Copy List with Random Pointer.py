@@ -8,29 +8,27 @@ class Node:
 """
 ​
 class Solution:
+    def __init__(self):
+            self.visitedHash = {}
+    
     def copyRandomList(self, head: 'Node') -> 'Node':
+        ## Soln 1 - Leetcode recursive w DFS
+        if not head: return None
+        
+        if head in self.visitedHash:
+            return self.visitedHash[head]
+        node = Node(head.val, None, None)
+        self.visitedHash[head] = node
+        node.next = self.copyRandomList(head.next)
+        node.random = self.copyRandomList(head.random)
+        return node
         
         ### Soln 0 - solution from Jake Reschke
-        if not head:
-            return None
-         
-        inp = head #input pointer
-        #inhead = inp # input head
-        cp = Node(inp.val) #copy pointer
-        copyhead = cp #copy head 
-        lib = {inp : copyhead, None : None } # initalize mapping
-        
-        # first make copy of linked list, ignore random
-        while inp.next:                 
-            inp = inp.next
-            cp.next = Node(inp.val)
-            cp = cp.next
-            lib[inp] = cp       # build mapping between nodes
-        
-        cp = copyhead          # reset copy pointer to head for second loop through
-        while head:             # can change head now, won't need reference to input head
-            cp.random = lib[head.random]    # set cp.random using the map
-            head = head.next
-            cp = cp.next
-​
-        return copyhead
+        #if not head: return None
+        #inp = head
+        #inhead = inp
+        #cp = Node(inp.val)
+        #copyhead = cp
+        #lib = {inp:cp, None:None}
+        #while inp.next:
+        #    inp = inp.next
