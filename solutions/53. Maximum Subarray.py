@@ -1,29 +1,22 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        ### Failed attempt - time exceeded
-#         temp = max(nums)
-        
-#         for i in range(1, len(nums)): #length of subarray
-#             j = 0
-#             while i + j < len(nums):
-#                 temp = max(sum(nums[j:j+i+1]), temp)
-#                 j += 1
-                
-#         return temp
-​
-​
-        ### Soln 1 - greedy algorithm
-#         cur_sum = nums[0]
-#         max_sum = nums[0]
-        
-#         for i in range(1, len(nums)):
-#             cur_sum = max(nums[i], cur_sum + nums[i])
-#             max_sum = max(cur_sum, max_sum)
-#         return max_sum
-​
-        ### Soln 2 - dynamic programming
-        max_sum = nums[0]
+        # soln 2 - O(N), dynamic programming
         for i in range(1, len(nums)):
-            if nums[i - 1] > 0:
+            if nums[i-1] > 0:
                 nums[i] += nums[i-1]
-        return(max(nums))
+        return max(nums)
+        
+        #soln 1 - Kadane's algorithm
+        #https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm
+        # cur_sum = max_sum = nums[0]
+        # for i in range(1, len(nums)):
+        #     cur_sum = max(nums[i], cur_sum + nums[i])
+        #     max_sum = max(cur_sum, max_sum)
+        # return max_sum
+        
+        # #soln 0 - brute force O(N^2), time exceeded
+        # ans, n = nums[0], len(nums)
+        # for i in range(1,n+1):
+        #     for j in range(n-i+1):
+        #         ans = max(ans, sum(nums[j:i+j]))
+        # return ans
