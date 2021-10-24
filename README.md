@@ -126,6 +126,7 @@
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Python3](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.py)|52 ms|
 |670|[ Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Python3](./solutions/670.%20Maximum%20Swap.py)|28 ms|
 |680|[ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python3](./solutions/680.%20Valid%20Palindrome%20II.py)|152 ms|
+|695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|154 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Python3](./solutions/697.%20Degree%20of%20an%20Array.py)|192 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|36 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|220 ms|
