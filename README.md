@@ -25,7 +25,7 @@
 |48|[ Rotate Image](https://leetcode.com/problems/rotate-image/)|[Python3](./solutions/48.%20Rotate%20Image.py)|36 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python3](./solutions/49.%20Group%20Anagrams.py)|112 ms|
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python3](./solutions/50.%20Pow(x%2C%20n).py)|32 ms|
-|53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|1042 ms|
+|53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|901 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](./solutions/62.%20Unique%20Paths.py)|28 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python3](./solutions/63.%20Unique%20Paths%20II.py)|44 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|32 ms|
