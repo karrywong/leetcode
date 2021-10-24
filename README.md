@@ -41,6 +41,7 @@
 |110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Python3](./solutions/110.%20Balanced%20Binary%20Tree.py)|48 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Python3](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)|560 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python](./solutions/112.%20Path%20Sum.python)|36 ms|
+|116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python3](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.py)|152 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|32 ms|
 |119|[ Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Python](./solutions/119.%20Pascal's%20Triangle%20II.python)|28 ms|
 |121|[ Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Python3](./solutions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py)|60 ms|
