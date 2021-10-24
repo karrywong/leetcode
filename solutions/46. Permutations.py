@@ -1,33 +1,41 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         ### Soln 3 - recursion II
-        def helper(nums):
-            if len(nums) == 1:
-                return [nums]
+#         def helper(nums):
+#             if len(nums) == 1:
+#                 return [nums]
             
-            curr = helper(nums[1:])
+#             curr = helper(nums[1:])
             
-            tmp = []
-            for i in range(len(nums)):
-                for x in curr:
-                    tmp1 = x.copy()
-                    tmp1.insert(i,nums[0])
-                    tmp.append(tmp1)
-            return tmp
-        return helper(nums)
-​
+#             tmp = []
+#             for i in range(len(nums)):
+#                 for x in curr:
+#                     tmp1 = x.copy()
+#                     tmp1.insert(i,nums[0])
+#                     tmp.append(tmp1)
+#             return tmp
+#         return helper(nums)
         
         # ### Soln 2 - recursion
-        # def helper(nums):
-        #     if len(nums) == 1:
-        #         return [nums]         
-        #     curr = helper(nums[1:])
-        #     return [x[:i] + [nums[0]] + x[i:] for x in curr for i in range(len(nums))]
-        # return helper(nums)
+        def helper(nums):
+            if len(nums) == 1:
+                return [nums]         
+            curr = helper(nums[1:])
+            return [x[:i] + [nums[0]] + x[i:] for x in curr for i in range(len(nums))]
+        return helper(nums)
         
-        
-#         ### Soln 1 - backtracking (Heap's algorithm)
-#         ###finding all solutions by exploring all potential candidates        
-#         def backtrack(first = 0):
-#             # if all integers are used up
-#             if first == n:
+        ### Soln 1 - backtrack
+#         n = len(nums)
+#         lst = []
+#         def backtrack(start = 0):
+#             if start == n:
+#                 lst.append(nums[:])
+#                 return
+​
+#             for i in range(start, n):
+#                 nums[i], nums[start] = nums[start], nums[i]
+#                 backtrack(start+1)
+#                 nums[i], nums[start] = nums[start], nums[i]
+​
+#         backtrack()
+#         return lst
