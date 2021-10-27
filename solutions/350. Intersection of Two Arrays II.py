@@ -1,6 +1,6 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        # soln 0 - first attempt, Time O(max(M,N) * log(max(M,N)))
+        # soln 0 - first attempt, Time O(max(M,N) * log(max(M,N))), Space O(min(M, N))
         nums1.sort()
         nums2.sort()
         n, m = len(nums1), len(nums2)
