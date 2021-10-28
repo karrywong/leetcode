@@ -1,5 +1,6 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        #Can be further improved by constructing HashMap from ransomNote
         #soln 0, first attempt, Time: O(N) and Space O(N) where N is the length of magazine
         m = len(ransomNote)
         n = len(magazine)
