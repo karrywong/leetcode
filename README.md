@@ -101,6 +101,7 @@
 |350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python3](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.py)|44 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|28 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
+|383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|44 ms|
 |386|[ Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Python3](./solutions/386.%20Lexicographical%20Numbers.py)|92 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|92 ms|
 |388|[ Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[Python3](./solutions/388.%20Longest%20Absolute%20File%20Path.py)|32 ms|
