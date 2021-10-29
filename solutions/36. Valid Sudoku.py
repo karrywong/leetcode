@@ -1,32 +1,28 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        #soln 0 - first attempt, Time O(N), space O(N)
-        def helper(lst):
-            lib = collections.Counter(lst)
-            del lib["."]
-            for key in lib:
-                if lib[key] > 1: 
-                    return True
-            return False
-        
-        m, n = len(board), len(board[0])
-        for i in range(m):
-            if helper(board[i]):
-                return False
-  
-        for j in range(n):
-            temp = [board[i][j] for i in range(m)]
-            if helper(temp):
-                print(2,j)
-                return False
-        
-        node = [(row,col) for row in range(0,7,3) for col in range(0,7,3)]
-        for coord in node:
-            temp = []
-            for k in range(9):
-                q, r = divmod(k,3)
-                temp.append(board[q+coord[0]][r+coord[1]])
-            if helper(temp):
-                print(2, coord)
-                return False
-        return True
+        #soln 1 - Leetcode bit manupulation, Time O(N^2), space O(1)
+            N = 9
+            rows = [0] * N
+            cols = [0] * N
+            boxes = [0] * N
+            
+            for r in range(N):
+                for c in range(N):
+                    if board[r][c] == ".":
+                        continue
+                    pos = int(board[r][c]) - 1
+                    pos_bit = 1 << pos
+                    
+                    if rows[r] & pos_bit:
+                        return False
+                    rows[r] |= pos_bit
+                    
+                    if cols[c] & pos_bit:
+                        return False
+                    cols[c] |= pos_bit
+                    
+                    idx = (r//3) * 3 + c//3
+                    if boxes[idx] & pos_bit:
+                        return False
+                    boxes[idx] |= (1 << pos)
+            return True
