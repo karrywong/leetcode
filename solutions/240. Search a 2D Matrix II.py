@@ -1,24 +1,7 @@
-class Solution:    
+class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        ###Soln 1
-#         if target < matrix[0][0] or target > matrix[-1][-1]: return False
-        
-#         i = 0 
-#         while i < len(matrix):
-#             if target >= matrix[i][0] and target <= matrix[i][-1]:
-#                 if target in matrix[i]: return True
-#             i += 1
-#         return False
-    
-        ###Soln 3
-        # entire = [x for l in matrix for x in l]
-        # if target in entire:
-        #     return True
-        # else: 
-        #     return False
-        
-        ###Soln 4 - two pointers
-        if len(matrix) == 0 or len(matrix[0]) == 0:
+        ###Soln 1 - Leetcode search space reduction, Time O(N+M)
+        if matrix[0][0] > target or matrix[-1][-1] < target: 
             return False
         rows = len(matrix)
         columns = len(matrix[0])
@@ -33,3 +16,18 @@ class Solution:    
             if matrix[row][column] < target:
                 row += 1
         return False
+        
+        # soln 0 - first attempt, Time O(log(n!)), Space O(1)
+        # if matrix[0][0] > target or matrix[-1][-1] < target: 
+        #     return False
+        # m, n = len(matrix), len(matrix[0])
+        # if m == n: 
+        #     i, j = 0, 0
+        # elif m < n:
+        #     i, j = 0, n-m
+        # else:
+        #     i, j = m-n, 0
+        # while i < m and j < n:
+        #     if matrix[i][j] < target:
+        #         i += 1
+        #         j += 1
