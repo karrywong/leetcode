@@ -1,48 +1,33 @@
 class Solution:
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        ### Soln 1
-        if target < matrix[0][0] or target > matrix[-1][-1]: return False
-        
-        ### Search rows
-        i = 0
-        while i < len(matrix):
-            if target >= matrix[i][0] and target <= matrix[i][-1]: 
-                break
-            i += 1
-        
-        if i == len(matrix): return False
-        else:
-            if target in matrix[i]:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool: 
+        ###Soln 2 - Leetcode, log(MN)
+        m, n = len(matrix),len(matrix[0])
+        # binary search
+        l, r = 0, m * n - 1
+        while l <= r:
+            mid = l + (r-l) // 2
+            val = matrix[mid // n][mid % n]
+            if target == val:
                 return True
+            elif target < val:
+                r = mid - 1
             else:
-                return False
+                l = mid + 1
+        return False
+        
+#         #soln 0 - Time O(M*log(N)) where matrix is MxN
+#         m, n = len(matrix),len(matrix[0])
+#         for row in range(m):
+#             if target > matrix[row][-1]:
+#                 continue
+#             if target < matrix[row][0]:
+#                 break
             
-            try:
-                idx = matrix[i].index(target)
-            except:
-                idx = -1
-        return False if idx == -1 else True
-            
-        #     check = [x for x in matrix[i] if x == target]
-        # return True if check else False
-        
-        
-#         ###Soln 2 - Leetcode
-#         m = len(matrix)
-#         if m == 0:
-#             return False
-#         n = len(matrix[0])
-        
-#         # binary search
-#         left, right = 0, m * n - 1
-#         while left <= right:
-#                 pivot_idx = (left + right) // 2
-#                 pivot_element = matrix[pivot_idx // n][pivot_idx % n]
-#                 if target == pivot_element:
+#             l, r = 0, n-1
+#             while l <= r:
+#                 mid = l + (r-l)//2
+#                 if matrix[row][mid] == target:
 #                     return True
+#                 elif matrix[row][mid] < target:
+#                     l = mid + 1
 #                 else:
-#                     if target < pivot_element:
-#                         right = pivot_idx - 1
-#                     else:
-#                         left = pivot_idx + 1
-#         return False
