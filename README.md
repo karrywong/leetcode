@@ -127,6 +127,7 @@
 |516|[ Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Python3](./solutions/516.%20Longest%20Palindromic%20Subsequence.py)|1264 ms|
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Python3](./solutions/518.%20Coin%20Change%202.py)|136 ms|
 |541|[ Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Python3](./solutions/541.%20Reverse%20String%20II.py)|32 ms|
+|543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Python3](./solutions/543.%20Diameter%20of%20Binary%20Tree.py)|36 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python3](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.py)|76 ms|
 |566|[ Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Python3](./solutions/566.%20Reshape%20the%20Matrix.py)|96 ms|
 |567|[ Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Python3](./solutions/567.%20Permutation%20in%20String.py)|120 ms|
