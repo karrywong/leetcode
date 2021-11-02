@@ -21,8 +21,21 @@ class Solution:
                         queue.append((r,c))
         return ans
         
-#         #soln 0 - failed attempt, stupid BFS
+#         #soln 0 - failed attempt, stupid BFS, Time O((MN)^2)
 #         m, n = len(mat), len(mat[0])
 #         ans = [ [0 for _ in range(n)] for _ in range(m) ]
         
 #         for i in range(m):
+#             for j in range(n):
+#                 if mat[i][j] == 0:
+#                     continue          
+#                 queue = collections.deque([(i,j)])
+#                 count = 0
+#                 bo = True
+#                 while queue and bo:
+#                     size = len(queue)
+#                     for _ in range(size):
+#                         r0, c0 = queue.popleft()
+#                         if mat[r0][c0] == 0:
+#                             ans[i][j] = count
+#                             bo = False
