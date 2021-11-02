@@ -1,6 +1,6 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        #soln 0 - BFS
+        #soln 0 - first attempt, BFS
         m, n = len(grid), len(grid[0])
         queue = collections.deque()
         fresh = set()
