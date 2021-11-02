@@ -40,6 +40,7 @@
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Python3](./solutions/78.%20Subsets.py)|64 ms|
 |80|[ Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](./solutions/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.py)|88 ms|
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Python3](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.py)|44 ms|
+|83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python3](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)|44 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](./solutions/88.%20Merge%20Sorted%20Array.py)|64 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Python3](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.py)|24 ms|
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|59 ms|
