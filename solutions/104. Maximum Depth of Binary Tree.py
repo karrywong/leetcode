@@ -5,15 +5,8 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxDepth(self, root: TreeNode) -> int:
-        ### Soln 0 - first attempt, recursion
-        depth = 0
-        def helper(root, depth):
-            if root:
-                depth += 1
-​
-            return max(depth, helper(root.left, depth), helper(root.right, depth)) if root else depth
-​
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+        return max(self.maxDepth(root.right), self.maxDepth(root.left)) + 1
         
-        depth = helper(root, depth)
-        return depth
