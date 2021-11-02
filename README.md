@@ -169,6 +169,7 @@
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python3](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.py)|343 ms|
 |980|[ Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|[Python3](./solutions/980.%20Unique%20Paths%20III.py)|100 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|28 ms|
+|994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|52 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Python3](./solutions/1004.%20Max%20Consecutive%20Ones%20III.py)|592 ms|
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|180 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|52 ms|
