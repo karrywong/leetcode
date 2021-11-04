@@ -161,6 +161,7 @@
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Python3](./solutions/752.%20Open%20the%20Lock.py)|1152 ms|
 |760|[ Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Python3](./solutions/760.%20Find%20Anagram%20Mappings.py)|44 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|36 ms|
+|764|[ Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)|[Python3](./solutions/764.%20Largest%20Plus%20Sign.py)|1900 ms|
 |766|[ Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Python3](./solutions/766.%20Toeplitz%20Matrix.py)|84 ms|
 |767|[ Reorganize String](https://leetcode.com/problems/reorganize-string/)|[Python3](./solutions/767.%20Reorganize%20String.py)|28 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|44 ms|
