@@ -197,5 +197,6 @@
 |1701|[ Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Python3](./solutions/1701.%20Average%20Waiting%20Time.py)|920 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Python3](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.py)|1020 ms|
 |1727|[ Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Python3](./solutions/1727.%20Largest%20Submatrix%20With%20Rearrangements.py)|1328 ms|
+|1780|[ Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Python3](./solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|32 ms|
 |1891|[ Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|[Python3](./solutions/1891.%20Cutting%20Ribbons.py)|2260 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|44 ms|
