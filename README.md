@@ -168,6 +168,7 @@
 |767|[ Reorganize String](https://leetcode.com/problems/reorganize-string/)|[Python3](./solutions/767.%20Reorganize%20String.py)|28 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|44 ms|
 |833|[ Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Python3](./solutions/833.%20Find%20And%20Replace%20in%20String.py)|60 ms|
+|869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Python3](./solutions/869.%20Reordered%20Power%20of%202.py)|32 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|77 ms|
 |894|[ All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[Python3](./solutions/894.%20All%20Possible%20Full%20Binary%20Trees.py)|368 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Python3](./solutions/901.%20Online%20Stock%20Span.py)|428 ms|
