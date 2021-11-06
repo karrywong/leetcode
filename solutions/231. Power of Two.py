@@ -1,7 +1,10 @@
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        soln 3 - first attempt, bit manipulation
-        return not n&(n-1) if n > 0 else False
+        #soln 4 - first attempt, bit manipulation II
+        return n & -n == n if n > 0 else False 
+        
+        #soln 3 - first attempt, bit manipulation
+        # return not n&(n-1) if n > 0 else False
         
         # #soln 2 - old attempt
         # if n < 0: return False
