@@ -108,7 +108,7 @@
 |326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|80 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Python3](./solutions/337.%20House%20Robber%20III.py)|44 ms|
 |340|[ Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Python3](./solutions/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py)|64 ms|
-|342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|28 ms|
+|342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|24 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|204 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Python3](./solutions/347.%20Top%20K%20Frequent%20Elements.py)|96 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|40 ms|
