@@ -105,7 +105,7 @@
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|36 ms|
 |321|[ Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|[Python3](./solutions/321.%20Create%20Maximum%20Number.py)|792 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|1500 ms|
-|326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|80 ms|
+|326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|68 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Python3](./solutions/337.%20House%20Robber%20III.py)|44 ms|
 |340|[ Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Python3](./solutions/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py)|64 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|24 ms|
