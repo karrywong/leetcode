@@ -1,44 +1,39 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        ### Soln 1 - sliding window + hashmap:
-        n1, n2 = len(p), len(s)
-        if n1 > n2: return []
+        # soln 1 - sliding window, unicode
+        ns, np = len(s), len(p)
+        ans = []
+        if np > ns: return []        
+        
+        count_p, count_s = [0]*26, [0]*26
+        for i in range(np):
+            count_p[ord(p[i])-ord('a')] += 1
+            count_s[ord(s[i])-ord('a')] += 1
             
-        lib1 = collections.Counter()
-        lib2 = collections.Counter()
-        res = []
+        for i in range(ns-np):
+            if count_p == count_s:
+                ans.append(i) 
+            count_s[ord(s[np+i])-ord('a')] += 1
+            count_s[ord(s[i])-ord('a')] -= 1
         
-        for i in range(n1):
-            lib1[p[i]] += 1
-            lib2[s[i]] += 1
-​
-        for i in range(n2 - n1):
-            if lib1 == lib2:
-                res.append(i)
-            lib2[s[i+n1]] += 1
-            lib2[s[i]] -= 1
-            if lib2[s[i]] == 0:
-                del lib2[s[i]]
-                
-        if lib1 == lib2:
-             res.append(n2-n1)
-                
-        return res
-    
-#         ### Soln 0 - naive attempt
-#         n = len(p)
-#         temp = sorted(tuple(p))
-#         res = []
+        if count_p == count_s: ans.append(ns-np)
+        return ans
         
-#         i = 0
-#         while i <= len(s) - n:
-#             if sorted(tuple(s[i:i+n])) == temp:
-#                 res.append(i)
-#                 while i + n < len(s) and s[i] == s[i+n]:
-#                     i += 1
-#                     res.append(i)
-#                     if i + n >= len(s): 
-#                         break
-#             i += 1
-#         return res
+#         #soln 0 - sliding window, counters, the same as 567. Permutation in String
+#         ns, np = len(s), len(p)
+#         ans = []
+#         if np > ns: return []
         
+#         lib1 = collections.Counter(p)
+#         lib2 = collections.Counter(s[:np])
+        
+#         for i in range(ns-np):
+#             if lib1 == lib2:
+#                 ans.append(i)
+            
+#             lib2[s[np+i]] += 1
+#             lib2[s[i]] -= 1
+#             if lib2[s[i]] == 0:
+#                 del lib2[s[i]]
+            
+#         if lib1 == lib2:
