@@ -1,6 +1,6 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        # soln 1 - sliding window, unicode
+        # soln 1 - sliding window, unicode, Time O(len(s) + len(p)), Space O(len(p))
         ns, np = len(s), len(p)
         ans = []
         if np > ns: return []        
@@ -30,10 +30,3 @@ class Solution:
 #         for i in range(ns-np):
 #             if lib1 == lib2:
 #                 ans.append(i)
-            
-#             lib2[s[np+i]] += 1
-#             lib2[s[i]] -= 1
-#             if lib2[s[i]] == 0:
-#                 del lib2[s[i]]
-            
-#         if lib1 == lib2:
