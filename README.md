@@ -104,6 +104,7 @@
 |249|[ Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Python3](./solutions/249.%20Group%20Shifted%20Strings.py)|60 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|28 ms|
 |267|[ Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Python3](./solutions/267.%20Palindrome%20Permutation%20II.py)|28 ms|
+|268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Python3](./solutions/268.%20Missing%20Number.py)|116 ms|
 |270|[ Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Python3](./solutions/270.%20Closest%20Binary%20Search%20Tree%20Value.py)|94 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|32 ms|
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|316 ms|
