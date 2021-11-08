@@ -22,7 +22,7 @@ class Solution:
                 temp += (ord(s[pt]) - ord('0'))
             ans = temp
                 
-            if not (s[pt].isnumeric() or s[pt] == "+" or s[pt]=="-"): 
+            if not (s[pt].isnumeric() or s[pt] in signs): 
                 break
             pt += 1
         
