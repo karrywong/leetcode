@@ -44,3 +44,7 @@ class Solution:
 #         for i in range(n-2,-1,-1):
 #             rightmax[i] = max(rightmax[i], rightmax[i+1])
 #         for i in range(1,n):
+#             leftmax[i] = max(leftmax[i-1], leftmax[i])
+#         for i in range(1,n-1):
+#             ans += min(leftmax[i], rightmax[i]) - height[i]
+#         return ans
