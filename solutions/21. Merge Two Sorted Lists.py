@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        # soln 0 - first attempt, iteration, Time O(n+m), Space O(1)
+        # soln 0 - first attempt, iteration, Time O(n+m), Space O(n+m)
         ans_ptr = ListNode(0)
         ans = ans_ptr
         l1_ptr, l2_ptr = l1, l2
