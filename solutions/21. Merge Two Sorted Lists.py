@@ -17,11 +17,7 @@ class Solution:
                 ans_ptr.next = ListNode(l2_ptr.val)
                 l2_ptr = l2_ptr.next
             ans_ptr = ans_ptr.next
-        
-        if l1_ptr:
-            ans_ptr.next = l1_ptr
-        else:
-            ans_ptr.next = l2_ptr
+        ans_ptr.next = l1_ptr if l1_ptr else l2_ptr
         return ans.next
     
         # # soln 1 - Leetcode recursion, Time O(n+m), Space O(n+m)
