@@ -33,3 +33,5 @@ class Solution:
         #         j += 1
         #         if nums[i] > j:
         #             jump = False
+        # return not jump
+​
