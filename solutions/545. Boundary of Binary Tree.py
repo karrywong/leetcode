@@ -44,3 +44,4 @@ class Solution:
                 t = t.left
         while stack:
             res.append(stack.pop())
+        return res
