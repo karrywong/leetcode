@@ -1,46 +1,16 @@
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+        #soln 0 - DP with deque, similar to 1696. Jump Game VI
+        n, ans = len(nums), []
+        dq = collections.deque(sorted([(i, v) for i, v in enumerate(nums[0:k])], key=lambda x:x[1], reverse = True))
 ​
-        # get first window
+        ans.append(dq[0][1])
+        for i in range(k, n):
+            while dq and dq[0][0] <= i-k: # pop the old index
+                dq.popleft() 
+            while dq and  dq[-1][1] <= nums[i]:
+                dq.pop()
+            dq.append((i, nums[i]))
+            ans.append(dq[0][1])
+        return ans
 ​
-        for x in nums[1 : k]:
-            winQueue.append(x)
-            while maxDeque and x > maxDeque[0]:
-                maxDeque.popleft()
-            maxDeque.appendleft(x)
-​
-        winMax = [maxDeque[-1]]
-​
-        for x in nums[k : ]:
-            if winQueue.popleft() == maxDeque[-1]:
-                maxDeque.pop()
-​
-            winQueue.append(x)
-​
-            while maxDeque and x > maxDeque[0]:
-                maxDeque.popleft()
-            maxDeque.appendleft(x)
-​
-            winMax.append(maxDeque[-1])
-​
-        return winMax
-​
-​
-#         ### Soln 2 - deque (double-ended queue) O(N), LeetCode solution
-#         # base cases
-#         n = len(nums)
-#         if n * k == 0: return []
-#         if k == 1: return nums
-        
-#         def clean_deque(i):
-#             # remove indexes of elements not from sliding window
-#             if deq and deq[0] == i - k:
-#                 deq.popleft()
-                
-#             # remove from deq indexes of all elements 
-#             # which are smaller than current element nums[i]
-#             while deq and nums[i] > nums[deq[-1]]:
-#                 deq.pop()
-        
-#         # init deque and output
-#         deq = collections.deque()
-#         max_idx = 0
-#         for i in range(k):
