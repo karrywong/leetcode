@@ -27,6 +27,7 @@
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Python3](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.py)|40 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python3](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)|88 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|88 ms|
+|39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|84 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|60 ms|
 |45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](./solutions/45.%20Jump%20Game%20II.py)|120 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Python3](./solutions/46.%20Permutations.py)|66 ms|
