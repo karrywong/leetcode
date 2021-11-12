@@ -54,7 +54,7 @@
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|59 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Python3](./solutions/101.%20Symmetric%20Tree.py)|32 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.py)|40 ms|
-|110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Python3](./solutions/110.%20Balanced%20Binary%20Tree.py)|48 ms|
+|110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Python3](./solutions/110.%20Balanced%20Binary%20Tree.py)|52 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Python3](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)|560 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python](./solutions/112.%20Path%20Sum.python)|36 ms|
 |116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python3](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.py)|68 ms|
