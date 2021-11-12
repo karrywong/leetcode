@@ -1,32 +1,55 @@
 class MinStack:
+    #soln 1 - two stacks optimized
     def __init__(self):
-        """
-        initialize your data structure here.
-        """
         self.stack = []
-        self.stack_min = []
-​
-    def push(self, x: int) -> None:
-        self.stack.append(x)
-        if not self.stack_min:
-            self.stack_min.append(x)
-        else:
-            if self.stack[-1] <= self.stack_min[-1]:
-                self.stack_min.append(x)
+        self.minstack = []    
         
-    def pop(self) -> None:  
-        if self.stack_min[-1] == self.stack.pop():
-            self.stack_min.pop()
-​
+    def push(self, val: int) -> None:
+        self.stack.append(val)
+        if self.minstack:
+            if self.minstack[-1][0] > val:
+                self.minstack.append([val,1])
+            elif self.minstack[-1][0] == val:
+                self.minstack[-1][1] += 1
+        else:
+            self.minstack.append([val,1])
+        
+    def pop(self) -> None: 
+        if self.stack[-1] == self.minstack[-1][0]:
+            if self.minstack[-1][1] == 1:
+                self.minstack.pop()
+            else:
+                self.minstack[-1][1] -= 1
+        return self.stack.pop()
+    
     def top(self) -> int:
-        return self.stack[-1] if self.stack else None
-​
+        return self.stack[-1]
+    
     def getMin(self) -> int:
-        return self.stack_min[-1] if self.stack_min else None
+        return self.minstack[-1][0]
+    
+#     #soln 0 - Leetcode min pair
+#     def __init__(self):
+#         self.stack = []
+        
+#     def push(self, val: int) -> None:
+#         if self.stack:
+#             self.stack.append([val, min(val, self.stack[-1][1])])
+#         else:
+#             self.stack.append([val,val])
+            
+#     def pop(self) -> None:
+#         return self.stack.pop()[0]
+​
+#     def top(self) -> int:
+#         return self.stack[-1][0]
+​
+#     def getMin(self) -> int:
+#         return self.stack[-1][1]
 ​
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
-# obj.push(x)
+# obj.push(val)
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
