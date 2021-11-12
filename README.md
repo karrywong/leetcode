@@ -12,7 +12,7 @@
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python3](./solutions/11.%20Container%20With%20Most%20Water.py)|700 ms|
 |12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Python3](./solutions/12.%20Integer%20to%20Roman.py)|52 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Python3](./solutions/13.%20Roman%20to%20Integer.py)|44 ms|
-|15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Python3](./solutions/15.%203Sum.py)|888 ms|
+|15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Python3](./solutions/15.%203Sum.py)|840 ms|
 |17|[ Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Python3](./solutions/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.py)|32 ms|
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python3](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.py)|36 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python3](./solutions/20.%20Valid%20Parentheses.py)|54 ms|
