@@ -20,7 +20,7 @@
 |22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Python3](./solutions/22.%20Generate%20Parentheses.py)|55 ms|
 |24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Python3](./solutions/24.%20Swap%20Nodes%20in%20Pairs.py)|28 ms|
 |25|[ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Python3](./solutions/25.%20Reverse%20Nodes%20in%20k-Group.py)|48 ms|
-|26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python3](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)|108 ms|
+|26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python3](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)|92 ms|
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[Python3](./solutions/27.%20Remove%20Element.py)|32 ms|
 |29|[ Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Python3](./solutions/29.%20Divide%20Two%20Integers.py)|20 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[Python3](./solutions/31.%20Next%20Permutation.py)|40 ms|
