@@ -1,5 +1,18 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        #Recent attempt
+        # n = len(nums)
+        # if n == 0: return n
+        # if n == 1: return n
+        # pointer = 1
+        # temp = nums[0]
+        # for cur in range(1, n):
+        #     if nums[cur] != temp:
+        #         nums[pointer] = nums[cur]
+        #         pointer += 1
+        #         temp = nums[cur]
+        # return pointer
+    
         ### Soln 1 - two pointers, not optimal
         # pointer = 0
         # for i, n in enumerate(nums):
@@ -33,4 +46,3 @@ class Solution:
             if nums[i] == nums[i-1]:
                 nums.pop(i)
         return len(nums)
-​
