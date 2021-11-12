@@ -115,6 +115,7 @@
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Python3](./solutions/242.%20Valid%20Anagram.py)|40 ms|
 |249|[ Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Python3](./solutions/249.%20Group%20Shifted%20Strings.py)|60 ms|
 |258|[ Add Digits](https://leetcode.com/problems/add-digits/)|[Python3](./solutions/258.%20Add%20Digits.py)|36 ms|
+|259|[ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[Python3](./solutions/259.%203Sum%20Smaller.py)|756 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|28 ms|
 |267|[ Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Python3](./solutions/267.%20Palindrome%20Permutation%20II.py)|28 ms|
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Python3](./solutions/268.%20Missing%20Number.py)|116 ms|
