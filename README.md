@@ -221,6 +221,7 @@
 |1289|[ Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[Python3](./solutions/1289.%20Minimum%20Falling%20Path%20Sum%20II.py)|912 ms|
 |1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Python3](./solutions/1306.%20Jump%20Game%20III.py)|300 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|80 ms|
+|1345|[ Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Python3](./solutions/1345.%20Jump%20Game%20IV.py)|552 ms|
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|104 ms|
 |1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Python3](./solutions/1695.%20Maximum%20Erasure%20Value.py)|1248 ms|
 |1701|[ Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Python3](./solutions/1701.%20Average%20Waiting%20Time.py)|920 ms|
