@@ -4,9 +4,6 @@ class Solution:
         #[-2,1,-1,2] -> [-2,2]
         #[1,1] and [-1,-1], nothing happens
         #[5, 10, -20] -> [5, -20] -> [-20]
-        #[-2,-2,1,-2] -> [-2, -2, 
-        #output array can be empty. If not, must be sorted
-        #[1,-1,-2,-2] -> []
         
         #soln 0 - first attempt
         n = len(asteroids) #n >= 2 
