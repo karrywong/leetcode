@@ -31,3 +31,7 @@ class Solution:
         #     if not ans: 
         #         ans.append(asteroids[i])
         #     elif ans[-1] == abs(asteroids[i]):
+        #         ans.pop()
+        #     elif ans[-1] < 0:
+        #         ans.append(asteroids[i])
+        # return ans
