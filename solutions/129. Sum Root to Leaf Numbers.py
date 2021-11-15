@@ -23,11 +23,12 @@ class Solution:
         #More challenging, 437. Path Sum III
         self.ans = 0
         def helper(root, val=0):
-            if root:
-                val += root.val
-                if not root.right and not root.left:
-                    self.ans += val 
-                helper(root.left, val*10)
-                helper(root.right, val*10)
+            if not root:
+                return
+            val += root.val
+            if not root.right and not root.left:
+                self.ans += val 
+            helper(root.left, val*10)
+            helper(root.right, val*10)
         helper(root)
         return self.ans
