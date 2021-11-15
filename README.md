@@ -224,6 +224,7 @@
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|52 ms|
 |1003|[ Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)|[Python3](./solutions/1003.%20Check%20If%20Word%20Is%20Valid%20After%20Substitutions.py)|32 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Python3](./solutions/1004.%20Max%20Consecutive%20Ones%20III.py)|592 ms|
+|1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Python3](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py)|36 ms|
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|180 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|52 ms|
 |1124|[ Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Python3](./solutions/1124.%20Longest%20Well-Performing%20Interval.py)|204 ms|
