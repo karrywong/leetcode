@@ -1,6 +1,6 @@
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
-        #After multiple failures, see Leetcode Two pointer, Time O(n^2), Space O(N)
+        #After multiple failures, see Leetcode Two pointer, Time O(N^2), Space O(N)
         #Using selection sort instead of built-sort, Space O(1) possible
         diff, n = float('inf'), len(nums)
         nums.sort() #-4,-1,2,1
@@ -15,5 +15,5 @@ class Solution:
                     l += 1
                 else:
                     r -= 1
-            if diff == 0: break
+            if diff == 0: return target
         return target - diff
