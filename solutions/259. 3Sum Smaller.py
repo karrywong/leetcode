@@ -1,6 +1,6 @@
 class Solution:
     def threeSumSmaller(self, nums: List[int], target: int) -> int:
-        #soln 1 - Leetcode two pointers, fast
+        #soln 1 - Leetcode two pointers, fast, Time O(N^2), Space O(1)
         ans, n = 0, len(nums)
         nums.sort()
         for i in range(n-2):
