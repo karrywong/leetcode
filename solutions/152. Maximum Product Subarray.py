@@ -1,29 +1,13 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        ### Soln 2 - Dynamic Programming O(n), keeping track of max_val and min_val
-        res = nums[0]
-        max_val = nums[0]
-        min_val = nums[0]
+        #Recent attempt, keeping track of maximal and minimal values
+        #Time O(N), Space O(1)
+        ans, maxval, minval = nums[0], nums[0], nums[0]
+        for n in nums[1:]:
+            temp1 = maxval*n
+            temp2 = minval*n
+            maxval = max(temp1, temp2, n)
+            minval = min(temp1, temp2, n)
+            ans = max(ans, maxval, minval)
+        return ans
         
-        for i in range(1,len(nums)):
-            max_temp = max_val * nums[i]
-            min_temp = min_val * nums[i]
-            
-            max_val = max(nums[i], max_temp, min_temp)
-            min_val = min(nums[i], max_temp, min_temp)
-​
-            res = max(max_val, min_val, res)
-        return res
-​
-        ### Soln 1 - brute force, time exceeded
-#         if len(nums) == 0 : 
-#             return 0
-#         else: 
-#             res = nums[0]
-        
-#         for i in range(len(nums)):
-#             accu = 1 
-#             for j in range(i, len(nums)):
-#                 accu = accu * nums[j]
-#                 res = max(res, accu)
-#         return res
