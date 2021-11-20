@@ -77,7 +77,7 @@
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Python3](./solutions/125.%20Valid%20Palindrome.py)|36 ms|
 |129|[ Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Python3](./solutions/129.%20Sum%20Root%20to%20Leaf%20Numbers.py)|32 ms|
 |133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](./solutions/133.%20Clone%20Graph.py)|40 ms|
-|136|[ Single Number](https://leetcode.com/problems/single-number/)|[Python3](./solutions/136.%20Single%20Number.py)|128 ms|
+|136|[ Single Number](https://leetcode.com/problems/single-number/)|[Python3](./solutions/136.%20Single%20Number.py)|120 ms|
 |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Python3](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.py)|32 ms|
 |139|[ Word Break](https://leetcode.com/problems/word-break/)|[Python3](./solutions/139.%20Word%20Break.py)|42 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python3](./solutions/141.%20Linked%20List%20Cycle.py)|56 ms|
