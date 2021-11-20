@@ -8,7 +8,7 @@ class Solution:            
         m, n = len(s1), len(s2)
         htb = [[None for _ in range(n)] for _ in range(m)] #hashtable to speedup
         
-        def check(i,j):
+        def check(i,j): #helper function
             if i == m:
                 return s2[j:] == s3[m+j:]
             if j == n:
@@ -35,4 +35,5 @@ class Solution:            
                 bo = check(i+1, j) or check(i, j+1)
                 htb[i][j] == bo
                 return bo
+            
         return check(0,0)        
