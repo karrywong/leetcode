@@ -94,7 +94,7 @@
 |159|[ Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Python3](./solutions/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.py)|376 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|48 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.python)|48 ms|
-|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|164 ms|
+|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|172 ms|
 |170|[ Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Python](./solutions/170.%20Two%20Sum%20III%20-%20Data%20structure%20design.python)|676 ms|
 |186|[ Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)|[Python3](./solutions/186.%20Reverse%20Words%20in%20a%20String%20II.py)|264 ms|
 |189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](./solutions/189.%20Rotate%20Array.py)|349 ms|
