@@ -1,12 +1,28 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        elements = set(nums)
-        answer = nums[0]
-        temp1 = 0
-        for e in elements:
-            temp2 = nums.count(e)
-            if temp1 < temp2:
-                answer = e
-                temp1 = temp2
+        #Boyer-Moore Voting Algorithm, Time O(N), Space O(1)
+        answer, count = None, 0
+        for n in nums:
+            if count == 0:
+                answer = n
+            count += 1 if n == answer else -1
         return answer
+        
+        # #Recent attempt - hashtable, Time O(N), Space O(N)
+        # n = int(len(nums)/2)
+        # lib = collections.defaultdict(int)
+        # for num in nums:
+        #     lib[num] += 1
+        #     if lib[num] > n:
+        #         return num
+        
+        # #old attempt - use count(), Time O(k*N), Space O(k)
+        # #where k is the number of unique elements
+        # elements, count = set(nums), 0
+        # for element in elements:
+        #     temp = nums.count(element)
+        #     if temp > count:
+        #         answer, count = element, temp
+        # return answer
+                
         
