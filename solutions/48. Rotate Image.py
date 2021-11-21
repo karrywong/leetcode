@@ -13,7 +13,7 @@ class Solution:
         def reflect(M):
             for i in range(n):
                 for j in range(n//2):
-                    M[i][j], M[i][n-1-j] = M[i][n-1-j], M[i][j]
+                    M[i][j], M[i][~j] = M[i][~j], M[i][j]
                     
         transpose(matrix)
         reflect(matrix)        
