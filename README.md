@@ -203,6 +203,7 @@
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|140 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|36 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|220 ms|
+|706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|340 ms|
 |713|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Python3](./solutions/713.%20Subarray%20Product%20Less%20Than%20K.py)|692 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|117 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Python3](./solutions/735.%20Asteroid%20Collision.py)|88 ms|
