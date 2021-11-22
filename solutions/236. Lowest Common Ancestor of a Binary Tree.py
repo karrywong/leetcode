@@ -1,3 +1,24 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+​
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':         
+        # Karry's solution w Haotian's
+        htb = {} #key=cur.val, value=prev.val
+        queue = collections.deque([root])
+        pval, qval = p.val, q.val
+        bo1, bo2 = False, False
+        
+        while queue and (not bo1 or not bo2):
+            node = queue.popleft()
+            if node.val == pval: bo1 = True
+            elif node.val == qval: bo2 = True
+            if node.left:
+                htb[node.left] = node
                 queue.append(node.left)
             if node.right:
                 htb[node.right] = node
