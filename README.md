@@ -255,6 +255,7 @@
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|104 ms|
 |1644|[ Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Python3](./solutions/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.py)|280 ms|
 |1650|[ Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Python3](./solutions/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.py)|100 ms|
+|1676|[ Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|[Python3](./solutions/1676.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.py)|2079 ms|
 |1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Python3](./solutions/1695.%20Maximum%20Erasure%20Value.py)|1248 ms|
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Python3](./solutions/1696.%20Jump%20Game%20VI.py)|964 ms|
 |1701|[ Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Python3](./solutions/1701.%20Average%20Waiting%20Time.py)|920 ms|
