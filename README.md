@@ -135,6 +135,7 @@
 |270|[ Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Python3](./solutions/270.%20Closest%20Binary%20Search%20Tree%20Value.py)|94 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|32 ms|
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|316 ms|
+|280|[ Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|[Python3](./solutions/280.%20Wiggle%20Sort.py)|179 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|285 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python3](./solutions/287.%20Find%20the%20Duplicate%20Number.py)|952 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|36 ms|
