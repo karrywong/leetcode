@@ -243,6 +243,7 @@
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Python3](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py)|36 ms|
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|180 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|44 ms|
+|1123|[ Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Python3](./solutions/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.py)|103 ms|
 |1124|[ Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Python3](./solutions/1124.%20Longest%20Well-Performing%20Interval.py)|204 ms|
 |1213|[ Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Python3](./solutions/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py)|80 ms|
 |1214|[ Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Python3](./solutions/1214.%20Two%20Sum%20BSTs.py)|76 ms|
