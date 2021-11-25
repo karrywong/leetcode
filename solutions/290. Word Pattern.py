@@ -28,3 +28,18 @@ class Solution:
 #                     map_word[w] = c
 #                 else:
 #                     return False
+#             else:
+#                 if map_char[c] != w:
+#                     return False
+#         return True
+        
+        # #First attempt, not the fastest
+        # s, lib = s.split(), {}
+        # if len(pattern) != len(s): return
+        # for p, w in zip(pattern, s):
+        #     print(p,w)
+        #     if p not in lib:
+        #         lib[p] = w
+        #     if lib[p] != w or sorted(list(lib.values())) != sorted(list(set(lib.values()))):
+        #         return False
+        # return True
