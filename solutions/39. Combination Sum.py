@@ -2,19 +2,17 @@ class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         #soln 1 - Leetcode backtracking, optimized
         ans, n = [], len(candidates)
-        def backtrack(num, start, A=[]):
+        def backtrack(num=target, start=0, A=[]):
             if num == 0:
                 ans.append(A.copy())
                 return
             if num < 0:
                 return
-​
             for i in range(start, n):
                 A.append(candidates[i])
                 backtrack(num-candidates[i], i, A)
                 A.pop()
-            
-        backtrack(target, 0)
+        backtrack()
         return ans
         
         #soln 0 - first attempt, backtracking with hashtable, slow
