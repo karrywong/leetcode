@@ -1,33 +1,47 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        #Refer to an almost identical problem, 46. Permutations
         ### Cheating - using the built-in function from itertools
-        # all_perm = set(itertools.permutations(nums))
-        # return [list(i) for i in all_perm]
+        # return [list(i) for i in set(itertools.permutations(nums))]
         
-        ### Soln 1 - recursion II from Permutations I with slight modification
-        def helper(nums):
-            if len(nums) == 1:
-                return [nums]
+        # #soln 3 - recursion
+        # def helper(nums):
+        #     if len(nums) == 1:
+        #         return [nums]
+        #     curr = helper(nums[1:])
+        #     return [x[:i] + [nums[0]] + x[i:] for x in curr for i in range(len(x)+1)]
+        # lst = helper(nums)
+        # counter = collections.defaultdict(int)
+        # for v in lst:
+        #     counter[tuple(v)] += 1
+        # return counter.keys()
+        
+        #soln 2 - backtrack, faster, instead of checking list "nums not in ans"
+        ans, n, counter = [], len(nums), collections.Counter(nums)
+        def backtrack(A=[], lib=counter):
+            if len(A) == n:
+                ans.append(A[:])
+                return
+            for num in lib:
+                if lib[num] > 0:
+                    A.append(num)
+                    lib[num] -= 1
+                    backtrack(A, lib)
+                    A.pop()
+                    lib[num] += 1
+        backtrack()
+        return ans
+        
+#         #soln 1 - backtrack
+#         ans, n = [], len(nums)
+#         def backtrack(start=0):
+#             if start == n and nums not in ans:
+#                 ans.append(nums[:])
+#                 return 
             
-            curr = helper(nums[1:])
-            tmp = []
-            for i in range(len(nums)):
-                for x in curr:
-                    tmp1 = x.copy()
-                    tmp1.insert(i,nums[0])
-                    if tmp1 not in tmp:
-                        tmp.append(tmp1)
-            return tmp
-        
-        return helper(nums)
-        
-#         ### Soln 0 - repeat solution for Permutations I and get unique elements
-#         def helper(nums):
-#             if len(nums) == 1:
-#                 return [nums]         
-#             curr = helper(nums[1:])
-#             return [x[:i] + [nums[0]] + x[i:] for x in curr for i in range(len(nums))]
-        
-#         lst = helper(nums)
-#         counts = collections.Counter(tuple(v) for v in lst)
-#         return [x for x in counts.keys()]
+#             for i in range(start, n):
+#                 nums[i], nums[start] = nums[start], nums[i]
+#                 backtrack(start+1)
+#                 nums[i], nums[start] = nums[start], nums[i]
+#         backtrack()
+#         return ans
