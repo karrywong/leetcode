@@ -1,5 +1,8 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
+        ### Cheating - using the built-in function from itertools
+        return [list(i) for i in itertools.permutations(nums)]
+        
         ### Soln 3 - recursion II
 #         def helper(nums):
 #             if len(nums) == 1:
@@ -16,13 +19,13 @@ class Solution:
 #             return tmp
 #         return helper(nums)
         
-        # ### Soln 2 - recursion
-        def helper(nums):
-            if len(nums) == 1:
-                return [nums]         
-            curr = helper(nums[1:])
-            return [x[:i] + [nums[0]] + x[i:] for x in curr for i in range(len(nums))]
-        return helper(nums)
+        # # ### Soln 2 - recursion
+        # def helper(nums):
+        #     if len(nums) == 1:
+        #         return [nums]         
+        #     curr = helper(nums[1:])
+        #     return [x[:i] + [nums[0]] + x[i:] for x in curr for i in range(len(nums))]
+        # return helper(nums)
         
         ### Soln 1 - backtrack
 #         n = len(nums)
@@ -39,3 +42,4 @@ class Solution:
 ​
 #         backtrack()
 #         return lst
+        
