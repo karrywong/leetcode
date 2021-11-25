@@ -1,10 +1,9 @@
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
-        # soln 1 - backtracking
+        # soln 1 - backtracking, Time O(N*4^N), Space O(N)
         ans = []
-        if not digits: 
-            return ans
-        lib = {"2": "abc", "3": "def", "4": "ghi", "5": "jkl", 
+        if not digits: return ans
+        lib = {"2": "abc", "3": "def", "4": "ghi", "5": "jkl", \
                    "6": "mno", "7": "pqrs", "8": "tuv", "9": "wxyz"}
         def backtrack(index, path=[]):
             if len(path) == len(digits):
@@ -34,3 +33,6 @@ class Solution:
 #             tp = lib[digits[i]]
 #             temp, ans = ans, []
 #             for t in temp:
+#                 for j in range(len(tp)):
+#                     ans.append(t + tp[j])
+#         return ans
