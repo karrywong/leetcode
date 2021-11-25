@@ -1,5 +1,6 @@
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        #Refer to an almost identical problem, 78. Subsets
         #soln 3 - Leetcode bit manipulation
         nums.sort()
         n, ans = len(nums), []
