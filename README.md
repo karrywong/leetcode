@@ -206,6 +206,7 @@
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python3](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py)|68 ms|
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Python3](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.py)|52 ms|
 |670|[ Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Python3](./solutions/670.%20Maximum%20Swap.py)|28 ms|
+|673|[ Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Python3](./solutions/673.%20Number%20of%20Longest%20Increasing%20Subsequence.py)|1863 ms|
 |680|[ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python3](./solutions/680.%20Valid%20Palindrome%20II.py)|152 ms|
 |691|[ Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|[Python3](./solutions/691.%20Stickers%20to%20Spell%20Word.py)|2536 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|154 ms|
