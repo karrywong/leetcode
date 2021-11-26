@@ -1,3 +1,24 @@
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        #Failed attempt, Leetcode backtrack, Time O(N*3^len(word)), Space O(len(word))
+#         m, n = len(board), len(board[0])
+#         moves = [(0,1), (1,0), (0,-1), (-1,0)]
+#         def backtrack(i, j, target):
+#             if len(target)==0:
+#                 return True
+#             if i < 0 or i == m or j < 0 or j == n or board[i][j] != target[0]:
+#                 return False
+#             board[i][j] = '#'
+            
+#             for move in moves:
+#                 ret = backtrack(i + move[0], j + move[1], target[1:])
+#                 if ret: 
+#                     break
+#             board[i][j] = target[0]
+#             return ret
+                                           
+#         for i in range(0, m):
+#             for j in range(0, n):
 #                 if backtrack(i, j, word):
 #                         return True
                     
