@@ -1,23 +1,23 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        #Soln 2 - O(n^2), logical w expand around center
-        def expandAroundCenter(s,left,right):
-            l, r = left, right
-            while l>=0 and r<=len(s)-1 and s[l] == s[r]:
-                l -= 1
-                r += 1
-            l += 1
-            r -= 1
-            return r-l+1, l, r
-        start, end, length = 0,0,1
-        for i in range(len(s)):
-            len1, l1, r1 = expandAroundCenter(s, i, i)
-            len2, l2, r2 = expandAroundCenter(s, i, i+1)
-            if len1 > len2 and len1 > length:
-                start, end, length = l1, r1, len1
-            elif len1 <= len2 and len2 > length:
-                start, end, length = l2, r2, len2
-        return s[start:end+1]
+        # #Soln 2 - O(n^2), logical w expand around center
+        # def expandAroundCenter(s,left,right):
+        #     l, r = left, right
+        #     while l>=0 and r<=len(s)-1 and s[l] == s[r]:
+        #         l -= 1
+        #         r += 1
+        #     l += 1
+        #     r -= 1
+        #     return r-l+1, l, r
+        # start, end, length = 0,0,1
+        # for i in range(len(s)):
+        #     len1, l1, r1 = expandAroundCenter(s, i, i)
+        #     len2, l2, r2 = expandAroundCenter(s, i, i+1)
+        #     if len1 > len2 and len1 > length:
+        #         start, end, length = l1, r1, len1
+        #     elif len1 <= len2 and len2 > length:
+        #         start, end, length = l2, r2, len2
+        # return s[start:end+1]
         
         # #Soln 1 - by ZitaoWang, Dynamic Programming O(n^2)
         # ans = ''
