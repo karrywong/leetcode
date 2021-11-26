@@ -199,7 +199,7 @@
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Python3](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.py)|240 ms|
 |633|[ Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[Python3](./solutions/633.%20Sum%20of%20Square%20Numbers.py)|140 ms|
 |643|[ Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Python3](./solutions/643.%20Maximum%20Average%20Subarray%20I.py)|808 ms|
-|647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Python3](./solutions/647.%20Palindromic%20Substrings.py)|180 ms|
+|647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Python3](./solutions/647.%20Palindromic%20Substrings.py)|183 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python3](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py)|68 ms|
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Python3](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.py)|52 ms|
 |670|[ Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Python3](./solutions/670.%20Maximum%20Swap.py)|28 ms|
