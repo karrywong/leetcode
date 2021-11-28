@@ -184,6 +184,7 @@
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|28 ms|
 |463|[ Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Python3](./solutions/463.%20Island%20Perimeter.py)|452 ms|
 |475|[ Heaters](https://leetcode.com/problems/heaters/)|[Python3](./solutions/475.%20Heaters.py)|248 ms|
+|477|[ Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Python3](./solutions/477.%20Total%20Hamming%20Distance.py)|320 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|352 ms|
 |487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|348 ms|
 |495|[ Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Python3](./solutions/495.%20Teemo%20Attacking.py)|260 ms|
