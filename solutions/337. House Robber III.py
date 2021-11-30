@@ -1,3 +1,8 @@
+        dp_rob = [0] * (index+1)
+        # represent the maximum start by node i without robbing i
+        dp_not_rob = [0] * (index+1)        
+        
+        for i in range(index, -1, -1):
             if i not in graph: #node i is a leaf
                 dp_rob[i] = tree[i]
                 dp_not_rob[i] = 0
