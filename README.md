@@ -45,6 +45,7 @@
 |57|[ Insert Interval](https://leetcode.com/problems/insert-interval/)|[Python3](./solutions/57.%20Insert%20Interval.py)|80 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](./solutions/62.%20Unique%20Paths.py)|69 ms|
 |63|[ Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python3](./solutions/63.%20Unique%20Paths%20II.py)|44 ms|
+|64|[ Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Python3](./solutions/64.%20Minimum%20Path%20Sum.py)|96 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|32 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Python3](./solutions/69.%20Sqrt(x).py)|36 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](./solutions/70.%20Climbing%20Stairs.py)|32 ms|
