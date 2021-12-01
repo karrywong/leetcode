@@ -10,10 +10,10 @@ class Solution:
                 ans.append(matrix[up][j]) #left to right
             for i in range(up+1, down+1):
                 ans.append(matrix[i][right]) #up to down
-            if up != down:
+            if up != down: #make sure that we're on a different row
                 for j in range(right-1, left-1,-1):
                     ans.append(matrix[down][j])
-            if left != right:
+            if left != right: #make sure that we're on a different col
                 for i in range(down-1, up, -1):
                     ans.append(matrix[i][left])
             left += 1
