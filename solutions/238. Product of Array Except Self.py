@@ -1,35 +1,24 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        
-#         temp1 = 1
-#         lst1 = []
-#         for n in nums[:len(nums)-1]:
-#             temp1 = temp1 * n
-#             lst1.append(temp1) 
-#         #lst1 = [1,2,6]
-            
-#         temp2 = 1
-#         lst2 = []
-#         for i in range(len(nums)-1, 0, -1):
-#             temp2 = temp2 * nums[i]
-#             lst2.append(temp2)
-#         #lst2 = [4,12,24] -> [12,4]
-        
-#         res = []
-#         res.append(lst2[-1])
-#         lst2.pop(-1)
-#         lst2 = lst2[::-1]
-#         for i in range(0, len(nums)-2):
-#             res.append(lst1[i] * lst2[i])
-#         res.append(lst1[-1])
-        
-#         return res
-​
-    
-        ### Soln - solution suggested by Haotian Li, left & right products
+        #Second attempt, time O(N), space O(1)
         n = len(nums)
-        left = [1] * n
-        right = [1] * n
+        ans, val = [1]*n, 1
+        for i in range(1,n):
+            val *= nums[i-1]
+            ans[i] *= val
+        val = 1
+        for i in range(n-1, 0, -1):
+            val *= nums[i]
+            ans[i-1] *= val
+        return ans
         
-        for i in range(1, n):
-            left[i] = left[i-1] * nums[i-1]
+        # #First attempt, products from left to right and from right to left, time O(N), space O(N)
+        # n = len(nums)
+        # prodlr = [0] * (n-1)
+        # prodrl = [0] * (n-1)
+        # prodlr[0], prodrl[-1] = nums[0], nums[-1]
+        # for i in range(1,n-1):
+        #     prodlr[i] = prodlr[i-1]*nums[i] #i=0,1,..,n-2
+        #     prodrl[~i] = prodrl[~i+1]*nums[~i] #i=-2,-3,...,-n+1
+        # ans = [prodrl[0]] + [prodrl[i]*prodlr[i-1] for i in range(1,n-1)] + [prodlr[n-2]]
+        # return ans
