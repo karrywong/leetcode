@@ -1,6 +1,7 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         #soln 2 - use python bisect(), refer <https://docs.python.org/3/library/bisect.html>
+        #Time O(NlogN), space O(N)
         n, sub = len(nums), [nums[0]]
         for i in range(1,n):
             j = bisect_left(sub, nums[i]) #return index j such that #nums[i] <= sub[j] 
@@ -10,7 +11,7 @@ class Solution:
                 sub[j] = nums[i]
         return len(sub)
     
-        #soln 1 - Leetcode build subsequence
+        #soln 1 - Leetcode build subsequence, time O(N^2), space O(N)
         # n, sub = len(nums), [nums[0]]
         # for i in range(1,n):
         #     if sub[-1] >= nums[i]:
@@ -22,7 +23,7 @@ class Solution:
         #         sub.append(nums[i])
         # return len(sub)
                 
-        # #soln 0 - Leetcode DP 
+        # #soln 0 - Leetcode DP, time O(N^2), space O(N)
         # n = len(nums)
         # dp = [1] * n 
         # for i in range(1,n):
