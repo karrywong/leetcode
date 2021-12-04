@@ -13,17 +13,23 @@ class Solution:
         # head.next = None
         # return p 
         
-        #soln 1 - one pass, time O(N), space O(1)
-        if not head: return head
-        prev = ListNode(head.val)
-        curr = head
-        curr = curr.next
+        #soln 3 - more elegant in Python
+        prev, curr = None, head
         while curr:
-            next_temp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = next_temp
+            curr.next, prev, curr = prev, curr, curr.next   
         return prev
+    
+        # #soln 1 - one pass, time O(N), space O(1)
+        # if not head: return head
+        # prev = ListNode(head.val)
+        # curr = head
+        # curr = curr.next
+        # while curr:
+        #     next_temp = curr.next
+        #     curr.next = prev
+        #     prev = curr
+        #     curr = next_temp
+        # return prev
         
         # #soln 0 - naive attempt, two pass
         # if not head: return head
