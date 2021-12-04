@@ -41,3 +41,18 @@ class MyLinkedList:
 ​
     def deleteAtIndex(self, index: int) -> None:
         # if index < len(self.lst): //list attempt 
+        #     self.lst.pop(index)
+        if index < self.size:
+            self.size -= 1
+            pred = self.head
+            for _ in range(index):
+                pred = pred.next
+            pred.next = pred.next.next
+​
+# Your MyLinkedList object will be instantiated and called as such:
+# obj = MyLinkedList()
+# param_1 = obj.get(index)
+# obj.addAtHead(val)
+# obj.addAtTail(val)
+# obj.addAtIndex(index,val)
+# obj.deleteAtIndex(index)
