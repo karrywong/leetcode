@@ -15,7 +15,8 @@ class Solution:
         #     root.right = self.insertIntoBST(root.right, val)
         # return root
     
-        #soln 0 - first attempt, recursion
+        #soln 0 - first attempt, recursion, 
+        #Time O(N) and Space O(N) in the case of skewed binary tree
         def helper(node):
             if node.val > val:
                 if node.left is not None:
