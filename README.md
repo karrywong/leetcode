@@ -136,7 +136,7 @@
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Python3](./solutions/226.%20Invert%20Binary%20Tree.py)|12 ms|
 |227|[ Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Python3](./solutions/227.%20Basic%20Calculator%20II.py)|148 ms|
 |229|[ Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Python3](./solutions/229.%20Majority%20Element%20II.py)|120 ms|
-|230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|40 ms|
+|230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|48 ms|
 |231|[ Power of Two](https://leetcode.com/problems/power-of-two/)|[Python3](./solutions/231.%20Power%20of%20Two.py)|32 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|24 ms|
 |235|[ Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Python3](./solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.py)|72 ms|
