@@ -74,6 +74,7 @@
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Python3](./solutions/101.%20Symmetric%20Tree.py)|32 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Python3](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)|24 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.py)|44 ms|
+|105|[ Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Python3](./solutions/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.py)|52 ms|
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Python3](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py)|56 ms|
 |110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Python3](./solutions/110.%20Balanced%20Binary%20Tree.py)|52 ms|
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Python3](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)|560 ms|
