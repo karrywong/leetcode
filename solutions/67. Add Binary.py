@@ -4,12 +4,12 @@ class Solution:
         # return '{:b}'.format(int(a,2)+int(b,2))
         
         #Leetcode - bit manipulation, clever!
+        #Time: O(N+M), Space: O(max(N, M))
         x, y = int(a,2), int(b,2)
         while y != 0: #while carry is not equal to zero
             ans = x^y
             carry = (x&y) << 1
             x, y = ans, carry
-            print(ans, carry)
         return bin(x)[2:]
         
 #         #First attempt, time: O(max(M,N)), space: O(max(M,N)+1)
