@@ -6,6 +6,8 @@
 #         self.right = right
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        #Time complexity, O(N), Space O(N) - worst case: skewed tree
+        #First to the node to be deleted and then from the node to be deleted to the leafs
         def getSuccessor(node): #once right, then left as far as possible
             node = node.right
             while node.left:
