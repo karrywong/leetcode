@@ -5,22 +5,28 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def kthSmallest(self, root: TreeNode, k: int) -> int:
-        self.res = []
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        ##Insightful follow-up question: What if the BST is modified (insert/delete operations) often   
+        #and you need to find the kth smallest frequently? How would you optimize the kthSmallest   
+        #routine?
         
-        #Input: root, output: list of node values in ascending order
-        def helper(root,k):
-            if root:
-                if len(self.res) == k:
-                    return self.res[-1]
-                helper(root.left,k)
-                if len(self.res) == k:
-                    return self.res[-1]
-                self.res.append(root.val)
-                if len(self.res) == k:
-                    return self.res[-1]
-                helper(root.right,k)
-                if len(self.res) == k:
-                    return self.res[-1]
-​
-        return helper(root, k)
+        #2. Leetcode optimized, iterative inorder traversal plus stack
+        #see similar (but in recursion) technique, 98. Validate Binary Search Tree
+        #Tricky: Time O(H+k) due to stack append&pop, Space O(N)
+        stack = []
+        while True: 
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            k -= 1
+            if not k:
+                return root.val
+            root = root.right
+            
+        #1. Brute-force, not optimized
+        #Time O(N), Space O(N)
+        # def helper(node):
+        #     if not node: return []
+        #     return helper(node.left) + [node.val] + helper(node.right)
+        # return helper(root)[k-1]
