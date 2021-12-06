@@ -1,5 +1,12 @@
 class Solution:
     def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+        # #Stefan Pochmann - really short soln
+        # flat = sum(mat, [])
+        # if len(flat) != r * c:
+        #     return mat
+        # tuples = zip(*([iter(flat)] * c))
+        # return map(list, tuples)
+        
         #Second attempt, without divmod, Time O(m*n), Space O(m*n)
         m, n = len(mat), len(mat[0])
         if m * n != r * c:
