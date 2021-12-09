@@ -32,5 +32,5 @@ class Solution:
 #         ans[:k+1] = [n*n for n in nums[i:i+k+1]]  
 #         return ans
         
-        #soln 0 - trivial
+        #soln 0 - trivial, time O(NlogN), space O(N)
         #return sorted([i*i for i in nums])
