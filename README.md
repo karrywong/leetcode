@@ -113,7 +113,7 @@
 |159|[ Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Python3](./solutions/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.py)|376 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|160 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|48 ms|
-|167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.python)|48 ms|
+|167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python3](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.py)|64 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|172 ms|
 |170|[ Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Python](./solutions/170.%20Two%20Sum%20III%20-%20Data%20structure%20design.python)|676 ms|
 |173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Python3](./solutions/173.%20Binary%20Search%20Tree%20Iterator.py)|76 ms|
