@@ -93,7 +93,7 @@
 |128|[ Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Python3](./solutions/128.%20Longest%20Consecutive%20Sequence.py)|2588 ms|
 |129|[ Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Python3](./solutions/129.%20Sum%20Root%20to%20Leaf%20Numbers.py)|32 ms|
 |130|[ Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[Python3](./solutions/130.%20Surrounded%20Regions.py)|124 ms|
-|133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](./solutions/133.%20Clone%20Graph.py)|40 ms|
+|133|[ Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](./solutions/133.%20Clone%20Graph.py)|36 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[Python3](./solutions/136.%20Single%20Number.py)|120 ms|
 |137|[ Single Number II](https://leetcode.com/problems/single-number-ii/)|[Python3](./solutions/137.%20Single%20Number%20II.py)|52 ms|
 |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Python3](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.py)|32 ms|
