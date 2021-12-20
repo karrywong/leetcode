@@ -16,6 +16,7 @@ class Solution:
 #         return ans
         
         #Extra - Leetcode lexicographic (binary sorted) combinations
+        #Time O(k * nCk), Space O(nCk)
         nums = list(range(1, k+1)) + [n+1]
         ans, j = [], 0
         while j < k:
