@@ -4,7 +4,7 @@ class Solution:
         # cols = [[(j, b) for j, b in enumerate(col) if b] for col in zip(*mat2)]
         # return [[sum(row[j]*b for j, b in col) for col in cols] for row in mat1]
         
-        #Inspired by Stefan Pochmann
+        #Inspired by Stefan Pochmann, Time O(N^3) but using sparsity
         cols = []
         for i, col in enumerate(zip(*mat2)):
             cols.append([])
