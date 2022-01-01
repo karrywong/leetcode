@@ -315,6 +315,7 @@
 |1289|[ Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[Python3](./solutions/1289.%20Minimum%20Falling%20Path%20Sum%20II.py)|912 ms|
 |1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Python3](./solutions/1306.%20Jump%20Game%20III.py)|300 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|80 ms|
+|1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|108 ms|
 |1340|[ Jump Game V](https://leetcode.com/problems/jump-game-v/)|[Python3](./solutions/1340.%20Jump%20Game%20V.py)|490 ms|
 |1345|[ Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Python3](./solutions/1345.%20Jump%20Game%20IV.py)|552 ms|
 |1394|[ Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[Python3](./solutions/1394.%20Find%20Lucky%20Integer%20in%20an%20Array.py)|87 ms|
