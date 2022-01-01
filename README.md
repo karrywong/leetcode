@@ -189,6 +189,7 @@
 |366|[ Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Python3](./solutions/366.%20Find%20Leaves%20of%20Binary%20Tree.py)|32 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|28 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
+|373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Python3](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py)|1032 ms|
 |374|[ Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python3](./solutions/374.%20Guess%20Number%20Higher%20or%20Lower.py)|24 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|216 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Python3](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).py)|508 ms|
