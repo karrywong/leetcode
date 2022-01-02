@@ -157,6 +157,7 @@
 |249|[ Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Python3](./solutions/249.%20Group%20Shifted%20Strings.py)|36 ms|
 |252|[ Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Python3](./solutions/252.%20Meeting%20Rooms.py)|76 ms|
 |253|[ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Python3](./solutions/253.%20Meeting%20Rooms%20II.py)|80 ms|
+|255|[ Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)|[Python3](./solutions/255.%20Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree.py)|347 ms|
 |258|[ Add Digits](https://leetcode.com/problems/add-digits/)|[Python3](./solutions/258.%20Add%20Digits.py)|36 ms|
 |259|[ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[Python3](./solutions/259.%203Sum%20Smaller.py)|756 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|28 ms|
