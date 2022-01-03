@@ -259,7 +259,7 @@
 |680|[ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python3](./solutions/680.%20Valid%20Palindrome%20II.py)|152 ms|
 |691|[ Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|[Python3](./solutions/691.%20Stickers%20to%20Spell%20Word.py)|2536 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|154 ms|
-|697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Python3](./solutions/697.%20Degree%20of%20an%20Array.py)|192 ms|
+|697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Python3](./solutions/697.%20Degree%20of%20an%20Array.py)|338 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|68 ms|
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|140 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|61 ms|
