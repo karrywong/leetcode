@@ -1,19 +1,20 @@
 class Solution:
     def maxResult(self, nums: List[int], k: int) -> int:
-        #soln 3 - Leetcode DP with deque, optimized, no score array
-        n, score = len(nums), nums[0]
-        dq = collections.deque([(0, score)])
-        for i in range(1, n):
-            while dq and dq[0][0] < i-k: # pop the old index
-                dq.popleft() 
-            score = dq[0][1] + nums[i]
-            while dq and  dq[-1][1] <= score:
-                dq.pop()
-            dq.append((i, score))
-        return score
+        # #soln 3 - Leetcode DP with deque, optimized, no score array
+        # n, score = len(nums), nums[0]
+        # dq = collections.deque([(0, score)])
+        # for i in range(1, n):
+        #     while dq and dq[0][0] < i-k: # pop the old index
+        #         dq.popleft() 
+        #     score = dq[0][1] + nums[i]
+        #     while dq and  dq[-1][1] <= score:
+        #         dq.pop()
+        #     dq.append((i, score))
+        # return score
     
-        #soln 2 - Leetcode DP with deque
-        n, score = len(nums), [0]*n
+#         #soln 2 - Leetcode DP with deque, time O(N), space O(N)
+        n = len(nums)
+        score = [0]*n
         score[0] = nums[0]
         dq = collections.deque([0])
         
