@@ -168,6 +168,7 @@
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|316 ms|
 |280|[ Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|[Python3](./solutions/280.%20Wiggle%20Sort.py)|179 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|285 ms|
+|286|[ Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Python3](./solutions/286.%20Walls%20and%20Gates.py)|388 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python3](./solutions/287.%20Find%20the%20Duplicate%20Number.py)|952 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|28 ms|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Python3](./solutions/295.%20Find%20Median%20from%20Data%20Stream.py)|616 ms|
