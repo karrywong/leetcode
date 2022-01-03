@@ -1,21 +1,40 @@
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
-        counts = collections.Counter(nums)
-        freq = max(counts.values())
-        if freq == 1: return 1
+        #LeetCode, two pass, more efficient, time O(N), space O(1)
+        left, right, count = {}, {}, collections.defaultdict(int)
+        for i, num in enumerate(nums):
+            if num not in left:
+                left[num] = i
+            right[num] = i
+            count[num] += 1
         
-        elements = [k for k, v in counts.items() if v == freq]
-        if len(elements) == 1:
-            e = elements[0]
-            last_index = len(nums) - nums[::-1].index(e) - 1
-            return last_index - nums.index(e) + 1
-        else: 
-            answer = len(nums)
-            for e in elements:
-                last_index = len(nums) - nums[::-1].index(e) - 1
-                temp = last_index - nums.index(e) + 1
-                answer = min(temp, answer)
-            return answer
-    
-    
-​
+        ans = len(nums)
+        max_freq = max(count.values())
+        for x in count:
+            if count[x] == max_freq:
+                ans = min(ans, right[x]-left[x]+1)
+        return ans
+        
+#         #First attempt, two pass, time O(N), space O(1)
+#         count = collections.Counter(nums)
+#         max_freq = max(count.values())
+#         max_nums = {}
+#         ind = 0
+#         for k in count:
+#             if count[k] == max_freq:
+#                 max_nums[k] = ind
+#                 ind += 1
+#         if len(max_nums) == len(nums):
+#             return 1
+        
+#         indices = [-1] * len(max_nums)
+#         count = [0] * len(max_nums)
+#         ans = float('inf')
+#         for i, num in enumerate(nums):
+#             if num in max_nums:
+#                 if indices[max_nums[num]] == -1:
+#                     indices[max_nums[num]] = i 
+#                 count[max_nums[num]] += 1 
+#                 if count[max_nums[num]] == max_freq:
+#                     ans = min(ans, i - indices[max_nums[num]] + 1)
+#         return ans
