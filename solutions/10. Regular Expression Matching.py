@@ -1,6 +1,7 @@
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
-        #Optimized Leetcode recursion by DP, time O(TP), space O(TP)
+        #Optimized Leetcode recursion by DP, time O(SP), space O(SP)
+        #S = len(s) and P = len(p)
         memo = {}
         def dp(i,j):
             if (i,j) not in memo:
