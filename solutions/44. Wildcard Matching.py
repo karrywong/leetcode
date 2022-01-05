@@ -39,3 +39,15 @@ class Solution:
 #                 elif s[i] == p[j] or p[j] == "?":
 #                     ans = dp(i+1,j+1)
 #                 elif p[j] == "*":
+#                     ans = dp(i,j+1) or dp(i+1,j)
+#                 else:
+#                     ans = False
+#                 memo[(i,j)] = ans
+#             return memo[(i,j)]
+        
+#         memo = {}
+#         p = cleanup(p)
+#         if p == s or p == "*":
+#             return True
+#         return dp(0,0)
+                    
