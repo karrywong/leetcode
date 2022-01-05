@@ -30,3 +30,9 @@ class Solution:
 #         def countComplements(lists, i, complement):
 #             if i == len(lists):
 #                 return lookup[complement]
+#             count = 0
+#             for a in lists[i]:
+#                 count += countComplements(lists, i+1, complement-a)
+#             return count
+        
+#         return nSumCount([nums1,nums2,nums3,nums4])
