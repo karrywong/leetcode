@@ -213,6 +213,7 @@
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|24 ms|
 |394|[ Decode String](https://leetcode.com/problems/decode-string/)|[Python3](./solutions/394.%20Decode%20String.py)|32 ms|
 |398|[ Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[Python3](./solutions/398.%20Random%20Pick%20Index.py)|308 ms|
+|402|[ Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Python3](./solutions/402.%20Remove%20K%20Digits.py)|68 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Python3](./solutions/413.%20Arithmetic%20Slices.py)|42 ms|
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[Python3](./solutions/415.%20Add%20Strings.py)|63 ms|
