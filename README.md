@@ -138,6 +138,7 @@
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|32 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python3](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.py)|72 ms|
 |213|[ House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Python3](./solutions/213.%20House%20Robber%20II.py)|24 ms|
+|214|[ Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Python3](./solutions/214.%20Shortest%20Palindrome.py)|88 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|52 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|206 ms|
 |221|[ Maximal Square](https://leetcode.com/problems/maximal-square/)|[Python3](./solutions/221.%20Maximal%20Square.py)|208 ms|
