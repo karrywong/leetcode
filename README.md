@@ -165,6 +165,7 @@
 |258|[ Add Digits](https://leetcode.com/problems/add-digits/)|[Python3](./solutions/258.%20Add%20Digits.py)|36 ms|
 |259|[ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[Python3](./solutions/259.%203Sum%20Smaller.py)|756 ms|
 |263|[ Ugly Number](https://leetcode.com/problems/ugly-number/)|[Python3](./solutions/263.%20Ugly%20Number.py)|30 ms|
+|264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Python3](./solutions/264.%20Ugly%20Number%20II.py)|171 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|28 ms|
 |267|[ Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Python3](./solutions/267.%20Palindrome%20Permutation%20II.py)|28 ms|
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Python3](./solutions/268.%20Missing%20Number.py)|116 ms|
