@@ -13,16 +13,16 @@ class Solution:
         #2. Leetcode optimized, iterative inorder traversal plus stack
         #see similar (but in recursion) technique, 98. Validate Binary Search Tree
         #Tricky: Time O(H+k) due to stack append&pop, Space O(N)
-        stack = []
-        while True: 
-            while root:
-                stack.append(root)
-                root = root.left
-            root = stack.pop()
-            k -= 1
-            if not k:
-                return root.val
-            root = root.right
+        # stack = []
+        # while True: 
+        #     while root:
+        #         stack.append(root)
+        #         root = root.left
+        #     root = stack.pop()
+        #     k -= 1
+        #     if not k:
+        #         return root.val
+        #     root = root.right
             
         #1. Brute-force, not optimized
         #Time O(N), Space O(N)
@@ -30,3 +30,21 @@ class Solution:
         #     if not node: return []
         #     return helper(node.left) + [node.val] + helper(node.right)
         # return helper(root)[k-1]
+        
+        #Brute force rewritten in recursion, Time O(N), Space O(N)
+        self.ans = -1
+        self.count = k
+        def inorder(node):
+            if node.left: 
+                inorder(node.left)
+    
+            self.count -= 1 #node itself        
+            if self.count == 0: 
+                self.ans = node.val
+                return
+​
+            if node.right:
+                inorder(node.right)
+            
+        inorder(root)
+        return self.ans
