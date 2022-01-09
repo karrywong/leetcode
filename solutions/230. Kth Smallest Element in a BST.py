@@ -31,7 +31,7 @@ class Solution:
         #     return helper(node.left) + [node.val] + helper(node.right)
         # return helper(root)[k-1]
         
-        #Brute force rewritten in recursion, Time O(N), Space O(N)
+        #Optimized recursion, Time O(H+k), Space O(1)
         self.ans = -1
         self.count = k
         def inorder(node):
