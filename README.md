@@ -228,6 +228,7 @@
 |450|[ Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[Python3](./solutions/450.%20Delete%20Node%20in%20a%20BST.py)|64 ms|
 |451|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Python3](./solutions/451.%20Sort%20Characters%20By%20Frequency.py)|100 ms|
 |452|[ Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Python3](./solutions/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py)|1260 ms|
+|453|[ Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|[Python3](./solutions/453.%20Minimum%20Moves%20to%20Equal%20Array%20Elements.py)|248 ms|
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[Python3](./solutions/454.%204Sum%20II.py)|1063 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|28 ms|
 |463|[ Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Python3](./solutions/463.%20Island%20Perimeter.py)|452 ms|
