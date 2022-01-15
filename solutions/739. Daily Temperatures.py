@@ -21,18 +21,18 @@ class Solution:
             minTemperature.append(i)
         return ans
     
-        #Space further optimized, Time O(N), Space (1)
-        hottest = 0
-        n = len(temperatures)
-        ans = [0]*n
-        for i in range(n-1,-1,-1):
-            cur_temp = temperatures[i]
-            if cur_temp >= hottest:
-                hottest = cur_temp
-                continue
+#         #Space further optimized, Time O(N), Space (1)
+#         hottest = 0
+#         n = len(temperatures)
+#         ans = [0]*n
+#         for i in range(n-1,-1,-1):
+#             cur_temp = temperatures[i]
+#             if cur_temp >= hottest:
+#                 hottest = cur_temp
+#                 continue
             
-            days = 1
-            while cur_temp >= temperature[i+ans[i+days]]:
-                days += ans[i+days]
-            ans[i] = days
-        return ans
+#             days = 1
+#             while cur_temp >= temperature[i+ans[i+days]]:
+#                 days += ans[i+days]
+#             ans[i] = days
+#         return ans
