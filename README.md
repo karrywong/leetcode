@@ -284,7 +284,7 @@
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Python3](./solutions/721.%20Accounts%20Merge.py)|208 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|117 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Python3](./solutions/735.%20Asteroid%20Collision.py)|88 ms|
-|739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|2376 ms|
+|739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|1244 ms|
 |741|[ Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|[Python3](./solutions/741.%20Cherry%20Pickup.py)|772 ms|
 |746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python3](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.py)|56 ms|
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Python3](./solutions/752.%20Open%20the%20Lock.py)|1152 ms|
