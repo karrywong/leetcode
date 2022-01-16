@@ -379,3 +379,4 @@
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|44 ms|
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Python3](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.py)|608 ms|
+|2140|[ Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[Python3](./solutions/2140.%20Solving%20Questions%20With%20Brainpower.py)|1856 ms|
