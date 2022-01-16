@@ -13,6 +13,7 @@ class Solution:
         #Two stacks, one (I) for decreasing and one (II) for increasing, soln by lee215
         #(I) keeps track of being the lowest bound, how many times to the left and to the right
         #(II) the highest bound by the same token
+        #Time O(N), space O(N)
         ans = 0
         stack = [] #(I)
         nums1 = [float('-inf')]+nums+[float('-inf')]
