@@ -44,3 +44,12 @@ class Solution:
 #                     if next_node:
 #                         next_node.prev, child_tail.next = child_tail, next_node
 #                     scan = child_tail    
+                    
+#                 if not scan.next: 
+#                     tail = scan
+#                     break
+#                 scan = scan.next        
+#             return head, tail
+        
+#         head, _ = helper(head)
+#         return head
