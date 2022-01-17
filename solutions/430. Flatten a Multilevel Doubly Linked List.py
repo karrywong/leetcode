@@ -15,7 +15,7 @@ class Solution:
             return head
         sentinel = Node(None, None, head, None) # sentinel to ensure the `prev` pointer is never none
         self.dfs(sentinel, head)
-        sentinel.next.prev = None #detach the pseudo head from the real head
+        sentinel.next.prev = None #detach the sentinel from the real head
         return sentinel.next
     
     def dfs(self, prev, curr): #return the tail of the flatten list
@@ -44,12 +44,3 @@ class Solution:
 #                     if next_node:
 #                         next_node.prev, child_tail.next = child_tail, next_node
 #                     scan = child_tail    
-                    
-#                 if not scan.next: 
-#                     tail = scan
-#                     break
-#                 scan = scan.next        
-#             return head, tail
-        
-#         head, _ = helper(head)
-#         return head
