@@ -85,6 +85,7 @@
 |111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Python3](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)|560 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python3](./solutions/112.%20Path%20Sum.py)|40 ms|
 |113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Python3](./solutions/113.%20Path%20Sum%20II.py)|44 ms|
+|114|[ Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Python3](./solutions/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List.py)|40 ms|
 |115|[ Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Python3](./solutions/115.%20Distinct%20Subsequences.py)|72 ms|
 |116|[ Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Python3](./solutions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.py)|68 ms|
 |117|[ Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python3](./solutions/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.py)|44 ms|
