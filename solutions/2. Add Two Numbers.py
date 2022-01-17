@@ -34,3 +34,11 @@ class Solution:
         #        l2 = l2.next
         #    i += 1
         
+        #n, r = divmod(n, 10)
+        #ans = ListNode(r)
+        #ans_tail = ans
+        #while n > 0:
+        #    n, r = divmod(n, 10)
+        #    ans_tail.next = ListNode(r)
+        #    ans_tail = ans_tail.next
+        #return ans
