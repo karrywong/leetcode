@@ -160,6 +160,7 @@
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Python3](./solutions/242.%20Valid%20Anagram.py)|40 ms|
 |243|[ Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Python3](./solutions/243.%20Shortest%20Word%20Distance.py)|68 ms|
 |249|[ Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Python3](./solutions/249.%20Group%20Shifted%20Strings.py)|36 ms|
+|251|[ Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Python3](./solutions/251.%20Flatten%202D%20Vector.py)|132 ms|
 |252|[ Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Python3](./solutions/252.%20Meeting%20Rooms.py)|76 ms|
 |253|[ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Python3](./solutions/253.%20Meeting%20Rooms%20II.py)|80 ms|
 |255|[ Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)|[Python3](./solutions/255.%20Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree.py)|347 ms|
