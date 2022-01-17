@@ -1,17 +1,16 @@
 class StockSpanner:
-​
+    #First attempt, monotonic stack
+    #One price pushed and popped at most once, so at most 2*N operations with N calls, 
+    #Amortized time O(1), space O(N)
     def __init__(self):
         self.stack = []
 ​
     def next(self, price: int) -> int:
-        ### LeetCode solution, faster than linear scan, stack
-        weight = 1
+        ans = 1
         while self.stack and self.stack[-1][0] <= price:
-            weight += self.stack.pop()[1]
-        self.stack.append((price, weight))
-        return weight
-            
-​
+            ans += self.stack.pop()[1]
+        self.stack.append((price,ans))
+        return ans
 ​
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
