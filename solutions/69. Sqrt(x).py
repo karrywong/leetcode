@@ -1,6 +1,6 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        # #Recent attempt - binary search
+        # #Recent attempt - binary search, time O(log(x)), space O(1)
         # if x < 2: return x
         # l, r = 1, x
         # while l < r:
@@ -14,7 +14,7 @@ class Solution:
         #         l = mid+1
         # return l
     
-        ### Newton's method, fastest
+        ### Newton's method, fastest, time O(log(x)), space O(1)
         if x < 2:
             return x
         x0 = x
