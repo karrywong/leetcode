@@ -368,6 +368,7 @@
 |1567|[ Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Python3](./solutions/1567.%20Maximum%20Length%20of%20Subarray%20With%20Positive%20Product.py)|858 ms|
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|104 ms|
 |1588|[ Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python3](./solutions/1588.%20Sum%20of%20All%20Odd%20Length%20Subarrays.py)|65 ms|
+|1602|[ Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Python3](./solutions/1602.%20Find%20Nearest%20Right%20Node%20in%20Binary%20Tree.py)|507 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[Python3](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|636 ms|
 |1644|[ Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Python3](./solutions/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.py)|280 ms|
 |1650|[ Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Python3](./solutions/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.py)|100 ms|
