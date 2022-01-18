@@ -16,7 +16,11 @@ class Solution:
         for i, row in enumerate(mat1):
             ans.append([])
             for col in cols:
-                ans[i].append(sum(row[j]*b for j, b in col))
+                #ans[i].append(sum(row[j]*b for j, b in col))
+                val = 0
+                for j, b in col:
+                    val += row[j]*b
+                ans[i].append(val)
         return ans        
         
 #         #Standard, Time O(N^3), no use of sparsity
