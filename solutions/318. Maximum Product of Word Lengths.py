@@ -29,3 +29,5 @@ class Solution:
         for x in hashmap:
             for y in hashmap:
                 if x & y == 0:
+                    ans = max(ans, hashmap[x]*hashmap[y])
+        return ans
