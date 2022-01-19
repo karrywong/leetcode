@@ -365,6 +365,7 @@
 |1427|[ Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|[Python3](./solutions/1427.%20Perform%20String%20Shifts.py)|20 ms|
 |1469|[ Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Python3](./solutions/1469.%20Find%20All%20The%20Lonely%20Nodes.py)|80 ms|
 |1474|[ Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Python3](./solutions/1474.%20Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List.py)|68 ms|
+|1522|[ Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Python3](./solutions/1522.%20Diameter%20of%20N-Ary%20Tree.py)|58 ms|
 |1533|[ Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Python3](./solutions/1533.%20Find%20the%20Index%20of%20the%20Large%20Integer.py)|257 ms|
 |1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Python3](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|1156 ms|
 |1567|[ Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Python3](./solutions/1567.%20Maximum%20Length%20of%20Subarray%20With%20Positive%20Product.py)|858 ms|
