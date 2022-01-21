@@ -340,7 +340,7 @@
 |1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Python3](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.py)|387 ms|
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Python3](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py)|36 ms|
 |1046|[ Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Python3](./solutions/1046.%20Last%20Stone%20Weight.py)|24 ms|
-|1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|180 ms|
+|1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|132 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|36 ms|
 |1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|902 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|44 ms|
