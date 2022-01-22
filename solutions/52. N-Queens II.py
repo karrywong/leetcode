@@ -1,9 +1,8 @@
 class Solution:
     def totalNQueens(self, n: int) -> int:
         #First attempt, use col, diag1, diag2 to record positions taken
-        # ans = [] #list of list
+        #Identical to problem 51. N-Queens
         self.count = 0
-        nums = set([i for i in range(n)]) #{0,1,..n-1}
         diag1 = set([i for i in range(-n+1,n)]) # i-j, {-n+1, -n+2, ... 0, n-2, n-1}
         diag2 = set([i for i in range(0,2*n-1)]) # i+j {0, 1, 2, ..., 2*n-2}
         def backtrack(col=set(), d1 =set(), d2 = set(), A=[]):
@@ -12,8 +11,8 @@ class Solution:
                 return 
                 
             i = len(A) #0 <= len(A) <= n-1
-            for j in nums.difference(col):
-                if i-j in diag1.difference(d1) and i+j in diag2.difference(d2):
+            for j in range(n):
+                if j not in col and i-j not in d1 and i+j not in d2:
                     A.append(j)
                     col.add(j)
                     d1.add(i-j)
