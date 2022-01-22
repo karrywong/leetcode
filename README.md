@@ -398,6 +398,7 @@
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|44 ms|
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Python3](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.py)|608 ms|
 |2104|[ Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Python3](./solutions/2104.%20Sum%20of%20Subarray%20Ranges.py)|192 ms|
+|2116|[ Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Python3](./solutions/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.py)|410 ms|
 |2138|[ Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Python3](./solutions/2138.%20Divide%20a%20String%20Into%20Groups%20of%20Size%20k.py)|55 ms|
 |2139|[ Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|[Python3](./solutions/2139.%20Minimum%20Moves%20to%20Reach%20Target%20Score.py)|42 ms|
 |2140|[ Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[Python3](./solutions/2140.%20Solving%20Questions%20With%20Brainpower.py)|1856 ms|
