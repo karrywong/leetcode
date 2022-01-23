@@ -402,6 +402,7 @@
 |1963|[ Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[Python3](./solutions/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced.py)|316 ms|
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|44 ms|
+|2038|[ Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Python3](./solutions/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color.py)|178 ms|
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Python3](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.py)|608 ms|
 |2104|[ Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Python3](./solutions/2104.%20Sum%20of%20Subarray%20Ranges.py)|192 ms|
 |2116|[ Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Python3](./solutions/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.py)|410 ms|
