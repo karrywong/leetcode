@@ -298,6 +298,7 @@
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|340 ms|
 |707|[ Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Python3](./solutions/707.%20Design%20Linked%20List.py)|256 ms|
 |713|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Python3](./solutions/713.%20Subarray%20Product%20Less%20Than%20K.py)|692 ms|
+|716|[ Max Stack](https://leetcode.com/problems/max-stack/)|[Python3](./solutions/716.%20Max%20Stack.py)|194 ms|
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Python3](./solutions/721.%20Accounts%20Merge.py)|208 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|117 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Python3](./solutions/735.%20Asteroid%20Collision.py)|88 ms|
