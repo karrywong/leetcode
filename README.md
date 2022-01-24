@@ -381,6 +381,7 @@
 |1522|[ Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Python3](./solutions/1522.%20Diameter%20of%20N-Ary%20Tree.py)|58 ms|
 |1533|[ Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Python3](./solutions/1533.%20Find%20the%20Index%20of%20the%20Large%20Integer.py)|257 ms|
 |1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Python3](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|1156 ms|
+|1566|[ Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Python3](./solutions/1566.%20Detect%20Pattern%20of%20Length%20M%20Repeated%20K%20or%20More%20Times.py)|39 ms|
 |1567|[ Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Python3](./solutions/1567.%20Maximum%20Length%20of%20Subarray%20With%20Positive%20Product.py)|858 ms|
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|104 ms|
 |1588|[ Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python3](./solutions/1588.%20Sum%20of%20All%20Odd%20Length%20Subarrays.py)|65 ms|
