@@ -1,6 +1,6 @@
 class Solution:
     def maxRepeating(self, sequence: str, word: str) -> int:
-        #smart soln by EklavyaJoshi in discussion
+        #brute force, smart soln by EklavyaJoshi in discussion
         if len(sequence) < len(word):
             return 0
         x = 0
