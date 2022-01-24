@@ -1,3 +1,31 @@
+class MaxStack:
+#     #soln 1 by gabbu in discussion, idea - Use a stack where each element is a tuple of (x, indexOfMaxSoFar).
+#     #Time O(N), space O(N)
+#     def __init__(self):
+#         self.lst = []
+ 
+#     def push(self, x: int) -> None:
+#         if len(self.lst) == 0:
+#             self.lst.append((x,0))
+#         elif x >= self.lst[self.lst[-1][1]][0]:
+#             self.lst.append((x,len(self.lst)))
+#         else:
+#             self.lst.append((x,self.lst[-1][1]))
+        
+#     def pop(self) -> int:
+#         return self.lst.pop()[0]
+    
+#     def top(self) -> int:
+#         return self.lst[-1][0]
+​
+#     def peekMax(self) -> int:
+#         return self.lst[self.lst[-1][1]][0]
+​
+#     def popMax(self) -> int:
+#         max_idx = self.lst[-1][1]
+#         temp = []
+#         t_idx = len(self.lst)-1
+#         while t_idx != max_idx:
 #             x,i = self.lst.pop()
 #             temp.append(x)
 #             t_idx -= 1
