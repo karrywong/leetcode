@@ -390,6 +390,7 @@
 |1644|[ Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Python3](./solutions/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.py)|280 ms|
 |1650|[ Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Python3](./solutions/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.py)|100 ms|
 |1660|[ Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|[Python3](./solutions/1660.%20Correct%20a%20Binary%20Tree.py)|184 ms|
+|1668|[ Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[Python3](./solutions/1668.%20Maximum%20Repeating%20Substring.py)|28 ms|
 |1676|[ Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|[Python3](./solutions/1676.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.py)|2079 ms|
 |1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Python3](./solutions/1695.%20Maximum%20Erasure%20Value.py)|1248 ms|
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Python3](./solutions/1696.%20Jump%20Game%20VI.py)|1405 ms|
