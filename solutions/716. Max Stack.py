@@ -58,3 +58,4 @@ class MaxStack:
         return -self.stack[-1][0]
 ​
     def peekMax(self) -> int:
+        self.rm_tombstones()
