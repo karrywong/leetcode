@@ -21,14 +21,15 @@ class Solution:
         
         #soln 0 - first attempt,  recursive preorder traversal: node -> left -> right
         #More challenging, 437. Path Sum III
-        self.ans = 0
         def helper(root, val=0):
+            nonlocal ans
             if not root:
                 return
             val += root.val
             if not root.right and not root.left:
-                self.ans += val 
+                ans += val 
             helper(root.left, val*10)
             helper(root.right, val*10)
+        ans = 0
         helper(root)
-        return self.ans
+        return ans
