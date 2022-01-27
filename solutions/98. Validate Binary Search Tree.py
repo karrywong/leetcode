@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        #soln 2 - Recursive Inorder Traversal
+        #soln 2 - Recursive Inorder Traversal, time O(N), space O(N)
         def inorder(node):
             if not node:
                 return True
@@ -19,7 +19,7 @@ class Solution:
         self.prev = float('-inf')
         return inorder(root)
         
-        # #soln 1 - Recursive Traversal with Valid Range
+        # #soln 1 - Recursive Traversal with Valid Range, time O(N), space O(N)
         # def validate(node, low=float('-inf'), high=float('inf')):
         #     if not node:
         #         return True
@@ -28,11 +28,11 @@ class Solution:
         #     return validate(node.left, low, node.val) and validate(node.right, node.val, high)
         # return validate(root)
         
-        # # #soln 0 - standard inorder traversal, slow
-        # def helper(node):
-        #     if not node:
-        #         return []
-        #     return helper(node.left) + [node.val] + helper(node.right)
-        # lst = helper(root)
-        # return all([lst[i] < lst[i+1] for i in range(len(lst)-1)])
+#         # #soln 0 - standard inorder traversal, slow
+#         def helper(node):
+#             if not node:
+#                 return []
+#             return helper(node.left) + [node.val] + helper(node.right)
+#         lst = helper(root)
+#         return all([lst[i] < lst[i+1] for i in range(len(lst)-1)])
             
