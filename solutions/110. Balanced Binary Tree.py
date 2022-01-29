@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        #soln 1 - recursion bottom-up
+        #soln 1 - recursion bottom-up, time O(N), space O(N)
         def helper(node):
             if not node: 
                 return True, -1
@@ -19,7 +19,7 @@ class Solution:
             return (abs(leftHeight - rightHeight) < 2), 1 + max(leftHeight, rightHeight)
         return helper(root)[0]
 ​
-        # #soln 0 - first attempt, recursion top-down
+        # #soln 0 - first attempt, recursion top-down, time O(N^2), space O(N)
         # def helper(node): #compute tree height
         #     if not node: return 0
         #     return max(helper(node.right), helper(node.left)) + 1
@@ -29,6 +29,4 @@ class Solution:
         # if abs(left_height - right_height) <= 1:
         #     return self.isBalanced(root.left) and self.isBalanced(root.right)
         # else:
-        #     return False
-​
-        
+        #     return False  
