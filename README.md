@@ -291,6 +291,7 @@
 |670|[ Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Python3](./solutions/670.%20Maximum%20Swap.py)|28 ms|
 |673|[ Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Python3](./solutions/673.%20Number%20of%20Longest%20Increasing%20Subsequence.py)|1863 ms|
 |680|[ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python3](./solutions/680.%20Valid%20Palindrome%20II.py)|152 ms|
+|687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Python3](./solutions/687.%20Longest%20Univalue%20Path.py)|436 ms|
 |691|[ Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|[Python3](./solutions/691.%20Stickers%20to%20Spell%20Word.py)|2536 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|154 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Python3](./solutions/697.%20Degree%20of%20an%20Array.py)|338 ms|
