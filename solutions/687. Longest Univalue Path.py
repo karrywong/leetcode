@@ -9,7 +9,7 @@ class Solution:
         #Failed attempts, Leetcode solution - idea: "any path as up to two arrows extending from its root"
         #Time O(N), space O(N)
         self.ans = 0
-        def helper(node) -> int: #path length, node val
+        def helper(node) -> int: #path length
             if not node:
                 return 0, float('inf')
 ​
