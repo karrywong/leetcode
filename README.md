@@ -201,7 +201,7 @@
 |324|[ Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[Python3](./solutions/324.%20Wiggle%20Sort%20II.py)|370 ms|
 |325|[ Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|[Python3](./solutions/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k.py)|528 ms|
 |326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|68 ms|
-|333|[ Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|[Python3](./solutions/333.%20Largest%20BST%20Subtree.py)|48 ms|
+|333|[ Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|[Python3](./solutions/333.%20Largest%20BST%20Subtree.py)|54 ms|
 |334|[ Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Python3](./solutions/334.%20Increasing%20Triplet%20Subsequence.py)|560 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Python3](./solutions/337.%20House%20Robber%20III.py)|72 ms|
 |338|[ Counting Bits](https://leetcode.com/problems/counting-bits/)|[Python3](./solutions/338.%20Counting%20Bits.py)|127 ms|
