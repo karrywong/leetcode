@@ -6,33 +6,56 @@
 #         self.right = right
 class Solution:
     def largestBSTSubtree(self, root: Optional[TreeNode]) -> int:
-        #Mock interview, time O(N), space O(N)
-        if not root: return 0
+        #Leetcode Inorder optimized, time O(N^2), space O(N)
+        def isValidBST(node) -> bool:
+            nonlocal previous
+            if not node:
+                return True
+            if not isValidBST(node.left):
+                return False
+            if node.val <= previous:
+                return False
+            previous = node.val
+            return isValidBST(node.right)
         
-        ans = 1
-        def helper(node) -> (int, int, int): #output count, lo, hi
-            nonlocal ans
-            count, lo, hi = 1, node.val, node.val
+        def countNodes(node):
+            if not node:
+                return 0
+            return 1 + countNodes(node.left) + countNodes(node.right)
+        
+        if not root:
+            return 0
+        previous = float('-inf')
+        if isValidBST(root):
+            return countNodes(root)
+        return max(self.largestBSTSubtree(root.left), self.largestBSTSubtree(root.right))
+        
+#         #Mock interview, time O(N), space O(N)
+#         if not root: return 0
+#         ans = 1
+#         def helper(node) -> (int, int, int): #output count, lo, hi
+#             nonlocal ans
+#             count, lo, hi = 1, node.val, node.val
             
-            if node.left: 
-                left_count, left_lo, left_hi = helper(node.left)
-                if left_count > 0 and left_hi < node.val:
-                    count += left_count
-                    lo = left_lo
-                else:
-                    count = 0
+#             if node.left: 
+#                 left_count, left_lo, left_hi = helper(node.left)
+#                 if left_count > 0 and left_hi < node.val:
+#                     count += left_count
+#                     lo = left_lo
+#                 else:
+#                     count = 0
             
-            if node.right: 
-                right_count, right_lo, right_hi = helper(node.right)
-                if right_count > 0 and right_lo > node.val:
-                    if count > 0:
-                        count += right_count
-                    hi = right_hi
-                else:
-                    count = 0
+#             if node.right: 
+#                 right_count, right_lo, right_hi = helper(node.right)
+#                 if right_count > 0 and right_lo > node.val:
+#                     if count > 0: #key is to only add if node.left is BST or node does not have node.left
+#                         count += right_count
+#                     hi = right_hi
+#                 else:
+#                     count = 0
             
-            ans = max(ans, count)
-            return count, lo, hi
+#             ans = max(ans, count)
+#             return count, lo, hi
             
-        helper(root)
-        return ans
+#         helper(root)
+#         return ans
