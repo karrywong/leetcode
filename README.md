@@ -279,6 +279,7 @@
 |583|[ Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Python3](./solutions/583.%20Delete%20Operation%20for%20Two%20Strings.py)|253 ms|
 |593|[ Valid Square](https://leetcode.com/problems/valid-square/)|[Python3](./solutions/593.%20Valid%20Square.py)|58 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python3](./solutions/605.%20Can%20Place%20Flowers.py)|172 ms|
+|606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Python3](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.py)|53 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python3](./solutions/617.%20Merge%20Two%20Binary%20Trees.py)|80 ms|
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Python3](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.py)|240 ms|
 |633|[ Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[Python3](./solutions/633.%20Sum%20of%20Square%20Numbers.py)|140 ms|
