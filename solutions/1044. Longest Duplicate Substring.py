@@ -1,3 +1,29 @@
+class Solution:
+    def longestDupSubstring(self, s: str) -> str:
+        #Binary Search with Rolling Hash (Rabin-Karp), time O(N*logN), space O(N)
+        p, modulo = 26, 10**9+7
+        pinv = pow(p, modulo - 2, modulo)
+        sCode = [ord(char)-ord('a') for char in s]
+        self.ans = ""
+        
+        def rolling(A, length):
+            if length == 0:
+                yield 0, 0
+                return
+            
+            h, power = 0, 1
+            for i, x in enumerate(A):
+                h = (h + x * power) % modulo
+                if i < length - 1:
+                    power = (power * p) % modulo
+                else:
+                    yield h, i - (length - 1)
+                    h = (h - A[i - (length - 1)]) * pinv % modulo
+            
+        def check(guess):
+            hashes = collections.defaultdict(list)
+            for ha, start in rolling(sCode, guess):
+                hashes[ha].append(start)
             for iarr in hashes.values():
                 if len(iarr) >= 2: 
                     sub = s[iarr[0]:iarr[0]+guess]
