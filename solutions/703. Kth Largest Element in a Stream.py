@@ -1,36 +1,60 @@
 class KthLargest:
-​
+    class node():
+        def __init__(self, val, cnt):
+            self.val = val
+            self.right = None
+            self.left = None
+            self.cnt = cnt
+    
     def __init__(self, k: int, nums: List[int]):
-        #First attempt
-        # self.minHeap = [num for num in nums[0:k]]
-        # heapq.heapify(self.minHeap)
-        # for num in nums[k:]:
-        #     if num > self.minHeap[0]:
-        #         heapq.heapreplace(self.minHeap, num)
-        # self.k = k 
-        
-        #Leetcode, much cleaner
-        self.k = k 
-        self.heap = nums
-        heapq.heapify(self.heap)
-        while len(self.heap) > k:
-            heapq.heappop(self.heap)
+        if nums:
+            self.root = self.node(nums[0], 0)
+            for i in nums[1:]:
+                self.root = self.insert(self.root, i)
+        else:
+            self.root = None
+        self.k = k-1
         
     def add(self, val: int) -> int:
-        # if len(self.minHeap) < self.k:
-        #     heapq.heappush(self.minHeap, val)
-        #     return self.minHeap[0]
-        # peekNum = self.minHeap[0]
-        # if val < peekNum:
-        #     return peekNum
-        # else:
-        #     heapq.heapreplace(self.minHeap, val)
-        #     return self.minHeap[0]
+        self.root = self.insert(self.root, val)
+        return self.findKthLargest(self.root, self.k)
+    
+    def insert(self, root, key):
+        if not root:
+            return self.node(key, 0)
         
-        heapq.heappush(self.heap, val)
-        if len(self.heap) > self.k:
-            heapq.heappop(self.heap)
-        return self.heap[0]
+        elif root.val > key:
+            root.left = self.insert(root.left, key)
+        else:
+            root.cnt += 1
+            root.right = self.insert(root.right, key)
+        
+        return root
+    
+    def findKthLargest(self, root, k):
+        if not root: return -1
+        
+        elif root.cnt == k: return root.val
+        
+        elif root.cnt > k:
+            return self.findKthLargest(root.right, k)
+        else:
+            return self.findKthLargest(root.left, k - root.cnt -1)
+    
+#     def __init__(self, k: int, nums: List[int]):        
+#         #Leetcode, much cleaner
+#         self.k = k 
+#         self.heap = nums
+#         heapq.heapify(self.heap)
+#         while len(self.heap) > k:
+#             heapq.heappop(self.heap)
+        
+#     def add(self, val: int) -> int:
+#         heapq.heappush(self.heap, val)
+#         if len(self.heap) > self.k:
+#             heapq.heappop(self.heap)
+#         # print(self.heap)
+#         return self.heap[0]
         
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
