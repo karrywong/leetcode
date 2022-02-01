@@ -425,6 +425,7 @@
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|44 ms|
 |2038|[ Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Python3](./solutions/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color.py)|178 ms|
+|2083|[ Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|[Python3](./solutions/2083.%20Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter.py)|86 ms|
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Python3](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.py)|608 ms|
 |2104|[ Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Python3](./solutions/2104.%20Sum%20of%20Subarray%20Ranges.py)|192 ms|
 |2115|[ Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Python3](./solutions/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|1073 ms|
