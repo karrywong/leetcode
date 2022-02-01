@@ -312,6 +312,7 @@
 |716|[ Max Stack](https://leetcode.com/problems/max-stack/)|[Python3](./solutions/716.%20Max%20Stack.py)|194 ms|
 |718|[ Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Python3](./solutions/718.%20Maximum%20Length%20of%20Repeated%20Subarray.py)|4972 ms|
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Python3](./solutions/721.%20Accounts%20Merge.py)|208 ms|
+|729|[ My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[Python3](./solutions/729.%20My%20Calendar%20I.py)|307 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|117 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Python3](./solutions/735.%20Asteroid%20Collision.py)|88 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|1244 ms|
