@@ -1,3 +1,24 @@
+class Solution:
+    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+        #soln by kitt, time O(NlogN), space O(N) #idea: an infinite vertical line x to scan from left to right. 
+        #if max height changes, record [x, height] in res
+        events = sorted([(L, -H, R) for L, R, H in buildings] + list({(R, 0, None) for _, R, _ in buildings}))
+        # print(events)
+        res, hp = [[0, 0]], [(0, float("inf"))]
+        for x, negH, R in events:
+            while x >= hp[0][1]: 
+                heapq.heappop(hp)
+            if negH: 
+                heapq.heappush(hp, (negH, R))
+            if res[-1][1] + hp[0][0]: 
+                res += [x, -hp[0][0]]
+        return res[1:]
+        
+        # #soln by otoc, idea from Tushar Roy's <https://youtu.be/GSBLe8cKu0s>
+        # points = []
+        # for Li, Ri, Hi in buildings:
+        #     points.append((Li, -Hi, 1))
+        #     points.append((Ri, Hi, -1))
         # points.sort()
         # pq, max_height = [0], 0
         # key_points = []
