@@ -1,5 +1,6 @@
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
+        #Similar but easier problem, 1024. Video Stitching
 #         #DP soln by lee215, time O(NR), where R = ranges[i] <= 100, space O(N)
 #         dp = [0] + [float('inf')] * n
 #         for i, a in enumerate(ranges):
