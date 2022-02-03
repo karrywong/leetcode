@@ -1,6 +1,7 @@
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         #soln 0 - DP with deque, similar to 1696. Jump Game VI
+        #Time O(N), space O(N)
         n, ans = len(nums), []
         dq = collections.deque(sorted([(i, v) for i, v in enumerate(nums[0:k])], key=lambda x:x[1], reverse = True))
 ​
