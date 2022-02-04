@@ -187,6 +187,7 @@
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Python3](./solutions/268.%20Missing%20Number.py)|116 ms|
 |270|[ Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Python3](./solutions/270.%20Closest%20Binary%20Search%20Tree%20Value.py)|94 ms|
 |274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|54 ms|
+|276|[ Paint Fence](https://leetcode.com/problems/paint-fence/)|[Python3](./solutions/276.%20Paint%20Fence.py)|73 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|32 ms|
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|316 ms|
 |280|[ Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|[Python3](./solutions/280.%20Wiggle%20Sort.py)|179 ms|
