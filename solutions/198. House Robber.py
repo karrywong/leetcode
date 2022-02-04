@@ -1,6 +1,7 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
         #soln 2 - Leetcode optimized DP, bottom-up
+        #time O(N), space O(1)
         n = len(nums)
         if n <= 2: return max(nums)
         RobNextNext = 0
@@ -31,4 +32,3 @@ class Solution:
         # for i in range(3,n):
         #     nums[i] += max(nums[i-2], nums[i-3])
         # return max(nums[-2],nums[-1])
-        
