@@ -1,6 +1,6 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        #Second attempt, same idea but cleaner
+        #Second attempt, same idea but cleaner, time O(N), space O(1)
         if len(nums) <= 3: return max(nums)
         def rob_alg(lst):
             n = len(lst)
