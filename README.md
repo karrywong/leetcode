@@ -446,5 +446,6 @@
 |2138|[ Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Python3](./solutions/2138.%20Divide%20a%20String%20Into%20Groups%20of%20Size%20k.py)|55 ms|
 |2139|[ Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|[Python3](./solutions/2139.%20Minimum%20Moves%20to%20Reach%20Target%20Score.py)|42 ms|
 |2140|[ Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[Python3](./solutions/2140.%20Solving%20Questions%20With%20Brainpower.py)|1856 ms|
+|2150|[ Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Python3](./solutions/2150.%20Find%20All%20Lonely%20Numbers%20in%20the%20Array.py)|1452 ms|
 |2155|[ All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[Python3](./solutions/2155.%20All%20Divisions%20With%20the%20Highest%20Score%20of%20a%20Binary%20Array.py)|3960 ms|
 |2156|[ Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|[Python3](./solutions/2156.%20Find%20Substring%20With%20Given%20Hash%20Value.py)|570 ms|
