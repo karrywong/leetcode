@@ -321,7 +321,7 @@
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|1244 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Python3](./solutions/740.%20Delete%20and%20Earn.py)|110 ms|
 |741|[ Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|[Python3](./solutions/741.%20Cherry%20Pickup.py)|772 ms|
-|746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python3](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.py)|52 ms|
+|746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python3](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.py)|44 ms|
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Python3](./solutions/752.%20Open%20the%20Lock.py)|1204 ms|
 |759|[ Employee Free Time](https://leetcode.com/problems/employee-free-time/)|[Python3](./solutions/759.%20Employee%20Free%20Time.py)|89 ms|
 |760|[ Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Python3](./solutions/760.%20Find%20Anagram%20Mappings.py)|44 ms|
