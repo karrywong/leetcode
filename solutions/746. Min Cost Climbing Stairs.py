@@ -10,7 +10,7 @@ class Solution:
         #     return min(down_one, down_two)
         # return minimum_cost(len(cost))
         
-        #Alternative soln 0 - DP, time O(N), space O(1)
+        #Alternative soln 0 - DP bottom-up, time O(N), space O(1)
         down_one = down_two = 0
         for i in range(2, len(cost)+1):
             down_one, down_two = min(down_one+cost[i-1], down_two+cost[i-2]), down_one
