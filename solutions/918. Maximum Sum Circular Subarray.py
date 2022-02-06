@@ -1,25 +1,43 @@
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:
-        #Soln 2 - LeetCode montonic queue
-        n = len(nums)
-        prefixSum = [0] + nums[:] + nums[:]
-        for i in range(1,len(prefixSum)):
-            prefixSum[i] += prefixSum[i-1]
+#         #Soln 3 - LeetCode montonic queue, time O(N), space O(N)
+#         n = len(nums)
+#         prefixSum = [0] + nums[:] + nums[:]
+#         for i in range(1,len(prefixSum)):
+#             prefixSum[i] += prefixSum[i-1]
             
-        # Want largest P[j] - P[i] with 1 <= j-i <= N
-        # For each j, want smallest P[i] with i >= j-N
-        ans = nums[0]
-        dq = collections.deque([0]) # i's, increasing by P[i]
-        for j in range(1, len(prefixSum)):
-            if dq[0] < j - n:
-                dq.popleft()
-            # The optimal i is deque[0], for cand. answer P[j] - P[i]
-            ans = max(ans, prefixSum[j] - prefixSum[dq[0]])
-            # Remove any i1's with P[i2] <= P[i1].
-            while dq and prefixSum[j] <= prefixSum[dq[-1]]: #i so that P_i is smallest
-                dq.pop()
-            dq.append(j)
-        return ans
+#         # Want largest P[j] - P[i] with 1 <= j-i <= N
+#         # For each j, want smallest P[i] with i >= j-N
+#         ans = nums[0]
+#         dq = collections.deque([0]) # i's, increasing by P[i]
+#         for j in range(1, len(prefixSum)):
+#             if dq[0] < j - n:
+#                 dq.popleft()
+#             # The optimal i is deque[0], for cand. answer P[j] - P[i]
+#             ans = max(ans, prefixSum[j] - prefixSum[dq[0]])
+#             # Remove any i1's with P[i2] <= P[i1].
+#             while dq and prefixSum[j] <= prefixSum[dq[-1]]: #i so that P_i is smallest
+#                 dq.pop()
+#             dq.append(j)
+#         return ans
+​
+        #Soln 2 - rewrite sum, modification from Kadane's algorithm
+        #Time O(N), space O(N)
+        def kadane(A):
+            ans = cur_sum = A[0]
+            for i in range(1,len(A)):
+                cur_sum = max(A[i], cur_sum + A[i])
+                ans = max(ans, cur_sum)
+            return ans 
+        
+        total_sum = sum(nums)
+        if len(nums) == 1:
+            return nums[0]
+        ans1 = kadane(nums)
+        nums_neg = [-1*num for num in nums]
+        ans2 = total_sum + kadane(nums_neg[1:])
+        ans3 = total_sum + kadane(nums_neg[:-1])
+        return max(ans1, ans2, ans3)
         
 #         #Soln 1 - Next Array, modification from Kadane's algorithm
 #         #Time O(N), space O(N)
