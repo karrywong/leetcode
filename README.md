@@ -451,3 +451,4 @@
 |2150|[ Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Python3](./solutions/2150.%20Find%20All%20Lonely%20Numbers%20in%20the%20Array.py)|1452 ms|
 |2155|[ All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[Python3](./solutions/2155.%20All%20Divisions%20With%20the%20Highest%20Score%20of%20a%20Binary%20Array.py)|3960 ms|
 |2156|[ Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|[Python3](./solutions/2156.%20Find%20Substring%20With%20Given%20Hash%20Value.py)|570 ms|
+|2166|[ Design Bitset](https://leetcode.com/problems/design-bitset/)|[Python3](./solutions/2166.%20Design%20Bitset.py)|1844 ms|
