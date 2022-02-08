@@ -333,7 +333,7 @@
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|32 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|44 ms|
 |794|[ Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[Python3](./solutions/794.%20Valid%20Tic-Tac-Toe%20State.py)|16 ms|
-|797|[ All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[Python3](./solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py)|160 ms|
+|797|[ All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[Python3](./solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py)|239 ms|
 |829|[ Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|[Python3](./solutions/829.%20Consecutive%20Numbers%20Sum.py)|225 ms|
 |833|[ Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Python3](./solutions/833.%20Find%20And%20Replace%20in%20String.py)|60 ms|
 |841|[ Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Python3](./solutions/841.%20Keys%20and%20Rooms.py)|60 ms|
