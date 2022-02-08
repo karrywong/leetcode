@@ -1,5 +1,6 @@
 class Solution:
     def maxScoreSightseeingPair(self, values: List[int]) -> int:
+        #Time O(N), space O(N)
         #maximum from right in values[j]-j
         maxright = [0]*(len(values)-1)
         maxright[-1] = values[-1]-len(values)+1
