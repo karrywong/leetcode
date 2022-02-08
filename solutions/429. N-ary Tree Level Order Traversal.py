@@ -38,3 +38,17 @@ class Solution:
 #             prev_layer = cur_layer
 #         return ans
         
+        # #Similar to BFS in 102. Binary Tree Level Order Traversal, time O(N), space O(N)
+        # if not root: return root
+        # ans = []
+        # queue = collections.deque([root])
+        # while queue:
+        #     size = len(queue)
+        #     temp = []
+        #     for i in range(size):
+        #         node = queue.popleft()
+        #         temp.append(node.val)
+        #         for child in node.children:
+        #             queue.append(child)
+        #     ans.append(temp)
+        # return ans
