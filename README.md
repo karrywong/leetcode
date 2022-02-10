@@ -113,7 +113,7 @@
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[Python3](./solutions/136.%20Single%20Number.py)|120 ms|
 |137|[ Single Number II](https://leetcode.com/problems/single-number-ii/)|[Python3](./solutions/137.%20Single%20Number%20II.py)|52 ms|
 |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Python3](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.py)|32 ms|
-|139|[ Word Break](https://leetcode.com/problems/word-break/)|[Python3](./solutions/139.%20Word%20Break.py)|42 ms|
+|139|[ Word Break](https://leetcode.com/problems/word-break/)|[Python3](./solutions/139.%20Word%20Break.py)|67 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python3](./solutions/141.%20Linked%20List%20Cycle.py)|56 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|48 ms|
 |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[Python3](./solutions/143.%20Reorder%20List.py)|96 ms|
