@@ -191,6 +191,7 @@
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|28 ms|
 |267|[ Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)|[Python3](./solutions/267.%20Palindrome%20Permutation%20II.py)|28 ms|
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Python3](./solutions/268.%20Missing%20Number.py)|116 ms|
+|269|[ Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|[Python3](./solutions/269.%20Alien%20Dictionary.py)|46 ms|
 |270|[ Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Python3](./solutions/270.%20Closest%20Binary%20Search%20Tree%20Value.py)|94 ms|
 |274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|54 ms|
 |276|[ Paint Fence](https://leetcode.com/problems/paint-fence/)|[Python3](./solutions/276.%20Paint%20Fence.py)|73 ms|
