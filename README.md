@@ -80,6 +80,7 @@
 |90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[Python3](./solutions/90.%20Subsets%20II.py)|57 ms|
 |91|[ Decode Ways](https://leetcode.com/problems/decode-ways/)|[Python3](./solutions/91.%20Decode%20Ways.py)|36 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Python3](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.py)|24 ms|
+|96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Python3](./solutions/96.%20Unique%20Binary%20Search%20Trees.py)|64 ms|
 |97|[ Interleaving String](https://leetcode.com/problems/interleaving-string/)|[Python3](./solutions/97.%20Interleaving%20String.py)|60 ms|
 |98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python3](./solutions/98.%20Validate%20Binary%20Search%20Tree.py)|44 ms|
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|59 ms|
