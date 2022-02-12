@@ -209,6 +209,7 @@
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|60 ms|
 |301|[ Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[Python3](./solutions/301.%20Remove%20Invalid%20Parentheses.py)|3651 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|2000 ms|
+|310|[ Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[Python3](./solutions/310.%20Minimum%20Height%20Trees.py)|585 ms|
 |311|[ Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Python3](./solutions/311.%20Sparse%20Matrix%20Multiplication.py)|60 ms|
 |317|[ Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[Python3](./solutions/317.%20Shortest%20Distance%20from%20All%20Buildings.py)|4445 ms|
 |318|[ Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Python3](./solutions/318.%20Maximum%20Product%20of%20Word%20Lengths.py)|312 ms|
