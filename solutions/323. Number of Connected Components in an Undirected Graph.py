@@ -27,11 +27,13 @@
 ​
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
+        #Union-Find, time O(E*alpha(V)), space O(V)
         # unionFind = UnionFind(n)
         # for A, B in edges:
         #     unionFind.union(A,B)
         # return unionFind.getCount()
         
+        #Another attempt using DFS, time O(V+E), space O(V+E)
         graph = collections.defaultdict(list)
         for v1, v2 in edges:
             graph[v1].append(v2)
