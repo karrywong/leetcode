@@ -28,6 +28,8 @@ class UnionFind:
     
 class Solution:
     def earliestAcq(self, logs: List[List[int]], n: int) -> int:
+        #Time O(N + MlogM + M*alpha(N)) where N is the number of people and M = len(logs)
+        #Space O(N+M)
         uf = UnionFind(n)
         for time, a, b in sorted(logs):
             uf.union(a,b)
