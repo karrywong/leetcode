@@ -208,6 +208,7 @@
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Python3](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.py)|196 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|60 ms|
 |301|[ Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[Python3](./solutions/301.%20Remove%20Invalid%20Parentheses.py)|3651 ms|
+|304|[ Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Python3](./solutions/304.%20Range%20Sum%20Query%202D%20-%20Immutable.py)|1895 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|2000 ms|
 |310|[ Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[Python3](./solutions/310.%20Minimum%20Height%20Trees.py)|585 ms|
 |311|[ Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Python3](./solutions/311.%20Sparse%20Matrix%20Multiplication.py)|60 ms|
