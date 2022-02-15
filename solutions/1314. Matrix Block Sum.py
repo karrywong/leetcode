@@ -1,9 +1,9 @@
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], k: int) -> List[List[int]]:
         #Brute force O(M*N*k^2)
-        #1D: sum of subarray of arbitrary length: prefixSum = [x0, x0+x1, x0+x1+x2, ..]
-        #prefixSum[i] = x0 + ... +x(i-1)
-        #sum(arr[i:j]) = prefixSum[j] - prefixSum[i-1]
+        #idea from 1D: sum of subarray of arbitrary length: prefixSum = [x0, x0+x1, x0+x1+x2, ..]
+        #prefixSum[i] = x0 + ... +x(i-1), sum(arr[i:j]) = prefixSum[j] - prefixSum[i-1]
+        #Time O(MN), space O(MN)
         m, n = len(mat), len(mat[0])
         prefixSum = [[0] * n for _ in range(m)]
         #prefixSum[i][j] = prefixSum[i-1][j]+prefixSum[i][j-1]-prefixSum[i-1][j-1]+mat[i][j]
