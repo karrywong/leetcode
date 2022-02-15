@@ -463,6 +463,7 @@
 |2038|[ Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Python3](./solutions/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color.py)|178 ms|
 |2078|[ Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Python3](./solutions/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py)|70 ms|
 |2083|[ Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|[Python3](./solutions/2083.%20Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter.py)|86 ms|
+|2092|[ Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|[Python3](./solutions/2092.%20Find%20All%20People%20With%20Secret.py)|3694 ms|
 |2096|[ Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|[Python3](./solutions/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py)|3546 ms|
 |2097|[ Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)|[Python3](./solutions/2097.%20Valid%20Arrangement%20of%20Pairs.py)|2808 ms|
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Python3](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.py)|608 ms|
