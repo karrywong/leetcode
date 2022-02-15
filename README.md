@@ -407,6 +407,7 @@
 |1151|[ Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Python3](./solutions/1151.%20Minimum%20Swaps%20to%20Group%20All%201's%20Together.py)|896 ms|
 |1163|[ Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|[Python3](./solutions/1163.%20Last%20Substring%20in%20Lexicographical%20Order.py)|545 ms|
 |1167|[ Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Python3](./solutions/1167.%20Minimum%20Cost%20to%20Connect%20Sticks.py)|316 ms|
+|1182|[ Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|[Python3](./solutions/1182.%20Shortest%20Distance%20to%20Target%20Color.py)|2503 ms|
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Python3](./solutions/1197.%20Minimum%20Knight%20Moves.py)|4630 ms|
 |1201|[ Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Python3](./solutions/1201.%20Ugly%20Number%20III.py)|42 ms|
 |1202|[ Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Python3](./solutions/1202.%20Smallest%20String%20With%20Swaps.py)|969 ms|
