@@ -1,5 +1,6 @@
 class Solution:
     def maximizeSweetness(self, sweetness: List[int], k: int) -> int:
+        #Problem is to maximize the smallest subarray sum
         #Almost identical to problems 1011. Capacity To Ship Packages Within D Days
         #and 1891. Cutting Ribbons
         #Time O(len(sweetness)* O(log(sum(sweetness)//(k+1)))), space O(1)
