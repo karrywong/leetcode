@@ -7,7 +7,6 @@ class Solution:
         def isPossible(val:int) -> bool:
             count = 0
             cur_sum = 0
-            i = 0
             for sweet in sweetness:
                 cur_sum += sweet
                 if cur_sum >= val:
