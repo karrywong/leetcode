@@ -352,6 +352,7 @@
 |802|[ Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[Python3](./solutions/802.%20Find%20Eventual%20Safe%20States.py)|710 ms|
 |829|[ Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/)|[Python3](./solutions/829.%20Consecutive%20Numbers%20Sum.py)|225 ms|
 |833|[ Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)|[Python3](./solutions/833.%20Find%20And%20Replace%20in%20String.py)|60 ms|
+|840|[ Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[Python3](./solutions/840.%20Magic%20Squares%20In%20Grid.py)|53 ms|
 |841|[ Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Python3](./solutions/841.%20Keys%20and%20Rooms.py)|60 ms|
 |844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Python3](./solutions/844.%20Backspace%20String%20Compare.py)|28 ms|
 |852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|68 ms|
