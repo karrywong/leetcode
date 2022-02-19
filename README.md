@@ -422,6 +422,7 @@
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Python3](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py)|168 ms|
 |1289|[ Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[Python3](./solutions/1289.%20Minimum%20Falling%20Path%20Sum%20II.py)|912 ms|
 |1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python3](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.py)|64 ms|
+|1300|[ Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[Python3](./solutions/1300.%20Sum%20of%20Mutated%20Array%20Closest%20to%20Target.py)|155 ms|
 |1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Python3](./solutions/1306.%20Jump%20Game%20III.py)|300 ms|
 |1314|[ Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[Python3](./solutions/1314.%20Matrix%20Block%20Sum.py)|151 ms|
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|75 ms|
