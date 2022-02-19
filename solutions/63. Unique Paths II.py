@@ -1,33 +1,50 @@
 class Solution:
-    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:        
-        ### Soln 0 - Dynamic programming
+    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+        #Alternative bottom-up recursion with memo, inspired by calvinchankf's soln
+        if obstacleGrid[0][0] == 1 or obstacleGrid[-1][-1] == 1:
+            return 0
         m, n = len(obstacleGrid), len(obstacleGrid[0])
-        if m == 1 or n == 1:
-            return 0 if sum(sum(obstacleGrid, [])) >= 1 else 1
         
-        res = [[1 for _ in range(n)] for _ in range(m)]
-        #If obstacle is in first row, behind are all zeros - very good observation by Jake
-        valx = 1
-        for idx, a in enumerate(obstacleGrid[0]): 
-            if a == 1:
-                valx = 0
-            res[0][idx] = valx
-            
-        #If obstacle is in first column, below are all zeros - very good observation by Jake
-        idy = 0
-        valy = 1
-        while idy < m: 
-            if obstacleGrid[idy][0] == 1:
-                valy = 0
-            res[idy][0] = valy
-            idy += 1
+        def dfs(i, j):
+            if (i,j) in seen:
+                return seen[(i,j)]
+            if i == m-1 and j == n-1:
+                return 1
+            elif i > m-1 or j > n-1:
+                return 0
+            if obstacleGrid[i][j]:
+                seen[(i,j)] = 0
+                return 0
+            down = dfs(i+1, j)
+            right = dfs(i, j+1)
+            seen[(i,j)] = down + right
+            return seen[(i,j)]
         
-        for i in range(1,m):
-            for j in range(1,n):
-                if obstacleGrid[i][j] == 0:
-                    res[i][j] = res[i-1][j] + res[i][j-1]
-                else:
-                    res[i][j] = 0
-        print(res)
-        return res[-1][-1]
+        seen = {}
+        return dfs(0,0)
         
+#         #First attempt using DP, time O(MN), space O(1)
+#         if obstacleGrid[0][0] == 1 or obstacleGrid[-1][-1] == 1:
+#             return 0
+#         m, n = len(obstacleGrid), len(obstacleGrid[0])
+#         for i in range(m):
+#             for j in range(n):
+#                 if obstacleGrid[i][j] == 1:
+#                     obstacleGrid[i][j] = -1
+#         for i in range(m):
+#             for j in range(n):
+#                 if obstacleGrid[i][j] == -1:
+#                     continue
+                    
+#                 if i == 0 and j == 0:
+#                     obstacleGrid[i][j] = 1
+#                 elif i == 0:
+#                     obstacleGrid[i][j] = obstacleGrid[i][j-1] if obstacleGrid[i][j-1] != -1 else 0
+#                 elif j == 0:
+#                     obstacleGrid[i][j] = obstacleGrid[i-1][j] if obstacleGrid[i-1][j] != -1 else 0
+#                 else:
+#                     if obstacleGrid[i][j-1] != -1:
+#                         obstacleGrid[i][j] += obstacleGrid[i][j-1]
+#                     if obstacleGrid[i-1][j] != -1:
+#                         obstacleGrid[i][j] += obstacleGrid[i-1][j]
+#         return obstacleGrid[-1][-1]
