@@ -130,6 +130,7 @@
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|56 ms|
 |159|[ Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)|[Python3](./solutions/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.py)|702 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|160 ms|
+|161|[ One Edit Distance](https://leetcode.com/problems/one-edit-distance/)|[Python3](./solutions/161.%20One%20Edit%20Distance.py)|61 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|48 ms|
 |166|[ Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Python3](./solutions/166.%20Fraction%20to%20Recurring%20Decimal.py)|42 ms|
 |167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python3](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.py)|64 ms|
