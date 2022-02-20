@@ -407,7 +407,7 @@
 |1130|[ Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[Python3](./solutions/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values.py)|46 ms|
 |1136|[ Parallel Courses](https://leetcode.com/problems/parallel-courses/)|[Python3](./solutions/1136.%20Parallel%20Courses.py)|404 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Python3](./solutions/1137.%20N-th%20Tribonacci%20Number.py)|44 ms|
-|1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|478 ms|
+|1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|1670 ms|
 |1151|[ Minimum Swaps to Group All 1's Together](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Python3](./solutions/1151.%20Minimum%20Swaps%20to%20Group%20All%201's%20Together.py)|896 ms|
 |1163|[ Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|[Python3](./solutions/1163.%20Last%20Substring%20in%20Lexicographical%20Order.py)|545 ms|
 |1167|[ Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[Python3](./solutions/1167.%20Minimum%20Cost%20to%20Connect%20Sticks.py)|316 ms|
