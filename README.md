@@ -312,6 +312,7 @@
 |643|[ Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Python3](./solutions/643.%20Maximum%20Average%20Subarray%20I.py)|808 ms|
 |647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Python3](./solutions/647.%20Palindromic%20Substrings.py)|280 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python3](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py)|68 ms|
+|659|[ Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)|[Python3](./solutions/659.%20Split%20Array%20into%20Consecutive%20Subsequences.py)|516 ms|
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Python3](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.py)|52 ms|
 |670|[ Maximum Swap](https://leetcode.com/problems/maximum-swap/)|[Python3](./solutions/670.%20Maximum%20Swap.py)|28 ms|
 |673|[ Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[Python3](./solutions/673.%20Number%20of%20Longest%20Increasing%20Subsequence.py)|1863 ms|
