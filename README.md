@@ -252,7 +252,7 @@
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|92 ms|
 |388|[ Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[Python3](./solutions/388.%20Longest%20Absolute%20File%20Path.py)|32 ms|
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|43 ms|
-|392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|24 ms|
+|392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|32 ms|
 |394|[ Decode String](https://leetcode.com/problems/decode-string/)|[Python3](./solutions/394.%20Decode%20String.py)|32 ms|
 |398|[ Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[Python3](./solutions/398.%20Random%20Pick%20Index.py)|308 ms|
 |402|[ Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Python3](./solutions/402.%20Remove%20K%20Digits.py)|68 ms|
