@@ -463,6 +463,7 @@
 |1730|[ Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Python3](./solutions/1730.%20Shortest%20Path%20to%20Get%20Food.py)|500 ms|
 |1780|[ Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Python3](./solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|32 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Python3](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.py)|47 ms|
+|1868|[ Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Python3](./solutions/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays.py)|4507 ms|
 |1874|[ Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|[Python3](./solutions/1874.%20Minimize%20Product%20Sum%20of%20Two%20Arrays.py)|1292 ms|
 |1886|[ Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[Python3](./solutions/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py)|44 ms|
 |1891|[ Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|[Python3](./solutions/1891.%20Cutting%20Ribbons.py)|2408 ms|
