@@ -1,6 +1,7 @@
 class Solution:
     def minCostToSupplyWater(self, n: int, wells: List[int], pipes: List[List[int]]) -> int:
         #Modified MST by adding imginary pt 0 for building the well, from 0 to n, (n+1) points
+        #Prim's algorithm using heap, time O((N+M)*log(N+M)), space O(N+M)
         edge_weights = {}
         adjList = collections.defaultdict(set)
         
