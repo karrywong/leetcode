@@ -1,9 +1,7 @@
 class UnionFind(object):
     def __init__(self, n):
-        self.n = n
-        self.parent = []
-        for i in range(n):
-            self.parent.append(i)
+        self.count = n
+        self.parent = [i for i in range(n)]
 ​
     def find(self, i): #Path Compression
         if self.parent[i] != i:
@@ -15,12 +13,10 @@ class UnionFind(object):
         yroot = self.find(y)
         if xroot != yroot:
             self.parent[yroot] = xroot
+            self.count -= 1
             
     def get_count(self):
-        total = set()
-        for i in range(self.n):
-            total.add(self.find(i))
-        return len(total)
+        return self.count
         
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
