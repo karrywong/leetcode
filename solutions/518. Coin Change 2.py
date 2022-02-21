@@ -1,6 +1,6 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
-        # soln 2 - optimized
+        # soln 2 - optimized, time O(len(coins)*amount), space O(amount)
         tb = [1] + [None] * amount
         for i in range(len(coins)):
             c = coins[i]
@@ -14,7 +14,7 @@ class Solution:
                         tb[val] += tb[val-c]
         return tb[-1]   
     
-        # soln 1 - first attempt
+        # soln 1 - first attempt, time O(len(coins)*amount), space O(len(coins)*amount)
         #tb = [[1] + [None] * amount] * len(coins)
         #for i in range(len(coins)):
         #    c = coins[i]
