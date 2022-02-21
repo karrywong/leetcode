@@ -296,7 +296,7 @@
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|572 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Python3](./solutions/543.%20Diameter%20of%20Binary%20Tree.py)|36 ms|
 |545|[ Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)|[Python3](./solutions/545.%20Boundary%20of%20Binary%20Tree.py)|40 ms|
-|547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Python3](./solutions/547.%20Number%20of%20Provinces.py)|357 ms|
+|547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Python3](./solutions/547.%20Number%20of%20Provinces.py)|338 ms|
 |556|[ Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[Python3](./solutions/556.%20Next%20Greater%20Element%20III.py)|40 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python3](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.py)|76 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|248 ms|
