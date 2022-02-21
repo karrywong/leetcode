@@ -198,7 +198,7 @@
 |274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|54 ms|
 |276|[ Paint Fence](https://leetcode.com/problems/paint-fence/)|[Python3](./solutions/276.%20Paint%20Fence.py)|73 ms|
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|32 ms|
-|279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|316 ms|
+|279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|551 ms|
 |280|[ Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|[Python3](./solutions/280.%20Wiggle%20Sort.py)|179 ms|
 |281|[ Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Python3](./solutions/281.%20Zigzag%20Iterator.py)|94 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|285 ms|
