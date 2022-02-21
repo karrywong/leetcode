@@ -10,9 +10,19 @@ class Solution:
             graph[k] = sorted(graph[k], reverse = True)
             
         ans = []
-        stack = ['JFK']
-        while stack:
-            while graph[stack[-1]]:
-                stack.append(graph[stack[-1]].pop())
-            ans.append(stack.pop())
+        ###stack implementation
+        # stack = ['JFK']
+        # while stack:
+        #     while graph[stack[-1]]:
+        #         stack.append(graph[stack[-1]].pop())
+        #     ans.append(stack.pop())
+        # return ans[::-1]
+        
+        ###DFS implementation
+        def dfs(origin):
+            while graph[origin]:
+                dfs(graph[origin].pop())
+            ans.append(origin)
+        
+        dfs('JFK')
         return ans[::-1]
