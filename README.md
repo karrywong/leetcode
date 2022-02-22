@@ -230,7 +230,7 @@
 |338|[ Counting Bits](https://leetcode.com/problems/counting-bits/)|[Python3](./solutions/338.%20Counting%20Bits.py)|127 ms|
 |340|[ Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Python3](./solutions/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py)|152 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|24 ms|
-|343|[ Integer Break](https://leetcode.com/problems/integer-break/)|[Python3](./solutions/343.%20Integer%20Break.py)|49 ms|
+|343|[ Integer Break](https://leetcode.com/problems/integer-break/)|[Python3](./solutions/343.%20Integer%20Break.py)|36 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|204 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Python3](./solutions/347.%20Top%20K%20Frequent%20Elements.py)|158 ms|
 |348|[ Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[Python3](./solutions/348.%20Design%20Tic-Tac-Toe.py)|88 ms|
