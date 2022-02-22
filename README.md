@@ -307,6 +307,7 @@
 |566|[ Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Python3](./solutions/566.%20Reshape%20the%20Matrix.py)|80 ms|
 |567|[ Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Python3](./solutions/567.%20Permutation%20in%20String.py)|68 ms|
 |572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Python3](./solutions/572.%20Subtree%20of%20Another%20Tree.py)|152 ms|
+|582|[ Kill Process](https://leetcode.com/problems/kill-process/)|[Python3](./solutions/582.%20Kill%20Process.py)|500 ms|
 |583|[ Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Python3](./solutions/583.%20Delete%20Operation%20for%20Two%20Strings.py)|253 ms|
 |593|[ Valid Square](https://leetcode.com/problems/valid-square/)|[Python3](./solutions/593.%20Valid%20Square.py)|58 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python3](./solutions/605.%20Can%20Place%20Flowers.py)|172 ms|
