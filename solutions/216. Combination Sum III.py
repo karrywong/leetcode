@@ -1,8 +1,8 @@
 class Solution:
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         #First attempt, backtracking, time O( Permut(9,K) * K), space O(K) 
-        if sum(range(1, k+1)) > n:
-            return []
+        # if sum(range(1, k+1)) > n:
+        #     return []
         
         ans = []
         def backtrack(num=n, start=1, A=[]):
