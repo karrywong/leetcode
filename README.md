@@ -444,7 +444,7 @@
 |1345|[ Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Python3](./solutions/1345.%20Jump%20Game%20IV.py)|552 ms|
 |1394|[ Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[Python3](./solutions/1394.%20Find%20Lucky%20Integer%20in%20an%20Array.py)|87 ms|
 |1427|[ Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|[Python3](./solutions/1427.%20Perform%20String%20Shifts.py)|20 ms|
-|1469|[ Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Python3](./solutions/1469.%20Find%20All%20The%20Lonely%20Nodes.py)|80 ms|
+|1469|[ Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/)|[Python3](./solutions/1469.%20Find%20All%20The%20Lonely%20Nodes.py)|59 ms|
 |1474|[ Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Python3](./solutions/1474.%20Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List.py)|68 ms|
 |1522|[ Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Python3](./solutions/1522.%20Diameter%20of%20N-Ary%20Tree.py)|58 ms|
 |1533|[ Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Python3](./solutions/1533.%20Find%20the%20Index%20of%20the%20Large%20Integer.py)|257 ms|
