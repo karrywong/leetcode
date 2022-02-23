@@ -1,10 +1,11 @@
 class Solution:
+    @lru_cache(maxsize = None)
     def fib(self, n: int) -> int:
-    #math formula using golden ratio, time O(logN), space O(1)
-        val = sqrt(5)
-        val1 = (0.5*(1+val))**n
-        val2 = (0.5*(1-val))**n
-        return int((val1-val2)/val)
+    # #math formula using golden ratio, time O(logN), space O(1)
+    #     val = sqrt(5)
+    #     val1 = (0.5*(1+val))**n
+    #     val2 = (0.5*(1-val))**n
+    #     return int((val1-val2)/val)
 ​
     #Standard recursion w/ meo, time O(N), space O(N) due to recursion
     # def __init__(self):
@@ -15,3 +16,9 @@ class Solution:
     #     val = self.fib(n-1)+self.fib(n-2)
     #     self.memo[n] = val
     #     return val
+    
+    #Recursion w/ cache, time O(N), space O(N) 
+        if n <= 1:
+            return n
+        val = self.fib(n-1)+self.fib(n-2)
+        return val
