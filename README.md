@@ -438,6 +438,7 @@
 |1300|[ Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[Python3](./solutions/1300.%20Sum%20of%20Mutated%20Array%20Closest%20to%20Target.py)|155 ms|
 |1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Python3](./solutions/1306.%20Jump%20Game%20III.py)|300 ms|
 |1314|[ Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[Python3](./solutions/1314.%20Matrix%20Block%20Sum.py)|151 ms|
+|1319|[ Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[Python3](./solutions/1319.%20Number%20of%20Operations%20to%20Make%20Network%20Connected.py)|706 ms|
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|75 ms|
 |1326|[ Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)|[Python3](./solutions/1326.%20Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.py)|173 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|80 ms|
