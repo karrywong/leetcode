@@ -372,6 +372,7 @@
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python3](./solutions/867.%20Transpose%20Matrix.py)|72 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Python3](./solutions/869.%20Reordered%20Power%20of%202.py)|32 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|77 ms|
+|886|[ Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[Python3](./solutions/886.%20Possible%20Bipartition.py)|973 ms|
 |894|[ All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[Python3](./solutions/894.%20All%20Possible%20Full%20Binary%20Trees.py)|368 ms|
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Python3](./solutions/901.%20Online%20Stock%20Span.py)|605 ms|
 |904|[ Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Python3](./solutions/904.%20Fruit%20Into%20Baskets.py)|604 ms|
