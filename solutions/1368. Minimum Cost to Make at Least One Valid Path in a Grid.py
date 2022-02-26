@@ -1,6 +1,7 @@
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         #Soln 2 - follow hints to use BFS and update queue by DFS (greedy), clean implementation by lee215
+        #Key observation - We will never detour the path to a node that we can already reach
         #Time: O(MN), space O(MN)
         m, n = len(grid), len(grid[0])
         dp = [[float('inf')] * n for _ in range(m)]
