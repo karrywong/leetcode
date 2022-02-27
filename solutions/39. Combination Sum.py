@@ -1,6 +1,7 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         #soln 1 - Leetcode backtracking, optimized
+        #Time O(N**(T/M+1)), space O(T/M)
         ans, n = [], len(candidates)
         def backtrack(num=target, start=0, A=[]):
             if num == 0:
