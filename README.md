@@ -183,6 +183,7 @@
 |251|[ Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Python3](./solutions/251.%20Flatten%202D%20Vector.py)|132 ms|
 |252|[ Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Python3](./solutions/252.%20Meeting%20Rooms.py)|76 ms|
 |253|[ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Python3](./solutions/253.%20Meeting%20Rooms%20II.py)|80 ms|
+|254|[ Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[Python3](./solutions/254.%20Factor%20Combinations.py)|133 ms|
 |255|[ Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)|[Python3](./solutions/255.%20Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree.py)|363 ms|
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|110 ms|
 |257|[ Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Python3](./solutions/257.%20Binary%20Tree%20Paths.py)|62 ms|
