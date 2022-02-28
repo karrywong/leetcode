@@ -1,6 +1,6 @@
 class Solution:
     def maxSumAfterOperation(self, nums: List[int]) -> int:
-        #First attempt using DP, time O(N), space (1)
+        #First attempt using DP w/ space optimized, time O(N), space (1)
         #dp = [0] * len(nums)
         cur_sum = nums[0]
         cur_sq = dp = nums[0] * nums[0]
