@@ -7,11 +7,19 @@ class Solution:
         #eg2, lookup = {1:1, 3:1, 5:1, 7:1} -> 1
         #eg3, lookup = {1:4, 5:1, 7:1,8:1,5:2,3:3, 4:1, 2:2} -> 4
         
-        #Time O(N), space O(N)
-        lookup = {}
+        #Soln 2 - even simpler, time O(N), space O(N)
+        lookup = collections.defaultdict(int)
         for ele in arr:
-            if ele - difference in lookup:
-                lookup[ele] = lookup[ele - difference] + 1
-            else:
-                lookup[ele] = 1
+            lookup[ele] = lookup[ele - difference] + 1
         return max(lookup.values())
+        
+        # #Soln 1 using lookup, Time O(N), space O(N)
+        # lookup = {}
+        # for ele in arr:
+        #     if ele - difference in lookup:
+        #         lookup[ele] = lookup[ele - difference] + 1
+        #     else:
+        #         lookup[ele] = 1
+        # return max(lookup.values())
+        
+        
