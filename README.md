@@ -417,7 +417,7 @@
 |1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|902 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|44 ms|
 |1101|[ The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|[Python3](./solutions/1101.%20The%20Earliest%20Moment%20When%20Everyone%20Become%20Friends.py)|112 ms|
-|1114|[ Print in Order](https://leetcode.com/problems/print-in-order/)|[Python3](./solutions/1114.%20Print%20in%20Order.py)|76 ms|
+|1114|[ Print in Order](https://leetcode.com/problems/print-in-order/)|[Python3](./solutions/1114.%20Print%20in%20Order.py)|77 ms|
 |1123|[ Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Python3](./solutions/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.py)|103 ms|
 |1124|[ Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Python3](./solutions/1124.%20Longest%20Well-Performing%20Interval.py)|220 ms|
 |1130|[ Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[Python3](./solutions/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values.py)|46 ms|
