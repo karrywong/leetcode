@@ -1,5 +1,6 @@
 from threading import Lock
 #Concurrency: Race condition. Idea is to use Lock, similar to 1114. Print in Order
+#Implementation by nightybear <https://leetcode.com/problems/print-foobar-alternately/discuss/359641/Python-solution-using-Lock>
 class FooBar:
     def __init__(self, n):
         self.n = n
