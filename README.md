@@ -409,6 +409,7 @@
 |1024|[ Video Stitching](https://leetcode.com/problems/video-stitching/)|[Python3](./solutions/1024.%20Video%20Stitching.py)|70 ms|
 |1044|[ Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|[Python3](./solutions/1044.%20Longest%20Duplicate%20Substring.py)|4291 ms|
 |1046|[ Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Python3](./solutions/1046.%20Last%20Stone%20Weight.py)|24 ms|
+|1047|[ Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python3](./solutions/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.py)|98 ms|
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|132 ms|
 |1059|[ All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[Python3](./solutions/1059.%20All%20Paths%20from%20Source%20Lead%20to%20Destination.py)|296 ms|
 |1060|[ Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Python3](./solutions/1060.%20Missing%20Element%20in%20Sorted%20Array.py)|330 ms|
