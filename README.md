@@ -264,7 +264,7 @@
 |399|[ Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[Python3](./solutions/399.%20Evaluate%20Division.py)|50 ms|
 |402|[ Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Python3](./solutions/402.%20Remove%20K%20Digits.py)|68 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
-|410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Python3](./solutions/410.%20Split%20Array%20Largest%20Sum.py)|53 ms|
+|410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Python3](./solutions/410.%20Split%20Array%20Largest%20Sum.py)|3418 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Python3](./solutions/412.%20Fizz%20Buzz.py)|59 ms|
 |413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Python3](./solutions/413.%20Arithmetic%20Slices.py)|42 ms|
 |415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[Python3](./solutions/415.%20Add%20Strings.py)|63 ms|
