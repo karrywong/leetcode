@@ -462,6 +462,7 @@
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|108 ms|
 |1340|[ Jump Game V](https://leetcode.com/problems/jump-game-v/)|[Python3](./solutions/1340.%20Jump%20Game%20V.py)|490 ms|
 |1345|[ Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[Python3](./solutions/1345.%20Jump%20Game%20IV.py)|552 ms|
+|1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|104 ms|
 |1368|[ Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Python3](./solutions/1368.%20Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid.py)|404 ms|
 |1394|[ Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[Python3](./solutions/1394.%20Find%20Lucky%20Integer%20in%20an%20Array.py)|87 ms|
 |1427|[ Perform String Shifts](https://leetcode.com/problems/perform-string-shifts/)|[Python3](./solutions/1427.%20Perform%20String%20Shifts.py)|20 ms|
