@@ -447,6 +447,7 @@
 |1218|[ Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Python3](./solutions/1218.%20Longest%20Arithmetic%20Subsequence%20of%20Given%20Difference.py)|524 ms|
 |1221|[ Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Python3](./solutions/1221.%20Split%20a%20String%20in%20Balanced%20Strings.py)|32 ms|
 |1229|[ Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)|[Python3](./solutions/1229.%20Meeting%20Scheduler.py)|1031 ms|
+|1230|[ Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/)|[Python3](./solutions/1230.%20Toss%20Strange%20Coins.py)|1125 ms|
 |1231|[ Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)|[Python3](./solutions/1231.%20Divide%20Chocolate.py)|371 ms|
 |1248|[ Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|[Python3](./solutions/1248.%20Count%20Number%20of%20Nice%20Subarrays.py)|976 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Python3](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py)|168 ms|
