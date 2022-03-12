@@ -2,7 +2,7 @@ class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
         #recursion w memo, time O(N), space O(N)
         memo = {} #(house, color)
-        def paint_house(house: int, color: int):
+        def paint_house(house: int, color: int) -> int:
             if (house, color) in memo:
                 return memo[(house, color)]
             
