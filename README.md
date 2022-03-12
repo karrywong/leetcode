@@ -420,6 +420,7 @@
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|132 ms|
 |1059|[ All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/)|[Python3](./solutions/1059.%20All%20Paths%20from%20Source%20Lead%20to%20Destination.py)|296 ms|
 |1060|[ Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/)|[Python3](./solutions/1060.%20Missing%20Element%20in%20Sorted%20Array.py)|330 ms|
+|1062|[ Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)|[Python3](./solutions/1062.%20Longest%20Repeating%20Substring.py)|71 ms|
 |1086|[ High Five](https://leetcode.com/problems/high-five/)|[Python3](./solutions/1086.%20High%20Five.py)|76 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|36 ms|
 |1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|902 ms|
