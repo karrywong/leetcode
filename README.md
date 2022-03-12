@@ -166,6 +166,7 @@
 |220|[ Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[Python3](./solutions/220.%20Contains%20Duplicate%20III.py)|160 ms|
 |221|[ Maximal Square](https://leetcode.com/problems/maximal-square/)|[Python3](./solutions/221.%20Maximal%20Square.py)|208 ms|
 |224|[ Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Python3](./solutions/224.%20Basic%20Calculator.py)|132 ms|
+|225|[ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Python3](./solutions/225.%20Implement%20Stack%20using%20Queues.py)|28 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Python3](./solutions/226.%20Invert%20Binary%20Tree.py)|12 ms|
 |227|[ Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[Python3](./solutions/227.%20Basic%20Calculator%20II.py)|148 ms|
 |229|[ Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Python3](./solutions/229.%20Majority%20Element%20II.py)|120 ms|
