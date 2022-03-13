@@ -1,7 +1,7 @@
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
-        #Time: O(2**N), n = length of all strings with unique character
-        #arr2 = ["abcd", "efg", "hij", "kl", "m"]
+        #Time: O(2**n), n = length of all strings with unique character
+        #arr2 = ["abcd", "efgz", "ehx", "fiy"]
         lookup = {}
         for string in arr:
             checker = 0
@@ -16,7 +16,7 @@ class Solution:
         arr2 = sorted(lookup.keys(),reverse = True, key = len) #at most arr
         ans = 0 
         
-        def dfs(ind, S):
+        def dfs(ind: int, S: str):
             nonlocal ans
             ans = max(ans, len(S))
             
@@ -25,6 +25,6 @@ class Solution:
                     lookup[S+arr2[i]] = lookup[S] | lookup[arr2[i]]
                     dfs(i, S+arr2[i])
             
-        for i, string in enumerate(arr2): #O(n)
-            dfs(i, string) #O(n)
+        for i, string in enumerate(arr2):
+            dfs(i, string) 
         return ans
