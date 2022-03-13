@@ -261,7 +261,7 @@
 |383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|44 ms|
 |384|[ Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[Python3](./solutions/384.%20Shuffle%20an%20Array.py)|252 ms|
 |386|[ Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[Python3](./solutions/386.%20Lexicographical%20Numbers.py)|92 ms|
-|387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|92 ms|
+|387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|100 ms|
 |388|[ Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[Python3](./solutions/388.%20Longest%20Absolute%20File%20Path.py)|32 ms|
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|43 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|32 ms|
