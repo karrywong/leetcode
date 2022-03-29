@@ -4,7 +4,7 @@ class Solution:
         # heapq.heapify(nums)
         # return [heapq.heappop(nums) for i in range(len(nums))]
         
-        #soln 1 - mergesort by dlwsdqdws, Time O(NlogN)
+        #soln 1 - mergesort by dlwsdqdws, Time O(NlogN), space O(N)
         if len(nums) <= 1:
             return nums
         middle = len(nums) // 2
