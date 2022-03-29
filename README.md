@@ -396,7 +396,7 @@
 |901|[ Online Stock Span](https://leetcode.com/problems/online-stock-span/)|[Python3](./solutions/901.%20Online%20Stock%20Span.py)|605 ms|
 |904|[ Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Python3](./solutions/904.%20Fruit%20Into%20Baskets.py)|604 ms|
 |907|[ Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)|[Python3](./solutions/907.%20Sum%20of%20Subarray%20Minimums.py)|770 ms|
-|912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python3](./solutions/912.%20Sort%20an%20Array.py)|428 ms|
+|912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python3](./solutions/912.%20Sort%20an%20Array.py)|990 ms|
 |918|[ Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[Python3](./solutions/918.%20Maximum%20Sum%20Circular%20Subarray.py)|1186 ms|
 |925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Python3](./solutions/925.%20Long%20Pressed%20Name.py)|61 ms|
 |929|[ Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Python3](./solutions/929.%20Unique%20Email%20Addresses.py)|80 ms|
