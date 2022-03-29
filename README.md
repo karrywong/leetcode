@@ -486,6 +486,7 @@
 |1474|[ Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Python3](./solutions/1474.%20Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List.py)|68 ms|
 |1482|[ Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[Python3](./solutions/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets.py)|2062 ms|
 |1522|[ Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Python3](./solutions/1522.%20Diameter%20of%20N-Ary%20Tree.py)|58 ms|
+|1523|[ Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[Python3](./solutions/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.py)|49 ms|
 |1533|[ Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Python3](./solutions/1533.%20Find%20the%20Index%20of%20the%20Large%20Integer.py)|257 ms|
 |1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Python3](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|1156 ms|
 |1566|[ Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Python3](./solutions/1566.%20Detect%20Pattern%20of%20Length%20M%20Repeated%20K%20or%20More%20Times.py)|32 ms|
