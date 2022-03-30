@@ -4,6 +4,7 @@ class Solution:
         # return sum(b.count('1')*b.count('0') for b in zip(*map('{:032b}'.format, nums)))
         
         #First attempt, counting ones and zeros
+        #Time O(log(max_num) * len(num)), space O(1)
         n = len(nums)
         ones, zeros, ans = 0,0,0
         while sum(nums) != 0:
