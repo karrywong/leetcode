@@ -154,7 +154,7 @@
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Python3](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.py)|28 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|448 ms|
 |201|[ Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Python3](./solutions/201.%20Bitwise%20AND%20of%20Numbers%20Range.py)|52 ms|
-|202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[Python3](./solutions/202.%20Happy%20Number.py)|36 ms|
+|202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[Python3](./solutions/202.%20Happy%20Number.py)|58 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|68 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|32 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python3](./solutions/207.%20Course%20Schedule.py)|133 ms|
