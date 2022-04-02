@@ -519,6 +519,7 @@
 |1727|[ Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Python3](./solutions/1727.%20Largest%20Submatrix%20With%20Rearrangements.py)|1328 ms|
 |1730|[ Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Python3](./solutions/1730.%20Shortest%20Path%20to%20Get%20Food.py)|500 ms|
 |1746|[ Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)|[Python3](./solutions/1746.%20Maximum%20Subarray%20Sum%20After%20One%20Operation.py)|1256 ms|
+|1779|[ Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Python3](./solutions/1779.%20Find%20Nearest%20Point%20That%20Has%20the%20Same%20X%20or%20Y%20Coordinate.py)|828 ms|
 |1780|[ Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Python3](./solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|32 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Python3](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.py)|47 ms|
 |1836|[ Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|[Python3](./solutions/1836.%20Remove%20Duplicates%20From%20an%20Unsorted%20Linked%20List.py)|1624 ms|
