@@ -493,6 +493,7 @@
 |1474|[ Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/)|[Python3](./solutions/1474.%20Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List.py)|68 ms|
 |1482|[ Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[Python3](./solutions/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets.py)|2062 ms|
 |1491|[ Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)|[Python3](./solutions/1491.%20Average%20Salary%20Excluding%20the%20Minimum%20and%20Maximum%20Salary.py)|60 ms|
+|1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Python3](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.py)|47 ms|
 |1522|[ Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)|[Python3](./solutions/1522.%20Diameter%20of%20N-Ary%20Tree.py)|58 ms|
 |1523|[ Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)|[Python3](./solutions/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.py)|49 ms|
 |1533|[ Find the Index of the Large Integer](https://leetcode.com/problems/find-the-index-of-the-large-integer/)|[Python3](./solutions/1533.%20Find%20the%20Index%20of%20the%20Large%20Integer.py)|257 ms|
