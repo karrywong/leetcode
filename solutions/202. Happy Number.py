@@ -1,6 +1,6 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        #soln 1 - Floyd's cycle finding algorithm, Space O(1)
+        #soln 1 - My version of Floyd's cycle finding algorithm, Space O(logN)
         def get_next(number):
             digits = [int(s) for s in str(number)]
             return sum([i*i for i in digits])
