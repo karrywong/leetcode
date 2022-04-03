@@ -542,6 +542,7 @@
 |1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Python3](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.py)|2472 ms|
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|36 ms|
+|2021|[ Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/)|[Python3](./solutions/2021.%20Brightest%20Position%20on%20Street.py)|1158 ms|
 |2023|[ Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Python3](./solutions/2023.%20Number%20of%20Pairs%20of%20Strings%20With%20Concatenation%20Equal%20to%20Target.py)|40 ms|
 |2031|[ Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|[Python3](./solutions/2031.%20Count%20Subarrays%20With%20More%20Ones%20Than%20Zeros.py)|1258 ms|
 |2034|[ Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|[Python3](./solutions/2034.%20Stock%20Price%20Fluctuation%20.py)|911 ms|
