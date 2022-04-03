@@ -328,6 +328,7 @@
 |582|[ Kill Process](https://leetcode.com/problems/kill-process/)|[Python3](./solutions/582.%20Kill%20Process.py)|500 ms|
 |583|[ Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Python3](./solutions/583.%20Delete%20Operation%20for%20Two%20Strings.py)|253 ms|
 |589|[ N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Python3](./solutions/589.%20N-ary%20Tree%20Preorder%20Traversal.py)|66 ms|
+|590|[ N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Python3](./solutions/590.%20N-ary%20Tree%20Postorder%20Traversal.py)|89 ms|
 |593|[ Valid Square](https://leetcode.com/problems/valid-square/)|[Python3](./solutions/593.%20Valid%20Square.py)|58 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python3](./solutions/605.%20Can%20Place%20Flowers.py)|172 ms|
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Python3](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.py)|53 ms|
