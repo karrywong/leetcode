@@ -304,7 +304,7 @@
 |486|[ Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Python3](./solutions/486.%20Predict%20the%20Winner.py)|53 ms|
 |487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|806 ms|
 |495|[ Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Python3](./solutions/495.%20Teemo%20Attacking.py)|260 ms|
-|496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|76 ms|
+|496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|59 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|184 ms|
 |500|[ Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[Python3](./solutions/500.%20Keyboard%20Row.py)|32 ms|
 |501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Python3](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.py)|56 ms|
