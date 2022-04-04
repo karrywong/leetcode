@@ -22,6 +22,3 @@ class Solution:
             ans.append(root.val)
             root = root.right
         return ans
-            
-            
-            
