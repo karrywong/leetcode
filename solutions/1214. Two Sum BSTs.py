@@ -5,22 +5,38 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def twoSumBSTs(self, root1: TreeNode, root2: TreeNode, target: int) -> bool:
-        ### Soln 1 - record complement for root1 in a hashtable and search through root2
-        self.lib = {}
-        def dfs(root, k):
-            if root:
-                self.lib[k - root.val] = root.val
-                return dfs(root.left, k) or dfs(root.right, k)
-        dfs(root1, target)
+    def twoSumBSTs(self, root1: Optional[TreeNode], root2: Optional[TreeNode], target: int) -> bool:
+        #First attempt, time O(max(N1, N2)) where N1 = size(root1) and N2 = size(root2), space O(N1)
+        def inorder(node: TreeNode) -> List[int]:
+            if not node: return []
+            return inorder(node.left) + [node.val] + inorder(node.right)
         
-        def valid(root,k):
-            if root:
-                if root.val in self.lib:
+        def findComplement(node: TreeNode, complement: int) -> bool:
+            while node:
+                if node.val == complement:
                     return True
-                return valid(root.left, k) or valid(root.right, k)
+                elif node.val < complement:
+                    node = node.right
+                else:
+                    node = node.left
+            return False
         
-        return valid(root2, target)
+#         lst1 = inorder(root1)
+#         for x in lst1:
+#             if findComplement(root2, target-x):
+#                 return True
+#         return False
+            
+#         ### old attempt - record complement for root1 in a hashtable and search through root2
+#         self.lib = {}
+#         def dfs(node, k):
+#             if node:
+#                 self.lib[k - node.val] = node.val
+#                 dfs(node.left, k)
+#                 dfs(node.right, k)
+#         dfs(root1, target)
         
-        
-        
+#         def valid(node,k):
+#             if node:
+#                 if node.val in self.lib:
+#                     return True
