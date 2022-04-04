@@ -464,7 +464,7 @@
 |1201|[ Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Python3](./solutions/1201.%20Ugly%20Number%20III.py)|42 ms|
 |1202|[ Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Python3](./solutions/1202.%20Smallest%20String%20With%20Swaps.py)|969 ms|
 |1213|[ Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Python3](./solutions/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py)|80 ms|
-|1214|[ Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Python3](./solutions/1214.%20Two%20Sum%20BSTs.py)|76 ms|
+|1214|[ Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Python3](./solutions/1214.%20Two%20Sum%20BSTs.py)|138 ms|
 |1218|[ Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Python3](./solutions/1218.%20Longest%20Arithmetic%20Subsequence%20of%20Given%20Difference.py)|524 ms|
 |1221|[ Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Python3](./solutions/1221.%20Split%20a%20String%20in%20Balanced%20Strings.py)|32 ms|
 |1228|[ Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression/)|[Python3](./solutions/1228.%20Missing%20Number%20In%20Arithmetic%20Progression.py)|59 ms|
