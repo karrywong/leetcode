@@ -552,6 +552,7 @@
 |2034|[ Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|[Python3](./solutions/2034.%20Stock%20Price%20Fluctuation%20.py)|911 ms|
 |2038|[ Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Python3](./solutions/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color.py)|178 ms|
 |2054|[ Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/)|[Python3](./solutions/2054.%20Two%20Best%20Non-Overlapping%20Events.py)|1708 ms|
+|2059|[ Minimum Operations to Convert Number](https://leetcode.com/problems/minimum-operations-to-convert-number/)|[Python3](./solutions/2059.%20Minimum%20Operations%20to%20Convert%20Number.py)|6494 ms|
 |2076|[ Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|[Python3](./solutions/2076.%20Process%20Restricted%20Friend%20Requests.py)|252 ms|
 |2078|[ Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Python3](./solutions/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py)|70 ms|
 |2083|[ Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|[Python3](./solutions/2083.%20Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter.py)|86 ms|
