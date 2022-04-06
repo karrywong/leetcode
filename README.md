@@ -522,6 +522,7 @@
 |1668|[ Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[Python3](./solutions/1668.%20Maximum%20Repeating%20Substring.py)|28 ms|
 |1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Python3](./solutions/1672.%20Richest%20Customer%20Wealth.py)|71 ms|
 |1676|[ Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)|[Python3](./solutions/1676.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20IV.py)|2079 ms|
+|1678|[ Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Python3](./solutions/1678.%20Goal%20Parser%20Interpretation.py)|33 ms|
 |1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Python3](./solutions/1695.%20Maximum%20Erasure%20Value.py)|1248 ms|
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Python3](./solutions/1696.%20Jump%20Game%20VI.py)|1405 ms|
 |1701|[ Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Python3](./solutions/1701.%20Average%20Waiting%20Time.py)|920 ms|
