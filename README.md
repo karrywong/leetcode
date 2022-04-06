@@ -569,6 +569,7 @@
 |2105|[ Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Python3](./solutions/2105.%20Watering%20Plants%20II.py)|1409 ms|
 |2115|[ Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Python3](./solutions/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|1073 ms|
 |2116|[ Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Python3](./solutions/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.py)|410 ms|
+|2128|[ Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|[Python3](./solutions/2128.%20Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips.py)|432 ms|
 |2131|[ Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Python3](./solutions/2131.%20Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.py)|1658 ms|
 |2138|[ Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Python3](./solutions/2138.%20Divide%20a%20String%20Into%20Groups%20of%20Size%20k.py)|55 ms|
 |2139|[ Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|[Python3](./solutions/2139.%20Minimum%20Moves%20to%20Reach%20Target%20Score.py)|42 ms|
