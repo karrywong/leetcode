@@ -1,5 +1,6 @@
 class Solution:
     def numWays(self, s: str) -> int:
+        #Inspired by explanations provided by rock, time O(N), space O(1)
         s_int = [int(char) for char in s]
         total_val = sum(s_int)
         if total_val % 3 != 0:
