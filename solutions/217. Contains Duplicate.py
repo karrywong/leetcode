@@ -1,6 +1,6 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        #soln 2 - set, on liner
+        #soln 2 - set, on liner, time O(N)
         return len(set(nums)) < len(nums)
         
         #soln 1 - built-in counter, time O(n)
@@ -9,4 +9,3 @@ class Solution:
         
         #soln 0 - set w/ many built-in fts, O(nlogn) because of sorting
         #return sorted(nums) != sorted(list(set(nums)))
-        
