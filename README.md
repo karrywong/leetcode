@@ -227,6 +227,7 @@
 |303|[ Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Python3](./solutions/303.%20Range%20Sum%20Query%20-%20Immutable.py)|156 ms|
 |304|[ Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Python3](./solutions/304.%20Range%20Sum%20Query%202D%20-%20Immutable.py)|1895 ms|
 |305|[ Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|[Python3](./solutions/305.%20Number%20of%20Islands%20II.py)|1004 ms|
+|307|[ Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[Python3](./solutions/307.%20Range%20Sum%20Query%20-%20Mutable.py)|2431 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|2000 ms|
 |310|[ Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[Python3](./solutions/310.%20Minimum%20Height%20Trees.py)|585 ms|
 |311|[ Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Python3](./solutions/311.%20Sparse%20Matrix%20Multiplication.py)|60 ms|
