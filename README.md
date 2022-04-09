@@ -520,6 +520,7 @@
 |1588|[ Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python3](./solutions/1588.%20Sum%20of%20All%20Odd%20Length%20Subarrays.py)|65 ms|
 |1592|[ Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[Python3](./solutions/1592.%20Rearrange%20Spaces%20Between%20Words.py)|62 ms|
 |1602|[ Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Python3](./solutions/1602.%20Find%20Nearest%20Right%20Node%20in%20Binary%20Tree.py)|507 ms|
+|1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python3](./solutions/1603.%20Design%20Parking%20System.py)|163 ms|
 |1630|[ Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[Python3](./solutions/1630.%20Arithmetic%20Subarrays.py)|375 ms|
 |1631|[ Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Python3](./solutions/1631.%20Path%20With%20Minimum%20Effort.py)|1038 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[Python3](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|636 ms|
