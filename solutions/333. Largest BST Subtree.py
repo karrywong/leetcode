@@ -30,7 +30,7 @@ class Solution:
 #             return countNodes(root)
 #         return max(self.largestBSTSubtree(root.left), self.largestBSTSubtree(root.right))
         
-        #LeetCode post-order, time O(N), space O(N)
+        #LeetCode post-order, bottom-up, time O(N), space O(N)
         def helper(node) ->  (int, int, int): #output count, lo, hi
             if not node:
                 return 0, float('inf'), float('-inf')
@@ -59,17 +59,3 @@ class Solution:
 #                 else:
 #                     count = 0
             
-#             if node.right: 
-#                 right_count, right_lo, right_hi = helper(node.right)
-#                 if right_count > 0 and right_lo > node.val:
-#                     if count > 0: #key is to only add if node.left is BST or node does not have node.left
-#                         count += right_count
-#                     hi = right_hi
-#                 else:
-#                     count = 0
-            
-#             ans = max(ans, count)
-#             return count, lo, hi
-            
-#         helper(root)
-#         return ans
