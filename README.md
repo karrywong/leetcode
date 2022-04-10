@@ -522,6 +522,7 @@
 |1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[Python3](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.py)|1178 ms|
 |1588|[ Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python3](./solutions/1588.%20Sum%20of%20All%20Odd%20Length%20Subarrays.py)|65 ms|
 |1592|[ Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[Python3](./solutions/1592.%20Rearrange%20Spaces%20Between%20Words.py)|62 ms|
+|1598|[ Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[Python3](./solutions/1598.%20Crawler%20Log%20Folder.py)|57 ms|
 |1602|[ Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/)|[Python3](./solutions/1602.%20Find%20Nearest%20Right%20Node%20in%20Binary%20Tree.py)|507 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python3](./solutions/1603.%20Design%20Parking%20System.py)|163 ms|
 |1630|[ Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)|[Python3](./solutions/1630.%20Arithmetic%20Subarrays.py)|375 ms|
