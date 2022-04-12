@@ -580,6 +580,7 @@
 |2105|[ Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Python3](./solutions/2105.%20Watering%20Plants%20II.py)|1409 ms|
 |2115|[ Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Python3](./solutions/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|1073 ms|
 |2116|[ Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Python3](./solutions/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.py)|410 ms|
+|2125|[ Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[Python3](./solutions/2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank.py)|432 ms|
 |2128|[ Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips/)|[Python3](./solutions/2128.%20Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips.py)|432 ms|
 |2130|[ Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)|[Python3](./solutions/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py)|1536 ms|
 |2131|[ Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)|[Python3](./solutions/2131.%20Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.py)|1658 ms|
