@@ -262,6 +262,7 @@
 |366|[ Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Python3](./solutions/366.%20Find%20Leaves%20of%20Binary%20Tree.py)|32 ms|
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|28 ms|
 |369|[ Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Python3](./solutions/369.%20Plus%20One%20Linked%20List.py)|61 ms|
+|371|[ Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Python3](./solutions/371.%20Sum%20of%20Two%20Integers.py)|26 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Python3](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py)|1032 ms|
 |374|[ Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python3](./solutions/374.%20Guess%20Number%20Higher%20or%20Lower.py)|24 ms|
