@@ -287,7 +287,7 @@
 |410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Python3](./solutions/410.%20Split%20Array%20Largest%20Sum.py)|3418 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Python3](./solutions/412.%20Fizz%20Buzz.py)|59 ms|
 |413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Python3](./solutions/413.%20Arithmetic%20Slices.py)|42 ms|
-|415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[Python3](./solutions/415.%20Add%20Strings.py)|63 ms|
+|415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[Python3](./solutions/415.%20Add%20Strings.py)|52 ms|
 |417|[ Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Python3](./solutions/417.%20Pacific%20Atlantic%20Water%20Flow.py)|386 ms|
 |421|[ Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)|[Python3](./solutions/421.%20Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array.py)|1227 ms|
 |422|[ Valid Word Square](https://leetcode.com/problems/valid-word-square/)|[Python](./solutions/422.%20Valid%20Word%20Square.python)|28 ms|
