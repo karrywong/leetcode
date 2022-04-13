@@ -432,6 +432,7 @@
 |980|[ Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)|[Python3](./solutions/980.%20Unique%20Paths%20III.py)|100 ms|
 |983|[ Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[Python3](./solutions/983.%20Minimum%20Cost%20For%20Tickets.py)|85 ms|
 |986|[ Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)|[Python3](./solutions/986.%20Interval%20List%20Intersections.py)|144 ms|
+|989|[ Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Python3](./solutions/989.%20Add%20to%20Array-Form%20of%20Integer.py)|288 ms|
 |990|[ Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[Python3](./solutions/990.%20Satisfiability%20of%20Equality%20Equations.py)|44 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|28 ms|
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|52 ms|
