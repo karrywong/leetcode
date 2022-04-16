@@ -5,30 +5,18 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def trimBST(self, root: TreeNode, low: int, high: int) -> TreeNode:
-        ### Soln 1 - recursion
-        def helper(root):
-            if not root:
+    def trimBST(self, root: Optional[TreeNode], low: int, high: int) -> Optional[TreeNode]:
+        #Too many failed attempts - LeetCode's solution time O(N), space O(N)
+        def trim(node: Optional[TreeNode]) -> Optional[TreeNode]:
+            if not node:
                 return None
-            elif root.val > high:
-                return helper(root.left)
-            elif root.val < low:
-                return helper(root.right)
+            elif node.val > high:
+                return trim(node.left)
+            elif node.val < low:
+                return trim(node.right)
             else:
-                root.left = helper(root.left)
-                root.right = helper(root.right)
-                return root
-            
-        return helper(root)
-        
-        # ### Soln 0 - first attempt by Jake Reschke
-        # self.base = root
-        # def helper(root,low,high):
-        #     if root:
-        #         if low <= root.val <= high:
-        #             if root.left and root.left.val < low:
-        #                 root.left = root.left.right
-        #                 helper(root,low,high)
-        #             else:
-        #                 helper(root.left,low,high)
-        #             if root.right and root.right.val > high:
+                node.left = trim(node.left)
+                node.right = trim(node.right)
+                return node
+​
+        return trim(root)
