@@ -412,6 +412,7 @@
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Python3](./solutions/869.%20Reordered%20Power%20of%202.py)|32 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|77 ms|
 |877|[ Stone Game](https://leetcode.com/problems/stone-game/)|[Python3](./solutions/877.%20Stone%20Game.py)|415 ms|
+|885|[ Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[Python3](./solutions/885.%20Spiral%20Matrix%20III.py)|115 ms|
 |886|[ Possible Bipartition](https://leetcode.com/problems/possible-bipartition/)|[Python3](./solutions/886.%20Possible%20Bipartition.py)|973 ms|
 |894|[ All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[Python3](./solutions/894.%20All%20Possible%20Full%20Binary%20Trees.py)|368 ms|
 |896|[ Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Python3](./solutions/896.%20Monotonic%20Array.py)|1449 ms|
