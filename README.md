@@ -462,6 +462,7 @@
 |1114|[ Print in Order](https://leetcode.com/problems/print-in-order/)|[Python3](./solutions/1114.%20Print%20in%20Order.py)|77 ms|
 |1115|[ Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately/)|[Python3](./solutions/1115.%20Print%20FooBar%20Alternately.py)|93 ms|
 |1116|[ Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd/)|[Python3](./solutions/1116.%20Print%20Zero%20Even%20Odd.py)|78 ms|
+|1119|[ Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Python3](./solutions/1119.%20Remove%20Vowels%20from%20a%20String.py)|27 ms|
 |1123|[ Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Python3](./solutions/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.py)|103 ms|
 |1124|[ Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/)|[Python3](./solutions/1124.%20Longest%20Well-Performing%20Interval.py)|220 ms|
 |1130|[ Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)|[Python3](./solutions/1130.%20Minimum%20Cost%20Tree%20From%20Leaf%20Values.py)|46 ms|
