@@ -411,6 +411,7 @@
 |865|[ Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Python3](./solutions/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py)|43 ms|
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python3](./solutions/867.%20Transpose%20Matrix.py)|72 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Python3](./solutions/869.%20Reordered%20Power%20of%202.py)|32 ms|
+|870|[ Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Python3](./solutions/870.%20Advantage%20Shuffle.py)|854 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|77 ms|
 |877|[ Stone Game](https://leetcode.com/problems/stone-game/)|[Python3](./solutions/877.%20Stone%20Game.py)|415 ms|
 |885|[ Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[Python3](./solutions/885.%20Spiral%20Matrix%20III.py)|115 ms|
