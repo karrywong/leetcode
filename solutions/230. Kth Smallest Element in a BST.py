@@ -34,17 +34,17 @@ class Solution:
         #Optimized recursion, still time O(N), space O(N)
         self.ans = -1
         self.count = k
-        def inorder(node):
-            if node.left: 
-                inorder(node.left)
+        def inorder(node:Optional[TreeNode]) -> int:
+            if not node:
+                return
+            inorder(node.left)
     
             self.count -= 1 #node itself        
             if self.count == 0: 
                 self.ans = node.val
                 return
 ​
-            if node.right:
-                inorder(node.right)
+            inorder(node.right)
             
         inorder(root)
         return self.ans
