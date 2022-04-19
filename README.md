@@ -280,6 +280,7 @@
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|43 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Python3](./solutions/392.%20Is%20Subsequence.py)|32 ms|
 |394|[ Decode String](https://leetcode.com/problems/decode-string/)|[Python3](./solutions/394.%20Decode%20String.py)|32 ms|
+|395|[ Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Python3](./solutions/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.py)|228 ms|
 |398|[ Random Pick Index](https://leetcode.com/problems/random-pick-index/)|[Python3](./solutions/398.%20Random%20Pick%20Index.py)|308 ms|
 |399|[ Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[Python3](./solutions/399.%20Evaluate%20Division.py)|50 ms|
 |401|[ Binary Watch](https://leetcode.com/problems/binary-watch/)|[Python3](./solutions/401.%20Binary%20Watch.py)|28 ms|
