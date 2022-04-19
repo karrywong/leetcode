@@ -1,7 +1,7 @@
 class Solution:
     def equalCountSubstrings(self, s: str, count: int) -> int:
         #Totally stuck, soln inspired by AlexSzeto and Vlad, sliding window 
-        #Time O(26*n)~O(n), space O(1)
+        #Time O(26*n)~O(n), space O(1), refer to similar 395. Longest Substring with At Least K Repeating Characters
         if count > len(s):
             return 0 
         ans = 0
