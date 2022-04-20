@@ -588,6 +588,7 @@
 |2067|[ Number of Equal Count Substrings](https://leetcode.com/problems/number-of-equal-count-substrings/)|[Python3](./solutions/2067.%20Number%20of%20Equal%20Count%20Substrings.py)|1028 ms|
 |2076|[ Process Restricted Friend Requests](https://leetcode.com/problems/process-restricted-friend-requests/)|[Python3](./solutions/2076.%20Process%20Restricted%20Friend%20Requests.py)|252 ms|
 |2078|[ Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[Python3](./solutions/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py)|70 ms|
+|2081|[ Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/)|[Python3](./solutions/2081.%20Sum%20of%20k-Mirror%20Numbers.py)|3861 ms|
 |2083|[ Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|[Python3](./solutions/2083.%20Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter.py)|86 ms|
 |2087|[ Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Python3](./solutions/2087.%20Minimum%20Cost%20Homecoming%20of%20a%20Robot%20in%20a%20Grid.py)|1706 ms|
 |2092|[ Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|[Python3](./solutions/2092.%20Find%20All%20People%20With%20Secret.py)|3694 ms|
