@@ -34,7 +34,7 @@ class BSTIterator:
 ​
     def hasNext(self) -> bool:
         # return True if self.ptr < len(self.lst) else False
-        return True if len(self.stack) > 0 else False
+        return len(self.stack) > 0
 ​
 # Your BSTIterator object will be instantiated and called as such:
 # obj = BSTIterator(root)
