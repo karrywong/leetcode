@@ -536,6 +536,7 @@
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|112 ms|
 |1573|[ Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|[Python3](./solutions/1573.%20Number%20of%20Ways%20to%20Split%20a%20String.py)|453 ms|
 |1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[Python3](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.py)|1178 ms|
+|1586|[ Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/)|[Python3](./solutions/1586.%20Binary%20Search%20Tree%20Iterator%20II.py)|444 ms|
 |1588|[ Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python3](./solutions/1588.%20Sum%20of%20All%20Odd%20Length%20Subarrays.py)|65 ms|
 |1592|[ Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[Python3](./solutions/1592.%20Rearrange%20Spaces%20Between%20Words.py)|62 ms|
 |1598|[ Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[Python3](./solutions/1598.%20Crawler%20Log%20Folder.py)|57 ms|
