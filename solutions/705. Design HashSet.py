@@ -1,4 +1,30 @@
-class MyHashSet:
+            root.left = self.deleteNode(root.left, key)
+        else:
+            if not (root.left or root.right):
+                root = None
+            elif root.right:
+                root.val = self.successor(root)
+                root.right = self.deleteNode(root.right, root.val) #recursively delete surccessor in the right subtree
+            else:
+                root.val = self.predecessor(root)
+                root.left = self.deleteNode(root.left, root.val)
+        return root
+        
+class Bucket:
+    def __init__(self):
+        self.tree = BSTree()
+    
+    def insert(self, value):
+        self.tree.root = self.tree.insertIntoBST(self.tree.root, value)
+    
+    def delete(self, value):
+        self.tree.root = self.tree.deleteNode(self.tree.root, value)
+        
+    def exists(self, value):
+        return (self.tree.searchBST(self.tree.root, value) is not None)
+​
+​
+class MyHashSet(object):
     #LeetCode soln, use LinkedList as Bucket, hash function & collision handling
     #time O(N/K), space O(# buckets + # unique values inserted)
     def __init__(self):
@@ -19,40 +45,6 @@ class MyHashSet:
     def contains(self, key: int) -> bool:
         bucketIndex = self._hash(key)
         return self.bucketArray[bucketIndex].exists(key)
-    
-class Node:
-    def __init__(self, value, nextNode=None):
-        self.value = value
-        self.next = nextNode
-        
-class Bucket:
-    def __init__(self):
-        self.head = Node(0) # a pseudo head
-        
-    def insert(self, newValue):
-        if not self.exists(newValue): # if not existed, add the new element to the head.
-            newNode = Node(newValue, self.head.next)
-            self.head.next = newNode # set the new head.
-        
-    def delete(self, value):
-        prev = self.head
-        curr = self.head.next
-        while curr is not None:
-            if curr.value == value:
-                # remove the current node
-                prev.next = curr.next
-                return
-            prev = curr
-            curr = curr.next  
-            
-    def exists(self, value):
-        curr = self.head.next
-        while curr is not None:
-            if curr.value == value:
-                # value existed already, do nothing
-                return True
-            curr = curr.next
-        return False        
     
 # Your MyHashSet object will be instantiated and called as such:
 # obj = MyHashSet()
