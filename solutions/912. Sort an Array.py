@@ -47,7 +47,7 @@ class Solution:
             count[i] += count[i-1]
         
         ans = [0 for _ in range(n)]
-        for i in range(n):
+        for i in range(n-1,-1,-1):
             count[nums[i]-mi] -= 1
             ans[count[nums[i]-mi]] = nums[i]
         return ans
