@@ -20,23 +20,30 @@ class Solution:
         #     else:
         #         curr += 1
 ​
-        #counting sort
-        count =  [0 for _ in range(3)]
-        n = len(nums)
-        output = [0 for _ in range(n)]
-        # Store count of each character
-        for num in nums:
-            count[num] += 1
-        # Change count_arr[i] so that count_arr[i] now contains actual position of this element in output array
-        for i in range(1, len(count)):
-            count[i] += count[i-1]
-        # Build the output character array
-        for i in range(n):
-            count[nums[i]] -= 1
-            output[count[nums[i]]] = nums[i]
+        #counting sort - much shorter implementation
+        counter = collections.Counter(nums)
+        idx = 0
+        for i in range(0, 3):
+            nums[idx:idx+counter[i]+1] = [i]*counter[i]
+            idx += counter[i]
+        
+#         #counting sort - standard implementation
+#         count =  [0 for _ in range(3)]
+#         n = len(nums)
+#         output = [0 for _ in range(n)]
+#         # Store count of each character
+#         for num in nums:
+#             count[num] += 1
+#         # Change count_arr[i] so that count_arr[i] now contains actual position of this element in output array
+#         for i in range(1, len(count)):
+#             count[i] += count[i-1]
+#         # Build the output character array
+#         for i in range(n):
+#             count[nums[i]] -= 1
+#             output[count[nums[i]]] = nums[i]
             
-        # Copy the output array to arr, so that arr now contains sorted characters
-        nums[:] = output[:]   
+#         # Copy the output array to arr, so that arr now contains sorted characters
+#         nums[:] = output[:]   
                 
 #         #soln 0 - Jake's solution
 #         i,j,k = 0,0,len(nums) - 1
