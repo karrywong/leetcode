@@ -1,3 +1,7 @@
+#                     break
+#         return nums
+    
+#         #4. insertion sort with binary search improvement, time O(N^2)
 #         for i in range(1,n):
 #             bisect.insort_left(nums, nums.pop(i), 0, i)
 #         return nums
@@ -29,20 +33,20 @@
 #         quicksort(0, len(nums)-1)
 #         return nums
         
-#         #7. mergesort with recursion, Time O(NlogN), by dlwsdqdws
-#         if len(nums) <= 1: return nums
-#         middle = len(nums) // 2
-#         left = self.sortArray(nums[:middle])
-#         right = self.sortArray(nums[middle:])
-#         merged = []
-#         while left and right:
-#             if left[0] <= right[0]:
-#                 merged.append(left.pop(0))
-#             else:
-#                 merged.append(right.pop(0))
-#         merged.extend(right if right else left)
-#         return merged
+        # #7. mergesort with recursion, Time O(NlogN), by dlwsdqdws
+        # if len(nums) <= 1: return nums
+        # middle = len(nums) // 2
+        # left = self.sortArray(nums[:middle])
+        # right = self.sortArray(nums[middle:])
+        # merged = []
+        # while left and right:
+        #     if left[0] <= right[0]:
+        #         merged.append(left.pop(0))
+        #     else:
+        #         merged.append(right.pop(0))
+        # merged.extend(right if right else left)
+        # return merged
         
-#         #My soln 2 - heapsort using built-in heapq
-#         heapq.heapify(nums)
-#         return [heapq.heappop(nums) for i in range(len(nums))]       
+        #My soln 2 - heapsort using built-in heapq
+        heapq.heapify(nums)
+        return [heapq.heappop(nums) for i in range(n)]       
