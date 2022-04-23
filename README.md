@@ -566,6 +566,7 @@
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Python3](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.py)|1020 ms|
 |1727|[ Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Python3](./solutions/1727.%20Largest%20Submatrix%20With%20Rearrangements.py)|1328 ms|
 |1730|[ Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Python3](./solutions/1730.%20Shortest%20Path%20to%20Get%20Food.py)|500 ms|
+|1738|[ Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|[Python3](./solutions/1738.%20Find%20Kth%20Largest%20XOR%20Coordinate%20Value.py)|5391 ms|
 |1746|[ Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)|[Python3](./solutions/1746.%20Maximum%20Subarray%20Sum%20After%20One%20Operation.py)|1256 ms|
 |1768|[ Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Python3](./solutions/1768.%20Merge%20Strings%20Alternately.py)|38 ms|
 |1779|[ Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Python3](./solutions/1779.%20Find%20Nearest%20Point%20That%20Has%20the%20Same%20X%20or%20Y%20Coordinate.py)|744 ms|
