@@ -4,19 +4,13 @@ class Solution:
         #Leetcode Heap approach - treat matrix as N sorted list
         m = len(matrix)
         #Initialization
-        heap = []
+        hp = []
         for r in range(min(k, m)):
-            heap.append((matrix[r][0], r, 0))
-            heapq.heapify(heap)
+            hp.append((matrix[r][0], r, 0))
+            heapq.heapify(hp)
         while k:
-            val, r, c = heapq.heappop(heap)
+            val, r, c = heapq.heappop(hp)
             if c < m-1:
-                heapq.heappush(heap, (matrix[r][c+1], r, c+1))
+                heapq.heappush(hp, (matrix[r][c+1], r, c+1))
             k -= 1
         return val
-                
-        
-        
-            
-                
-        
