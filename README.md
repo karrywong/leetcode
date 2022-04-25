@@ -401,6 +401,7 @@
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|32 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|44 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Python3](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.py)|352 ms|
+|791|[ Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Python3](./solutions/791.%20Custom%20Sort%20String.py)|34 ms|
 |794|[ Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state/)|[Python3](./solutions/794.%20Valid%20Tic-Tac-Toe%20State.py)|16 ms|
 |797|[ All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[Python3](./solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py)|239 ms|
 |802|[ Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[Python3](./solutions/802.%20Find%20Eventual%20Safe%20States.py)|710 ms|
