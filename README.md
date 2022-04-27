@@ -252,6 +252,7 @@
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Python3](./solutions/337.%20House%20Robber%20III.py)|72 ms|
 |338|[ Counting Bits](https://leetcode.com/problems/counting-bits/)|[Python3](./solutions/338.%20Counting%20Bits.py)|127 ms|
 |340|[ Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[Python3](./solutions/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py)|152 ms|
+|341|[ Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Python3](./solutions/341.%20Flatten%20Nested%20List%20Iterator.py)|120 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|24 ms|
 |343|[ Integer Break](https://leetcode.com/problems/integer-break/)|[Python3](./solutions/343.%20Integer%20Break.py)|36 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|196 ms|
