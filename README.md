@@ -377,7 +377,7 @@
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|220 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python3](./solutions/705.%20Design%20HashSet.py)|231 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|340 ms|
-|707|[ Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Python3](./solutions/707.%20Design%20Linked%20List.py)|256 ms|
+|707|[ Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Python3](./solutions/707.%20Design%20Linked%20List.py)|222 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|36 ms|
 |712|[ Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)|[Python3](./solutions/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.py)||
 |713|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Python3](./solutions/713.%20Subarray%20Product%20Less%20Than%20K.py)|1048 ms|
