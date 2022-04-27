@@ -36,8 +36,9 @@ class MyLinkedList:
             for _ in range(index):
                 pred = pred.next
             
-            to_add = ListNode(val, pred.next)
-            pred.next = to_add
+            # to_add = ListNode(val, pred.next)
+            # pred.next = to_add
+            pred.next = ListNode(val, pred.next)
 ​
     def deleteAtIndex(self, index: int) -> None:
         # if index < len(self.lst): //list attempt 
