@@ -1,6 +1,6 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        #soln 0 - modified binary search
+        #soln 0 - modified binary search, time O(N), space O(1)
         n = len(nums)
         if n == 0: return [-1,-1]
         if nums[0] == nums[-1]:
