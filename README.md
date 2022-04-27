@@ -582,6 +582,7 @@
 |1822|[ Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Python3](./solutions/1822.%20Sign%20of%20the%20Product%20of%20an%20Array.py)|78 ms|
 |1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Python3](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.py)|47 ms|
 |1836|[ Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|[Python3](./solutions/1836.%20Remove%20Duplicates%20From%20an%20Unsorted%20Linked%20List.py)|1624 ms|
+|1845|[ Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Python3](./solutions/1845.%20Seat%20Reservation%20Manager.py)|997 ms|
 |1868|[ Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Python3](./solutions/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays.py)|4507 ms|
 |1874|[ Minimize Product Sum of Two Arrays](https://leetcode.com/problems/minimize-product-sum-of-two-arrays/)|[Python3](./solutions/1874.%20Minimize%20Product%20Sum%20of%20Two%20Arrays.py)|1292 ms|
 |1886|[ Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)|[Python3](./solutions/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py)|44 ms|
