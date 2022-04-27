@@ -509,7 +509,7 @@
 |1229|[ Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)|[Python3](./solutions/1229.%20Meeting%20Scheduler.py)|1031 ms|
 |1230|[ Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/)|[Python3](./solutions/1230.%20Toss%20Strange%20Coins.py)|1125 ms|
 |1231|[ Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)|[Python3](./solutions/1231.%20Divide%20Chocolate.py)|371 ms|
-|1232|[ Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Python3](./solutions/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py)|91 ms|
+|1232|[ Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Python3](./solutions/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py)|112 ms|
 |1239|[ Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Python3](./solutions/1239.%20Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.py)|96 ms|
 |1248|[ Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|[Python3](./solutions/1248.%20Count%20Number%20of%20Nice%20Subarrays.py)|976 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Python3](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py)|168 ms|
