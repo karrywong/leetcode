@@ -217,7 +217,7 @@
 |278|[ First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python3](./solutions/278.%20First%20Bad%20Version.py)|32 ms|
 |279|[ Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Python3](./solutions/279.%20Perfect%20Squares.py)|551 ms|
 |280|[ Wiggle Sort](https://leetcode.com/problems/wiggle-sort/)|[Python3](./solutions/280.%20Wiggle%20Sort.py)|179 ms|
-|281|[ Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Python3](./solutions/281.%20Zigzag%20Iterator.py)|94 ms|
+|281|[ Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Python3](./solutions/281.%20Zigzag%20Iterator.py)|66 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python3](./solutions/283.%20Move%20Zeroes.py)|285 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Python3](./solutions/284.%20Peeking%20Iterator.py)|61 ms|
 |285|[ Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Python3](./solutions/285.%20Inorder%20Successor%20in%20BST.py)|140 ms|
