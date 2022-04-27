@@ -2,8 +2,10 @@ class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
         #Discussion
         (x0, y0), (x1, y1) = coordinates[:2]
+        x_diff = x1 - x0
+        y_diff = y1 - y0
         for x, y in coordinates:
-            if (x1 - x0) * (y - y1) != (x - x1) * (y1 - y0):
+            if x_diff * (y - y1) != (x - x1) * y_diff:
                 return False
         return True
         
