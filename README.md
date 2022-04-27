@@ -273,6 +273,7 @@
 |376|[ Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Python3](./solutions/376.%20Wiggle%20Subsequence.py)|38 ms|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[Python3](./solutions/377.%20Combination%20Sum%20IV.py)|57 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|218 ms|
+|379|[ Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Python3](./solutions/379.%20Design%20Phone%20Directory.py)|127 ms|
 |380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Python3](./solutions/380.%20Insert%20Delete%20GetRandom%20O(1).py)|508 ms|
 |383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|44 ms|
 |384|[ Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[Python3](./solutions/384.%20Shuffle%20an%20Array.py)|252 ms|
