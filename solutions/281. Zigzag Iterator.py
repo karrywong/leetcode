@@ -9,9 +9,8 @@ class ZigzagIterator:
     def next(self) -> int:
         if self.queue:
             vec_ind, elem_ind = self.queue.popleft()
-            next_elem_ind = elem_ind + 1
-            if next_elem_ind < len(self.vec[vec_ind]):
-                self.queue.append((vec_ind, next_elem_ind))
+            if elem_ind + 1 < len(self.vec[vec_ind]):
+                self.queue.append((vec_ind, elem_ind + 1))
             return self.vec[vec_ind][elem_ind]
             
     def hasNext(self) -> bool:
