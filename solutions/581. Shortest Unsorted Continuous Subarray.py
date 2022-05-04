@@ -1,5 +1,6 @@
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
+        #Second attempt, time O(N), space O(N)
         n = len(nums)
         l, r = n, 0
         stack = []
