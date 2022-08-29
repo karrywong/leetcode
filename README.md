@@ -640,3 +640,4 @@
 |2218|[ Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|[Python3](./solutions/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles.py)|6008 ms|
 |2305|[ Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|[C++](./solutions/2305.%20Fair%20Distribution%20of%20Cookies.cpp)|6 ms|
 |2319|[ Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[C++](./solutions/2319.%20Check%20if%20Matrix%20Is%20X-Matrix.cpp)|76 ms|
+|2379|[ Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Python3](./solutions/2379.%20Minimum%20Recolors%20to%20Get%20K%20Consecutive%20Black%20Blocks.py)|61 ms|
