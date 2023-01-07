@@ -521,7 +521,7 @@
 |1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python3](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.py)|64 ms|
 |1291|[ Sequential Digits](https://leetcode.com/problems/sequential-digits/)|[Python3](./solutions/1291.%20Sequential%20Digits.py)|28 ms|
 |1295|[ Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[C++](./solutions/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.cpp)|7 ms|
-|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[C++](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.cpp)|121 ms|
+|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[C++](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.cpp)|122 ms|
 |1300|[ Sum of Mutated Array Closest to Target](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/)|[Python3](./solutions/1300.%20Sum%20of%20Mutated%20Array%20Closest%20to%20Target.py)|155 ms|
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Python3](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.py)|555 ms|
 |1306|[ Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[Python3](./solutions/1306.%20Jump%20Game%20III.py)|300 ms|
