@@ -380,7 +380,7 @@
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|140 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|61 ms|
 |703|[ Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Python3](./solutions/703.%20Kth%20Largest%20Element%20in%20a%20Stream.py)|9759 ms|
-|704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|220 ms|
+|704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[C++](./solutions/704.%20Binary%20Search.cpp)|41 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python3](./solutions/705.%20Design%20HashSet.py)|231 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|340 ms|
 |707|[ Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Python3](./solutions/707.%20Design%20Linked%20List.py)|222 ms|
