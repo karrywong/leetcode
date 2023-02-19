@@ -274,7 +274,7 @@
 |371|[ Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Python3](./solutions/371.%20Sum%20of%20Two%20Integers.py)|26 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Python3](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py)|1032 ms|
-|374|[ Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[Python3](./solutions/374.%20Guess%20Number%20Higher%20or%20Lower.py)|24 ms|
+|374|[ Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[C++](./solutions/374.%20Guess%20Number%20Higher%20or%20Lower.cpp)|0 ms|
 |376|[ Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Python3](./solutions/376.%20Wiggle%20Subsequence.py)|38 ms|
 |377|[ Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[Python3](./solutions/377.%20Combination%20Sum%20IV.py)|57 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|218 ms|
