@@ -2,6 +2,7 @@ class Solution {
 public:
     // [4,2,3,1]
     // [4,3,3,1], ans = [3,2,0]
+    // Time O(N), space O(1)
     vector<int> findBuildings(vector<int>& heights) {
         int n=heights.size();
         vector<int> ans;
