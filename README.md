@@ -273,7 +273,7 @@
 |358|[ Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)|[Python3](./solutions/358.%20Rearrange%20String%20k%20Distance%20Apart.py)|65 ms|
 |360|[ Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|[Python3](./solutions/360.%20Sort%20Transformed%20Array.py)|73 ms|
 |366|[ Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[Python3](./solutions/366.%20Find%20Leaves%20of%20Binary%20Tree.py)|32 ms|
-|367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|28 ms|
+|367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[C++](./solutions/367.%20Valid%20Perfect%20Square.cpp)|3 ms|
 |369|[ Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[Python3](./solutions/369.%20Plus%20One%20Linked%20List.py)|61 ms|
 |371|[ Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Python3](./solutions/371.%20Sum%20of%20Two%20Integers.py)|26 ms|
 |372|[ Super Pow](https://leetcode.com/problems/super-pow/)|[Python3](./solutions/372.%20Super%20Pow.py)|84 ms|
