@@ -366,7 +366,7 @@
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Python3](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.py)|53 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python3](./solutions/617.%20Merge%20Two%20Binary%20Trees.py)|80 ms|
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Python3](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.py)|240 ms|
-|633|[ Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[C++](./solutions/633.%20Sum%20of%20Square%20Numbers.cpp)|3 ms|
+|633|[ Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/)|[C++](./solutions/633.%20Sum%20of%20Square%20Numbers.cpp)|0 ms|
 |643|[ Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Python3](./solutions/643.%20Maximum%20Average%20Subarray%20I.py)|808 ms|
 |647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Python3](./solutions/647.%20Palindromic%20Substrings.py)|280 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python3](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py)|68 ms|
