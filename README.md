@@ -245,6 +245,7 @@
 |311|[ Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Python3](./solutions/311.%20Sparse%20Matrix%20Multiplication.py)|60 ms|
 |314|[ Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[C++](./solutions/314.%20Binary%20Tree%20Vertical%20Order%20Traversal.cpp)|9 ms|
 |315|[ Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[Python3](./solutions/315.%20Count%20of%20Smaller%20Numbers%20After%20Self.py)|3995 ms|
+|316|[ Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./solutions/316.%20Remove%20Duplicate%20Letters.cpp)|7 ms|
 |317|[ Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[Python3](./solutions/317.%20Shortest%20Distance%20from%20All%20Buildings.py)|4445 ms|
 |318|[ Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Python3](./solutions/318.%20Maximum%20Product%20of%20Word%20Lengths.py)|312 ms|
 |321|[ Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|[Python3](./solutions/321.%20Create%20Maximum%20Number.py)|792 ms|
