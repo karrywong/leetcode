@@ -14,6 +14,8 @@ public:
         // [0,0,0,0]
         // ans = [0,0], count = {0:1}
         
+        if (changed.size() % 2) return {};
+        
         sort(changed.begin(), changed.end());
         unordered_map<int,int> count;
         vector<int> ans;
@@ -23,7 +25,7 @@ public:
                 ans.push_back(x);
                 count[2*x] += 1;
             }
-        }
+        }
         for (const auto& [_, val] : count){
             if (val != 0) return {};
         }
