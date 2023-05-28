@@ -617,7 +617,7 @@
 |1973|[ Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|[Python3](./solutions/1973.%20Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants.py)|943 ms|
 |1985|[ Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|[Python3](./solutions/1985.%20Find%20the%20Kth%20Largest%20Integer%20in%20the%20Array.py)|408 ms|
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
-|2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./solutions/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.cpp)|415 ms|
+|2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./solutions/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.cpp)|396 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|36 ms|
 |2021|[ Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/)|[Python3](./solutions/2021.%20Brightest%20Position%20on%20Street.py)|1158 ms|
 |2022|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Python3](./solutions/2022.%20Convert%201D%20Array%20Into%202D%20Array.py)|1008 ms|
