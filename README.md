@@ -657,6 +657,7 @@
 |2174|[ Remove All Ones With Row and Column Flips II](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/)|[Python3](./solutions/2174.%20Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II.py)|64 ms|
 |2218|[ Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|[Python3](./solutions/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles.py)|6008 ms|
 |2229|[ Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/)|[C++](./solutions/2229.%20Check%20if%20an%20Array%20Is%20Consecutive.cpp)|107 ms|
+|2256|[ Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[C++](./solutions/2256.%20Minimum%20Average%20Difference.cpp)|N/A|
 |2305|[ Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|[C++](./solutions/2305.%20Fair%20Distribution%20of%20Cookies.cpp)|6 ms|
 |2319|[ Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[C++](./solutions/2319.%20Check%20if%20Matrix%20Is%20X-Matrix.cpp)|76 ms|
 |2365|[ Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[C++](./solutions/2365.%20Task%20Scheduler%20II.cpp)|256 ms|
