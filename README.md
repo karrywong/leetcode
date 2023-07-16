@@ -613,6 +613,7 @@
 |1940|[ Longest Common Subsequence Between Sorted Arrays](https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays/)|[Python3](./solutions/1940.%20Longest%20Common%20Subsequence%20Between%20Sorted%20Arrays.py)|286 ms|
 |1945|[ Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Python3](./solutions/1945.%20Sum%20of%20Digits%20of%20String%20After%20Convert.py)|51 ms|
 |1963|[ Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)|[Python3](./solutions/1963.%20Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced.py)|316 ms|
+|1969|[ Minimum Non-Zero Product of the Array Elements](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)|[C++](./solutions/1969.%20Minimum%20Non-Zero%20Product%20of%20the%20Array%20Elements.cpp)|3 ms|
 |1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Python3](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.py)|2472 ms|
 |1973|[ Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|[Python3](./solutions/1973.%20Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants.py)|943 ms|
 |1985|[ Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|[Python3](./solutions/1985.%20Find%20the%20Kth%20Largest%20Integer%20in%20the%20Array.py)|408 ms|
