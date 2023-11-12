@@ -622,7 +622,7 @@
 |1996|[ The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[C++](./solutions/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game.cpp)|761 ms|
 |2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./solutions/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.cpp)|396 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|36 ms|
-|2021|[ Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/)|[Python3](./solutions/2021.%20Brightest%20Position%20on%20Street.py)|1158 ms|
+|2021|[ Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/)|[C++](./solutions/2021.%20Brightest%20Position%20on%20Street.cpp)|251 ms|
 |2022|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Python3](./solutions/2022.%20Convert%201D%20Array%20Into%202D%20Array.py)|1008 ms|
 |2023|[ Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Python3](./solutions/2023.%20Number%20of%20Pairs%20of%20Strings%20With%20Concatenation%20Equal%20to%20Target.py)|40 ms|
 |2031|[ Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|[Python3](./solutions/2031.%20Count%20Subarrays%20With%20More%20Ones%20Than%20Zeros.py)|1258 ms|
