@@ -661,6 +661,7 @@
 |2174|[ Remove All Ones With Row and Column Flips II](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/)|[Python3](./solutions/2174.%20Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II.py)|64 ms|
 |2218|[ Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|[Python3](./solutions/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles.py)|6008 ms|
 |2229|[ Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/)|[C++](./solutions/2229.%20Check%20if%20an%20Array%20Is%20Consecutive.cpp)|107 ms|
+|2237|[ Count Positions on Street With Required Brightness](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/)|[C++](./solutions/2237.%20Count%20Positions%20on%20Street%20With%20Required%20Brightness.cpp)|232 ms|
 |2256|[ Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/)|[C++](./solutions/2256.%20Minimum%20Average%20Difference.cpp)|N/A|
 |2265|[ Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)|[C++](./solutions/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.cpp)|3 ms|
 |2289|[ Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)|[C++](./solutions/2289.%20Steps%20to%20Make%20Array%20Non-decreasing.cpp)|130 ms|
