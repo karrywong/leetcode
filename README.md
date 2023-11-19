@@ -672,3 +672,4 @@
 |2476|[ Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[C++](./solutions/2476.%20Closest%20Nodes%20Queries%20in%20a%20Binary%20Search%20Tree.cpp)|385 ms|
 |2498|[ Frog Jump II](https://leetcode.com/problems/frog-jump-ii/)|[C++](./solutions/2498.%20Frog%20Jump%20II.cpp)|164 ms|
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|44 ms|
+|2667|[ Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)|[JavaScript](./solutions/2667.%20Create%20Hello%20World%20Function.js)|57 ms|
