@@ -621,6 +621,7 @@
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
 |1996|[ The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[C++](./solutions/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game.cpp)|761 ms|
 |2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./solutions/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.cpp)|396 ms|
+|2015|[ Average Height of Buildings in Each Segment](https://leetcode.com/problems/average-height-of-buildings-in-each-segment/)|[C++](./solutions/2015.%20Average%20Height%20of%20Buildings%20in%20Each%20Segment.cpp)|294 ms|
 |2016|[ Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/)|[Python3](./solutions/2016.%20Maximum%20Difference%20Between%20Increasing%20Elements.py)|36 ms|
 |2021|[ Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/)|[C++](./solutions/2021.%20Brightest%20Position%20on%20Street.cpp)|251 ms|
 |2022|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Python3](./solutions/2022.%20Convert%201D%20Array%20Into%202D%20Array.py)|1008 ms|
