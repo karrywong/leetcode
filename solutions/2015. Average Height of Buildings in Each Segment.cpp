@@ -39,9 +39,6 @@
                 ans.push_back(street[i]);
             }
             i++;
-            // for (const auto& a : ans) {
-            //     cout << "i: " << i <<","<< a[0] << ", " << a[1] << ", " << a[2] << endl;
-            // }
         }
         return ans;
         
