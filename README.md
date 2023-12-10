@@ -670,6 +670,7 @@
 |2319|[ Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[C++](./solutions/2319.%20Check%20if%20Matrix%20Is%20X-Matrix.cpp)|76 ms|
 |2365|[ Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[C++](./solutions/2365.%20Task%20Scheduler%20II.cpp)|256 ms|
 |2379|[ Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Python3](./solutions/2379.%20Minimum%20Recolors%20to%20Get%20K%20Consecutive%20Black%20Blocks.py)|52 ms|
+|2452|[ Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[C++](./solutions/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.cpp)|21 ms|
 |2476|[ Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[C++](./solutions/2476.%20Closest%20Nodes%20Queries%20in%20a%20Binary%20Search%20Tree.cpp)|385 ms|
 |2498|[ Frog Jump II](https://leetcode.com/problems/frog-jump-ii/)|[C++](./solutions/2498.%20Frog%20Jump%20II.cpp)|164 ms|
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|44 ms|
