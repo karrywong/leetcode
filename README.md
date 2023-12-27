@@ -149,7 +149,7 @@
 |166|[ Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)|[Python3](./solutions/166.%20Fraction%20to%20Recurring%20Decimal.py)|42 ms|
 |167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C++](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp)|11 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|172 ms|
-|170|[ Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Python](./solutions/170.%20Two%20Sum%20III%20-%20Data%20structure%20design.python)|676 ms|
+|170|[ Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Python3](./solutions/170.%20Two%20Sum%20III%20-%20Data%20structure%20design.py)|179 ms|
 |173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Python3](./solutions/173.%20Binary%20Search%20Tree%20Iterator.py)|96 ms|
 |186|[ Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)|[Python3](./solutions/186.%20Reverse%20Words%20in%20a%20String%20II.py)|264 ms|
 |187|[ Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)|[Python3](./solutions/187.%20Repeated%20DNA%20Sequences.py)|88 ms|
