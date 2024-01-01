@@ -668,7 +668,7 @@
 |2289|[ Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)|[C++](./solutions/2289.%20Steps%20to%20Make%20Array%20Non-decreasing.cpp)|130 ms|
 |2305|[ Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/)|[C++](./solutions/2305.%20Fair%20Distribution%20of%20Cookies.cpp)|6 ms|
 |2319|[ Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/)|[C++](./solutions/2319.%20Check%20if%20Matrix%20Is%20X-Matrix.cpp)|76 ms|
-|2342|[ Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[Python3](./solutions/2342.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.py)|1442 ms|
+|2342|[ Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)|[C++](./solutions/2342.%20Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.cpp)|317 ms|
 |2365|[ Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/)|[C++](./solutions/2365.%20Task%20Scheduler%20II.cpp)|256 ms|
 |2379|[ Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)|[Python3](./solutions/2379.%20Minimum%20Recolors%20to%20Get%20K%20Consecutive%20Black%20Blocks.py)|52 ms|
 |2452|[ Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[C++](./solutions/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.cpp)|21 ms|
