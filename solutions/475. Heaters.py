@@ -1,44 +1,46 @@
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
-        ### Soln 2 - sort both houses and heaters, O(max(Nlog(N), Mlog(M)))
-        ### from discussion by jychstar
-        houses.sort()
+      # loop over house 
+      # loop over heater
+        
+      # house = 1, dist = Min([0, 3]) -> 0
+      # house = 2, dist -> 1
+      # house = 3, dist -> 1
+    
+      # house[i] , heater[j], heater[j+1]
+    # house = 12, heater = [1,3,4,4,4,11]
+    # (0,5) -> (3,5) -> (5,5) -> 4
+    # house = 0, heater = [1,3,4,4,4,11]
+    # (0,5) -> (0,2) -> (0,1) -> (0,0) -> -1
+​
+    # M = len(houses), N = len(heaters)
+    # time O(NlogN + M*logN) = O(max(M,N)* logN), space O(1)
+        def _get_heater_index(h):
+            # h = 10, heaters = [1,3,4,11]
+            # l,r = (0,2) -> (2,2) -> 2 -> 1
+            # (0,3) -> (2,3) -> (3,3) -> 2
+            l, r = 0, len(heaters)-1
+            while l < r: # l=r
+                mid = l + (r-l) // 2
+                if (heaters[mid] == h):
+                    return mid
+                elif heaters[mid] > h:
+                    r = mid
+                else: 
+                    l = mid + 1
+            return l-1 if heaters[l] > h else l
+    
+        ans = 0
         heaters.sort()
-        heaters=[float('-inf')]+heaters+[float('inf')] # add 2 fake heaters
-        ans,i = 0,0
-        for house in houses:
-            while house > heaters[i+1]:  # search to put house between heaters
-                i +=1
-            dis = min (house - heaters[i], heaters[i+1]- house)
-            ans = max(ans, dis)
+        for h in houses:
+            i = _get_heater_index(h)
+            if i==len(heaters)-1:
+                dist = h-heaters[i]
+            elif i == -1:
+                dist = heaters[i+1]-h
+            else:
+                dist = min(h-heaters[i],heaters[i+1]-h)
+            ans = max(ans, dist)
+            
         return ans
-        
-        
-        # Soln 1 - speeded up, (M*logM + N*logM)
-#         res = 0
-#         n = len(heaters)
-#         heaters.sort()
-        
-#         #find idx s.t. heaters[idx-1] < hs <= heaters[idx]
-#         def bsearch(hs, heaters):
-#             l, r, pos = 0, n - 1, n
-#             while l <= r:
-#                 mid = l + (r-l)//2
-#                 if heaters[mid] >= hs:
-#                     pos = mid
-#                     r = mid-1
-#                 else:
-#                     l = mid + 1
-#             return pos
-        
-#         for hs in houses:
-#             idx = bsearch(hs, heaters)
-#             if idx == n:
-#                 res = max(res, hs - heaters[-1])
-#             elif idx == 0:
-#                 res = max(res, heaters[0] - hs)
-#             else:
-#                 res = max(res, min(hs - heaters[idx - 1], heaters[idx] - hs))
-#         return res
-​
-​
+            
