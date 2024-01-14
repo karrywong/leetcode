@@ -679,7 +679,7 @@
 |2498|[ Frog Jump II](https://leetcode.com/problems/frog-jump-ii/)|[C++](./solutions/2498.%20Frog%20Jump%20II.cpp)|164 ms|
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|44 ms|
 |2553|[ Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[C++](./solutions/2553.%20Separate%20the%20Digits%20in%20an%20Array.cpp)|8 ms|
-|2596|[ Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|[Python3](./solutions/2596.%20Check%20Knight%20Tour%20Configuration.py)|74 ms|
+|2596|[ Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|[Python3](./solutions/2596.%20Check%20Knight%20Tour%20Configuration.py)|11 ms|
 |2597|[ The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[Python3](./solutions/2597.%20The%20Number%20of%20Beautiful%20Subsets.py)|350 ms|
 |2667|[ Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)|[JavaScript](./solutions/2667.%20Create%20Hello%20World%20Function.js)|57 ms|
 |2824|[ Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|[Python3](./solutions/2824.%20Count%20Pairs%20Whose%20Sum%20is%20Less%20than%20Target.py)|55 ms|
