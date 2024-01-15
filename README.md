@@ -4,7 +4,7 @@
 |---| ----- | -------- | ------- |
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[C++](./solutions/1.%20Two%20Sum.cpp)|22 ms|
 |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./solutions/2.%20Add%20Two%20Numbers.cpp)|23 ms|
-|3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python3](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)|52 ms|
+|3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.cpp)|8 ms|
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python3](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.py)|180 ms|
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Python3](./solutions/5.%20Longest%20Palindromic%20Substring.py)|768 ms|
 |6|[ Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Python3](./solutions/6.%20Zigzag%20Conversion.py)|56 ms|
