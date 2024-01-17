@@ -663,6 +663,7 @@
 |2156|[ Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|[Python3](./solutions/2156.%20Find%20Substring%20With%20Given%20Hash%20Value.py)|570 ms|
 |2166|[ Design Bitset](https://leetcode.com/problems/design-bitset/)|[Python3](./solutions/2166.%20Design%20Bitset.py)|1844 ms|
 |2174|[ Remove All Ones With Row and Column Flips II](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips-ii/)|[Python3](./solutions/2174.%20Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II.py)|64 ms|
+|2210|[ Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[Python3](./solutions/2210.%20Count%20Hills%20and%20Valleys%20in%20an%20Array.py)|44 ms|
 |2218|[ Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)|[Python3](./solutions/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles.py)|6008 ms|
 |2229|[ Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/)|[C++](./solutions/2229.%20Check%20if%20an%20Array%20Is%20Consecutive.cpp)|107 ms|
 |2237|[ Count Positions on Street With Required Brightness](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/)|[C++](./solutions/2237.%20Count%20Positions%20on%20Street%20With%20Required%20Brightness.cpp)|232 ms|
