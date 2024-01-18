@@ -620,6 +620,7 @@
 |1971|[ Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)|[Python3](./solutions/1971.%20Find%20if%20Path%20Exists%20in%20Graph.py)|2472 ms|
 |1973|[ Count Nodes Equal to Sum of Descendants](https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/)|[Python3](./solutions/1973.%20Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants.py)|943 ms|
 |1985|[ Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|[Python3](./solutions/1985.%20Find%20the%20Kth%20Largest%20Integer%20in%20the%20Array.py)|408 ms|
+|1991|[ Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/)|[Python3](./solutions/1991.%20Find%20the%20Middle%20Index%20in%20Array.py)|50 ms|
 |1995|[ Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/)|[Python3](./solutions/1995.%20Count%20Special%20Quadruplets.py)|112 ms|
 |1996|[ The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)|[C++](./solutions/1996.%20The%20Number%20of%20Weak%20Characters%20in%20the%20Game.cpp)|761 ms|
 |2007|[ Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)|[C++](./solutions/2007.%20Find%20Original%20Array%20From%20Doubled%20Array.cpp)|396 ms|
