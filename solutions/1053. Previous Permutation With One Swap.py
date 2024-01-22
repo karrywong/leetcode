@@ -1,5 +1,6 @@
 class Solution:
     def prevPermOpt1(self, arr: List[int]) -> List[int]:
+        # Time O(N), space O(1)
         # consult horwardL
         # Scan from right to left, find the largest number that is smaller than arr
         # Find A[i] where A[i] > A[i + 1] for 0 <= i < A.length - 1.
@@ -25,4 +26,3 @@ class Solution:
         # [3,1,2,2] -> [2,1,3,2]
         
         # Failed, overcomplicated
-#         h = len(arr)-1 # max val index
