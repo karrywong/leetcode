@@ -332,7 +332,7 @@
 |477|[ Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Python3](./solutions/477.%20Total%20Hamming%20Distance.py)|981 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[C++](./solutions/485.%20Max%20Consecutive%20Ones.cpp)|113 ms|
 |486|[ Predict the Winner](https://leetcode.com/problems/predict-the-winner/)|[Python3](./solutions/486.%20Predict%20the%20Winner.py)|53 ms|
-|487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[C++](./solutions/487.%20Max%20Consecutive%20Ones%20II.cpp)|35 ms|
+|487|[ Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Python3](./solutions/487.%20Max%20Consecutive%20Ones%20II.py)|280 ms|
 |495|[ Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[Python3](./solutions/495.%20Teemo%20Attacking.py)|260 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|59 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|184 ms|
