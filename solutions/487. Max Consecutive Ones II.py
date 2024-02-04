@@ -1,58 +1,30 @@
 class Solution:
-    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:        
-        ## Soln 2 - sliding window O(n)
-        left, right = 0, 0
-        count, ans = 0, 0
+    def findMaxConsecutiveOnes(self, nums: List[int]) -> int: 
+        k = -1 
+        j = 0 # last seen 0 position
+        cnt_zero = 0
+        ans = 0
         
-        while right < len(nums):
-            if nums[right] == 0: count += 1
-            
-            while count > 1:
-                if nums[left] == 0:
-                    count -= 1
-                left += 1
-                
-            ans = max(ans, right - left + 1)
-            right += 1
+        for i in range(len(nums)):
+            if nums[i] == 0:
+                cnt_zero += 1
+                if cnt_zero > 1:
+                    k = j
+                j = i
+            ans = max(ans, i-k)
         return ans
-​
-#         #First attempt, straightforward counting, time O(N), space O(1)
-#         count1 = 0 #count consecutive ones
-#         i = 0
-        
-#         while i < len(nums) and nums[i] != 0:
-#             count1 += 1
-#             i += 1
-#         if i == len(nums): #entire array is ones
-#             return len(nums)
-        
-#         count2 = 0
-#         ans = 0
-#         for j in range(i+1, len(nums)):
-#             if nums[j] == 1:
-#                 count2 += 1
-#             else:
-#                 ans = max(ans, count1+count2+1)
-#                 count1 = count2 #update last seen consecutive ones
-#                 count2 = 0
-        
-#         return max(ans, count1+count2+1)
     
-        ### Old attempts
-        ### Soln 1 - brute force O(n^2), time exceeded
-        # res = 0
-        # for i in range(len(nums)):
-        #     count = 0
-        #     for j in range(i, len(nums)):
-        #         if count == 2:
-        #             break
-        #         if nums[j] == 0:
-        #             count += 1
-        #         if count <= 1: 
-        #             res = max(res, j - i + 1)
-        # return res
+    #  (i, k, j, ans)
+    # [1,0,1,1,0] 
+    # (0, -1, 0, 1) -> (1, -1, 1, 2) -> (2,-1,1,3) -> (3,-1,1,4) -> (4,1,4,4)
+    
+    # [1,0,1,1,0,1,1,1,1,1]
+    # ans = 8
+    
+    # [1,0,1,1,0,1]
+    # (0,-1,0,1) -> (1,-1,0,1) -> ... ->(3,-1,0,4) -> (4,1,4,4) -> (5,1,4,4)
 ​
-#         ### Soln 2 - fast and elegant solution from discussion by redSand
+# ## Soln 2 - fast and elegant solution from discussion by redSand
 #         k = result = 0
 #         prev_zero_seen = -1
 #         for i, num in enumerate(nums):
@@ -62,3 +34,11 @@ class Solution:
 #                 prev_zero_seen = i
         
 #         return max(result, len(nums) - k)
+    
+        ### Old attempts
+        ### Soln 1 - brute force O(n^2), time exceeded
+        # res = 0
+        # for i in range(len(nums)):
+        #     count = 0
+        #     for j in range(i, len(nums)):
+        #         if count == 2:
