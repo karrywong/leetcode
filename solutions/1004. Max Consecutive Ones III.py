@@ -9,6 +9,10 @@ class Solution:
         
         for i in range(len(nums)):
             if nums[i] == 0:
+                # if k > 0 and len(deq) >= k:
+                #     x = deq.popleft()
+                # elif k == 0:
+                #     x = i
                 deq.append(i)
             if len(deq) > k:
                 x = deq.popleft()
