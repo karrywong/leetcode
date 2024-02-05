@@ -636,7 +636,7 @@
 |2021|[ Brightest Position on Street](https://leetcode.com/problems/brightest-position-on-street/)|[C++](./solutions/2021.%20Brightest%20Position%20on%20Street.cpp)|251 ms|
 |2022|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)|[Python3](./solutions/2022.%20Convert%201D%20Array%20Into%202D%20Array.py)|1008 ms|
 |2023|[ Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Python3](./solutions/2023.%20Number%20of%20Pairs%20of%20Strings%20With%20Concatenation%20Equal%20to%20Target.py)|40 ms|
-|2024|[ Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[Python3](./solutions/2024.%20Maximize%20the%20Confusion%20of%20an%20Exam.py)|166 ms|
+|2024|[ Maximize the Confusion of an Exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)|[Python3](./solutions/2024.%20Maximize%20the%20Confusion%20of%20an%20Exam.py)|1295 ms|
 |2031|[ Count Subarrays With More Ones Than Zeros](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/)|[Python3](./solutions/2031.%20Count%20Subarrays%20With%20More%20Ones%20Than%20Zeros.py)|1258 ms|
 |2034|[ Stock Price Fluctuation ](https://leetcode.com/problems/stock-price-fluctuation/)|[Python3](./solutions/2034.%20Stock%20Price%20Fluctuation%20.py)|911 ms|
 |2038|[ Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|[Python3](./solutions/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color.py)|178 ms|
