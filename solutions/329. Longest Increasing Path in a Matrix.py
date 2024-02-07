@@ -1,7 +1,7 @@
 from collections import defaultdict
 class Solution:
     def longestIncreasingPath(self, matrix: List[List[int]]) -> int:
-        #TBRV, time O(M^2*N^2), space O(M*N)
+        #TBRV, time O(M*N), space O(M*N)
         def dfs(i, j):
             if dp[i][j] != 0:
                 return dp[i][j]
@@ -24,7 +24,7 @@ class Solution:
                 res = max(res, dfs(i, j))
         return res
     
-#         # faster solution, time O(M*N), space O(M*N)
+#         # faster solution, time O(M*N*log(M*N)), space O(M*N)
 #         m = len(matrix)
 #         if m == 0:
 #             return 0
