@@ -658,7 +658,7 @@
 |2101|[ Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)|[Python3](./solutions/2101.%20Detonate%20the%20Maximum%20Bombs.py)|608 ms|
 |2104|[ Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/)|[Python3](./solutions/2104.%20Sum%20of%20Subarray%20Ranges.py)|192 ms|
 |2105|[ Watering Plants II](https://leetcode.com/problems/watering-plants-ii/)|[Python3](./solutions/2105.%20Watering%20Plants%20II.py)|1409 ms|
-|2108|[ Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[Python3](./solutions/2108.%20Find%20First%20Palindromic%20String%20in%20the%20Array.py)|87 ms|
+|2108|[ Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)|[C++](./solutions/2108.%20Find%20First%20Palindromic%20String%20in%20the%20Array.cpp)|36 ms|
 |2109|[ Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/)|[C++](./solutions/2109.%20Adding%20Spaces%20to%20a%20String.cpp)|153 ms|
 |2115|[ Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)|[Python3](./solutions/2115.%20Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.py)|1073 ms|
 |2116|[ Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)|[Python3](./solutions/2116.%20Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.py)|410 ms|
