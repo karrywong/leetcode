@@ -600,6 +600,7 @@
 |1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Python3](./solutions/1695.%20Maximum%20Erasure%20Value.py)|1248 ms|
 |1696|[ Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[Python3](./solutions/1696.%20Jump%20Game%20VI.py)|1405 ms|
 |1701|[ Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[Python3](./solutions/1701.%20Average%20Waiting%20Time.py)|920 ms|
+|1718|[ Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[Python3](./solutions/1718.%20Construct%20the%20Lexicographically%20Largest%20Valid%20Sequence.py)|39 ms|
 |1720|[ Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Python3](./solutions/1720.%20Decode%20XORed%20Array.py)|216 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Python3](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.py)|1020 ms|
 |1727|[ Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Python3](./solutions/1727.%20Largest%20Submatrix%20With%20Rearrangements.py)|1328 ms|
