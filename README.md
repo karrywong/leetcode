@@ -403,6 +403,7 @@
 |713|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Python3](./solutions/713.%20Subarray%20Product%20Less%20Than%20K.py)|1048 ms|
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Python3](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.py)|1470 ms|
 |716|[ Max Stack](https://leetcode.com/problems/max-stack/)|[Python3](./solutions/716.%20Max%20Stack.py)|194 ms|
+|717|[ 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Python3](./solutions/717.%201-bit%20and%202-bit%20Characters.py)|44 ms|
 |718|[ Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Python3](./solutions/718.%20Maximum%20Length%20of%20Repeated%20Subarray.py)|4972 ms|
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Python3](./solutions/721.%20Accounts%20Merge.py)|208 ms|
 |729|[ My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[Python3](./solutions/729.%20My%20Calendar%20I.py)|307 ms|
