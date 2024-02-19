@@ -3,10 +3,9 @@ class Solution:
         #Time O(NlogN), Space O(1)
         if not intervals: return True
         intervals.sort()
-        temp = intervals[0]
-        for interval in intervals[1:]:
-            if temp[1] > interval[0]:
+        end = intervals[0][1]
+        for s, e in intervals[1:]:
+            if end > s:
                 return False
-            else:
-                temp = interval
+            end = e
         return True
