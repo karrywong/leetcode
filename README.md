@@ -201,7 +201,7 @@
 |249|[ Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Python3](./solutions/249.%20Group%20Shifted%20Strings.py)|36 ms|
 |250|[ Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Python3](./solutions/250.%20Count%20Univalue%20Subtrees.py)|62 ms|
 |251|[ Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/)|[Python3](./solutions/251.%20Flatten%202D%20Vector.py)|132 ms|
-|252|[ Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Python3](./solutions/252.%20Meeting%20Rooms.py)|76 ms|
+|252|[ Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)|[Python3](./solutions/252.%20Meeting%20Rooms.py)|71 ms|
 |253|[ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Python3](./solutions/253.%20Meeting%20Rooms%20II.py)|80 ms|
 |254|[ Factor Combinations](https://leetcode.com/problems/factor-combinations/)|[Python3](./solutions/254.%20Factor%20Combinations.py)|133 ms|
 |255|[ Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/)|[Python3](./solutions/255.%20Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree.py)|363 ms|
