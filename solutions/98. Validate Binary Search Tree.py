@@ -6,18 +6,32 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        #soln 2 - Recursive Inorder Traversal, time O(N), space O(N)
-        def inorder(node):
-            if not node:
-                return True
-            if not inorder(node.left):
-                return False
-            if node.val <= self.prev:
-                return False
-            self.prev = node.val
-            return inorder(node.right)
-        self.prev = float('-inf')
-        return inorder(root)
+        # self-attempt, DFS bottom-up, time O(N), space O(N)
+        def dfs(root: Optional[TreeNode]) -> Tuple[bool, int, int]:
+            if root is None:
+                return True, float('inf'), float('-inf')
+            
+            left_bool, left_min, left_max = dfs(root.left)
+            right_bool, right_min, right_max = dfs(root.right)
+            
+            if not left_bool or not right_bool or root.val <= left_max or root.val >= right_min:
+                return False, float('inf'), float('-inf')
+            return True, min(left_min,right_min,root.val), max(left_max,right_max,root.val)
+        
+        return dfs(root)[0]
+        
+        # #soln 2 - Recursive Inorder Traversal, time O(N), space O(N)
+        # def inorder(node):
+        #     if not node:
+        #         return True
+        #     if not inorder(node.left):
+        #         return False
+        #     if node.val <= self.prev:
+        #         return False
+        #     self.prev = node.val
+        #     return inorder(node.right)
+        # self.prev = float('-inf')
+        # return inorder(root)
         
         # #soln 1 - Recursive Traversal with Valid Range, time O(N), space O(N)
         # def validate(node, low=float('-inf'), high=float('inf')):
@@ -35,4 +49,3 @@ class Solution:
 #             return helper(node.left) + [node.val] + helper(node.right)
 #         lst = helper(root)
 #         return all([lst[i] < lst[i+1] for i in range(len(lst)-1)])
-            
