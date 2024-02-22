@@ -91,7 +91,7 @@
 |90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[Python3](./solutions/90.%20Subsets%20II.py)|57 ms|
 |91|[ Decode Ways](https://leetcode.com/problems/decode-ways/)|[Python3](./solutions/91.%20Decode%20Ways.py)|36 ms|
 |92|[ Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Python3](./solutions/92.%20Reverse%20Linked%20List%20II.py)|36 ms|
-|94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Python3](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.py)|50 ms|
+|94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Python3](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.py)|41 ms|
 |95|[ Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Python3](./solutions/95.%20Unique%20Binary%20Search%20Trees%20II.py)|61 ms|
 |96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Python3](./solutions/96.%20Unique%20Binary%20Search%20Trees.py)|64 ms|
 |97|[ Interleaving String](https://leetcode.com/problems/interleaving-string/)|[Python3](./solutions/97.%20Interleaving%20String.py)|60 ms|
