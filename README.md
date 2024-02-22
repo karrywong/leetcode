@@ -95,7 +95,7 @@
 |95|[ Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Python3](./solutions/95.%20Unique%20Binary%20Search%20Trees%20II.py)|61 ms|
 |96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Python3](./solutions/96.%20Unique%20Binary%20Search%20Trees.py)|64 ms|
 |97|[ Interleaving String](https://leetcode.com/problems/interleaving-string/)|[Python3](./solutions/97.%20Interleaving%20String.py)|60 ms|
-|98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python3](./solutions/98.%20Validate%20Binary%20Search%20Tree.py)|44 ms|
+|98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python3](./solutions/98.%20Validate%20Binary%20Search%20Tree.py)|37 ms|
 |99|[ Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[Python3](./solutions/99.%20Recover%20Binary%20Search%20Tree.py)|70 ms|
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|59 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Python3](./solutions/101.%20Symmetric%20Tree.py)|32 ms|
