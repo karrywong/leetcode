@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def dfs(node: Optional[TreeNode], min_val: float = float('-inf'), max_val: float = float('inf')) -> bool:
+        # def dfs(node: Optional[TreeNode], min_val: float = float('-inf'), max_val: float = float('inf')) -> bool:
 #         # self-attempt, DFS bottom-up, time O(N), space O(N)
 #         def dfs(root: Optional[TreeNode]) -> Tuple[bool, int, int]:
 #             if root is None:
@@ -22,15 +22,17 @@ class Solution:
 #         return dfs(root)[0]
         
         #soln 2 - Recursive Inorder Traversal, time O(N), space O(N)
-        self.prev_val:float=float('-inf')
+        # self.prev_val:float=float('-inf') #alternative, use nonlocal
+        prev_val:float=float('-inf')
         def dfs(node: Optional[TreeNode]) -> bool:
+            nonlocal prev_val
             if not node:
                 return True
             if not dfs(node.left):
                 return False
-            if node.val <= self.prev_val:
+            if node.val <= prev_val:
                 return False
-            self.prev_val = node.val
+            prev_val = node.val
             return dfs(node.right)
         return dfs(root)
         
@@ -50,4 +52,3 @@ class Solution:
 #             return helper(node.left) + [node.val] + helper(node.right)
 #         lst = helper(root)
 #         return all([lst[i] < lst[i+1] for i in range(len(lst)-1)])
-            
