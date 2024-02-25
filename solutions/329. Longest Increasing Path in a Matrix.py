@@ -7,23 +7,29 @@ class Solution:
                 return dp[i][j]
             dirs = {(i-1,j), (i+1,j), (i,j-1), (i,j+1)}
             for x, y in dirs:
-                if 0 <= x < n and 0 <= y < m:
-                    if matrix[x][y] > matrix[i][j]:
+                if 0 <= x < rows and 0 <= y < cols and matrix[x][y] > matrix[i][j]:
                         dp[i][j] = max(dp[i][j], dfs(x, y))
             dp[i][j] += 1
             return dp[i][j]
         
-        if not matrix or not matrix[0]:
-            return 0
         res = 0
-        n = len(matrix)
-        m = len(matrix[0])
-        dp = [[0]*m for _ in range(n)]
-        for i in range(n):
-            for j in range(m):
+        rows, cols = len(matrix), len(matrix[0])
+        dp = [[0]*cols for _ in range(rows)]
+        for i in range(rows):
+            for j in range(cols):
                 res = max(res, dfs(i, j))
+        print(dp)
         return res
     
+# 1 2 3
+# 8 9 4
+# 7 6 5
+​
+#dp 
+# 9 8 7
+# 2 1 6
+# 3 4 5
+​
 #         # faster solution, time O(M*N*log(M*N)), space O(M*N)
 #         m = len(matrix)
 #         if m == 0:
