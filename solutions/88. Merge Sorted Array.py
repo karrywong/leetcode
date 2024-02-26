@@ -1,5 +1,5 @@
 class Solution:
-    # m_0, .., m_(k-1)
+    # follow-up m_0, .., m_(k-1)
     # List[List[int]], [[1,2,4], [2,3,5], [3,3,3,3,3], [1,4,5], ...]
     # each step, O(k)
     # time O([m_0+m_1+...+m_(k-1)]*k)
@@ -43,3 +43,13 @@ class Solution:
 #                 ptr2 += 1
         
 #         return ans
+​
+        # #soln 2 - LeetCode backward, Time O(M+N), Space O(1)
+        # p1, p2 = m-1, n-1
+        # for p in range(n+m-1, -1, -1):
+        #     if p2 < 0:
+        #         break
+        #     if p1 >= 0 and nums1[p1] > nums2[p2]:
+        #         nums1[p] = nums1[p1]
+        #         p1 -= 1
+        #     else:
