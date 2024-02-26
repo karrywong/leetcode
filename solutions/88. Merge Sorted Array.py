@@ -42,3 +42,4 @@ class Solution:
 #                 ans.append(nums2[ptr2])
 #                 ptr2 += 1
         
+#         return ans
