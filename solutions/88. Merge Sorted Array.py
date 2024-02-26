@@ -53,3 +53,5 @@ class Solution:
         #         nums1[p] = nums1[p1]
         #         p1 -= 1
         #     else:
+        #         nums1[p] = nums2[p2]
+        #         p2 -= 1
