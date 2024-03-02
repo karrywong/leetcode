@@ -610,7 +610,7 @@
 |1727|[ Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)|[Python3](./solutions/1727.%20Largest%20Submatrix%20With%20Rearrangements.py)|1328 ms|
 |1730|[ Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food/)|[Python3](./solutions/1730.%20Shortest%20Path%20to%20Get%20Food.py)|500 ms|
 |1738|[ Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|[Python3](./solutions/1738.%20Find%20Kth%20Largest%20XOR%20Coordinate%20Value.py)|5391 ms|
-|1740|[ Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Python3](./solutions/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py)|68 ms|
+|1740|[ Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Python3](./solutions/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py)|67 ms|
 |1746|[ Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)|[Python3](./solutions/1746.%20Maximum%20Subarray%20Sum%20After%20One%20Operation.py)|1256 ms|
 |1762|[ Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[C++](./solutions/1762.%20Buildings%20With%20an%20Ocean%20View.cpp)|155 ms|
 |1768|[ Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Python3](./solutions/1768.%20Merge%20Strings%20Alternately.py)|38 ms|
