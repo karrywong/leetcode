@@ -26,7 +26,6 @@ class Solution:
             return ""
     
         startPath = helper(root, startValue)[:-1]
-        print("Found startPath!")
         destPath = helper(root, destValue)[:-1]
         i = 0 
         while i < len(startPath) and i < len(destPath) and startPath[i] == destPath[i]:
