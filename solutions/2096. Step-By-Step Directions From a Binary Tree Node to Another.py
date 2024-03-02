@@ -5,28 +5,29 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
+    def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:        
     #eg1, 5->3, "XXXLL" -> "LL" -> "UU", 5->6, "XXXRL" -> "RL"
     #eg2, 2->2, "", 2->1, "L", "" + "L"
     #eg3, 1 startVal, 2 endVal, "L" -> "U", "U" + "" = "U"
     
     #Mock interview practice, time O(N), space O(N)
-        def helper(node: Optional[TreeNode], val: int) -> (str, bool):
-            if node:        
-                if node.val == val:
-                    return "", True
+        def helper(node: Optional[TreeNode], target: int) -> str:
+            if node:
+                if node.val == target:
+                    return "X"
 ​
-                path, found = helper(node.left, val) #left child
-                if found:
-                    return "L"+path, True
+                path = helper(node.left, target) #left child
+                if len(path) > 0:
+                    return "L"+path
 ​
-                path, found = helper(node.right, val) #right child
-                if found:
-                    return "R"+path, True
-            return "", False
+                path = helper(node.right, target) #right child
+                if len(path) > 0 :
+                    return "R"+path
+            return ""
     
-        startPath, _ = helper(root, startValue)
-        destPath, _ = helper(root, destValue)
+        startPath = helper(root, startValue)[:-1]
+        print("Found startPath!")
+        destPath = helper(root, destValue)[:-1]
         i = 0 
         while i < len(startPath) and i < len(destPath) and startPath[i] == destPath[i]:
             i += 1
