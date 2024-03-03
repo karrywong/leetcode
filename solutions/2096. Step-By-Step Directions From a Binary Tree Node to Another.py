@@ -12,17 +12,18 @@ class Solution:
     
     #Mock interview practice, time O(N), space O(N)
         def helper(node: Optional[TreeNode], target: int) -> str:
-            if node:
-                if node.val == target:
-                    return "X"
+            if node is None:
+                return ""
+            if node.val == target:
+                return "X"
 ​
-                path = helper(node.left, target) #left child
-                if len(path) > 0:
-                    return "L"+path
+            path = helper(node.left, target) #left child
+            if len(path) > 0 :
+                return "L"+path
 ​
-                path = helper(node.right, target) #right child
-                if len(path) > 0 :
-                    return "R"+path
+            path = helper(node.right, target) #right child
+            if len(path) > 0 :
+                return "R"+path
             return ""
     
         startPath = helper(root, startValue)[:-1]
