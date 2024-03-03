@@ -14,9 +14,8 @@ class LRUCache(object):
         """
         if key not in self.dict:
             return -1
-        ans = self.dict[key]
         self.dict.move_to_end(key)
-        return ans
+        return self.dict[key]
 ​
     def put(self, key: int, value: int) -> None:
         """
