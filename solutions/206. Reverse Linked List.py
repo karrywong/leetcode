@@ -12,34 +12,32 @@ class Solution:
         # head.next.next = head
         # head.next = None
         # return p 
-        
-        #soln 3 - more elegant in Python
-        prev, curr = None, head
-        while curr:
-            curr.next, prev, curr = prev, curr, curr.next   
+​
+        # soln 2 - more elegant
+        prev, cur = None, head
+        while cur:
+            cur.next, prev, cur = prev, cur, cur.next
         return prev
-    
-        # #soln 1 - one pass, time O(N), space O(1)
-        # if not head: return head
-        # prev = ListNode(head.val)
-        # curr = head
-        # curr = curr.next
-        # while curr:
-        #     next_temp = curr.next
-        #     curr.next = prev
-        #     prev = curr
-        #     curr = next_temp
-        # return prev
         
-        # #soln 0 - naive attempt, two pass
-        # if not head: return head
-        # stack = []
-        # while head:
-        #     stack.append(head.val)
-        #     head = head.next
-        # ans_ptr = ListNode(stack.pop())
-        # ans = ans_ptr
-        # while stack:
-        #     ans_ptr.next = ListNode(stack.pop())
-        #     ans_ptr = ans_ptr.next
-        # return ans
+#         # soln 1 - one pass, time O(N), space O(1)
+#         prev = None
+#         cur = head
+#         while cur:
+#             next_temp = cur.next
+#             cur.next = prev
+#             prev = cur
+#             cur = next_temp
+#         return prev
+    
+        # naive, time O(N), space O(N)
+#         lst = []
+#         cur = head
+#         while cur:
+#             lst.append(cur.val)
+#             cur = cur.next 
+#         ans = ListNode(None)
+#         cur = ans
+#         for i in range(len(lst)-1, -1, -1):
+#             cur.next = ListNode(lst[i])
+#             cur = cur.next
+#         return ans.next
