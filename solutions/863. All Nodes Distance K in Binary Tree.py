@@ -1,3 +1,4 @@
+from collections import deque
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -5,28 +6,36 @@
 #         self.left = None
 #         self.right = None
 ​
+# suppose parent is given, can be access by node.parent
+​
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
-        #LeetCode Annotate Parent - use DFS to keep track of parent and BFS to compute distance
-        #Time O(N), space O(N)
-        parent = {}
-        def dfs(node, par = None):
+        def _dfs(node: TreeNode, parent_node:TreeNode=None) -> None:
             if node:
-                parent[node] = par
-                dfs(node.left, node)
-                dfs(node.right, node)
-        dfs(root)
-​
+                lookup[node] = parent_node
+                _dfs(node.left, node)
+                _dfs(node.right, node)                
+            return 
+        
         ans = []
-        queue = collections.deque([(target, 0)])
-        seen = set()
-        while queue: #BFS
-            node, dist = queue.popleft()
-            seen.add(node)
-            if dist == k:
+        lookup = {} #key:node, value: node's parent
+        _dfs(root)
+        
+        dq = deque([(target,0)])
+        visited = set() #memoization
+        while dq:
+            node, dist = dq.popleft()
+            visited.add(node)
+            if dist > k:
+                break
+            elif dist == k:
                 ans.append(node.val)
+            dist += 1
             
-            for nei in (node.left, node.right, parent[node]):
-                if nei and nei not in seen and dist < k:
-                    queue.append((nei, dist+1))
+            # if node.parent: dq.append((node.parent,dist))
+            ## suppose node's parent is not given
+            for next_node in (node.left, node.right, lookup[node]):
+                if next_node and next_node not in visited:
+                    dq.append((next_node,dist))
+            
         return ans
