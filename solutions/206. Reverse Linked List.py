@@ -5,14 +5,13 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]: 
-        # #soln 2 - Leetcode recursion, time O(N), space O(N)
-        # if not head or not head.next:
-        #     return head
-        # p = self.reverseList(head.next)
-        # head.next.next = head
-        # head.next = None
-        # return p 
-​
+        if (not head) or (not head.next):
+            return head
+        cur = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return cur
+    
         # soln 2 - more elegant
         prev, cur = None, head
         while cur:
