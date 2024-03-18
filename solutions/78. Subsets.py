@@ -12,7 +12,8 @@ class Solution:
 #             ans.append(A)
 #         return ans
         
-        soln 2 - Leetcode backtracking, faster
+        # soln 2 - Leetcode backtracking, faster
+        # time O(N*2^N), space O(2^N)
         n, ans = len(nums), []
         def backtrack(start = 0, A = []):
             if len(A) == k:  
