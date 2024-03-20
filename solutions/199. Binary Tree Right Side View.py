@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
+​
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         #soln 2 - Leetcode DFS
