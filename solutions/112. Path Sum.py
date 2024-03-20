@@ -13,16 +13,26 @@ class Solution:
             node, val = stack.pop()
             if not node.right and not node.left and val == 0:
                 return True
-            if node.right:
-                stack.append((node.right, val-node.right.val))
             if node.left:
                 stack.append((node.left, val-node.left.val))
+            if node.right:
+                stack.append((node.right, val-node.right.val))
         return False
         
-        # #soln 0 - first attempt, recursion
-        # if root is None:
-        #     return False
-        # elif root.left is None and root.right is None:
-        #     return root.val == targetSum
-        # else:
-        #     return self.hasPathSum(root.left, targetSum-root.val) or self.hasPathSum(root.right, targetSum-root.val)
+#         # DFS helper function
+#         def dfs(node: Optional[TreeNode], cur_sum:int=0) -> bool:
+#             if node:
+#                 cur_sum += node.val
+#                 if node.left is None and node.right is None and cur_sum == targetSum:
+#                     return True
+#                 return dfs(node.left, cur_sum) or dfs(node.right, cur_sum)
+#             return False
+#         return dfs(root)
+​
+#         # DFS, time O(N), space O(N)
+#         if root is None:
+#             return False
+#         if root.left is None and root.right is None and root.val == targetSum:
+#             return True
+#         return self.hasPathSum(root.left, targetSum-root.val) or self.hasPathSum(root.right, targetSum-root.val)
+        
