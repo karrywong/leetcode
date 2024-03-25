@@ -230,7 +230,7 @@
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Python3](./solutions/284.%20Peeking%20Iterator.py)|61 ms|
 |285|[ Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Python3](./solutions/285.%20Inorder%20Successor%20in%20BST.py)|140 ms|
 |286|[ Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[Python3](./solutions/286.%20Walls%20and%20Gates.py)|388 ms|
-|287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python3](./solutions/287.%20Find%20the%20Duplicate%20Number.py)|590 ms|
+|287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python3](./solutions/287.%20Find%20the%20Duplicate%20Number.py)|582 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Python3](./solutions/289.%20Game%20of%20Life.py)|61 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|28 ms|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Python3](./solutions/295.%20Find%20Median%20from%20Data%20Stream.py)|410 ms|
