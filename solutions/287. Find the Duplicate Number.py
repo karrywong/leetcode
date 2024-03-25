@@ -10,6 +10,7 @@ class Solution:
         # 1,2,3,.., n
         # number i should have i as index
         
+        # Time O(N), space O(1)
         # cur = nums[0]
         # cnt = 0
         # while cur != nums[cur]:  
