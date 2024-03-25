@@ -1,12 +1,9 @@
-import heapq
+# import heapq
+import random
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-    # start time: 7:40pm
-    # len(nums) > 0
-    # k <= len(nums)
-    # num in nums (+) or (-) 
-    
-    # max heap, time O(Nlogk), space O(k)
+    # # start time: 7:40pm
+    # # min heap, time O(Nlogk), space O(k)
         hp = []
         heapq.heapify(hp)
         for num in nums: #num = 6
@@ -25,10 +22,6 @@ class Solution:
     #         return i
     # return 
 ​
-    # #Sorting, time O(NlogN), space O(1)
-    # nums.sort()
-    # return nums[-k]
-​
     #Heap, time O(NlogK), Space O(k)
     # return heapq.nlargest(k, nums)[-1]
     
@@ -39,33 +32,18 @@ class Solution:
     # <- decreasing order
     # return 4
     
-    
-#     #LeetCode's quickselect, time O(N^2), space O(N)
-#     def partition(left, right, pivot_index) -> int:
-#         pivot = nums[pivot_index]
-#         nums[pivot_index], nums[right] = nums[right], nums[pivot_index]
+#     # quick select, average time O(N), worst time O(N^2), space O(N)
+#         def partition(l:int, r:int, p:int, lst:List[int]) -> int:
+#             # all elements less than pivot are on the left. Otherwise, on the right
+#             pivot = lst[p]
+#             lst[p], lst[r] = lst[r], lst[p]
 ​
-#         store_index = left
-#         for i in range(left, right):
-#             if nums[i] < pivot:
-#                 nums[store_index], nums[i] = nums[i], nums[store_index]
-#                 store_index += 1
-#         nums[right], nums[store_index] = nums[store_index], nums[right]
-#         return store_index
+#             store_ind = l
+#             for i in range(l,r):
+#                 if lst[i] < pivot:
+#                     lst[store_ind], lst[i] = lst[i], lst[store_ind]
+#                     store_ind += 1
+#             lst[store_ind], lst[r] = lst[r], lst[store_ind]
+#             return store_ind
 ​
-#     def quick_select(left, right, k_smallest) -> None:
-#         if left == right:
-#             return
-#         pivot_index = random.randint(left, right)
-#         pivot_index = partition(left, right, pivot_index)
-​
-#         if k_smallest == pivot_index:
-#             return
-#         elif k_smallest < pivot_index: #go left
-#             quick_select(left, pivot_index - 1, k_smallest)
-#         else: #go right
-#             quick_select(pivot_index + 1, right, k_smallest)
-​
-#     n = len(nums)
-#     quick_select(0, n - 1, n - k)
-#     return nums[n-k]
+#         def quick_select(left:int, right:int, k_smallest:int, lst:List[int]) -> None:
