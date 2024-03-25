@@ -47,3 +47,17 @@ class Solution:
 #             return store_ind
 ​
 #         def quick_select(left:int, right:int, k_smallest:int, lst:List[int]) -> None:
+#             if left == right:
+#                 return
+#             pivot_ind = random.randint(left, right)
+#             pivot_ind = partition(left, right, pivot_ind, lst)
+​
+#             if pivot_ind < k_smallest: #go right
+#                 quick_select(pivot_ind+1, right, k_smallest, lst)
+#             elif pivot_ind > k_smallest: #go left
+#                 quick_select(left, pivot_ind-1, k_smallest, lst)
+#             return
+​
+#         n = len(nums)
+#         quick_select(0, n-1, n-k, nums)
+#         return nums[n-k]
