@@ -307,7 +307,7 @@
 |401|[ Binary Watch](https://leetcode.com/problems/binary-watch/)|[Python3](./solutions/401.%20Binary%20Watch.py)|28 ms|
 |402|[ Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Python3](./solutions/402.%20Remove%20K%20Digits.py)|68 ms|
 |404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python3](./solutions/404.%20Sum%20of%20Left%20Leaves.py)|36 ms|
-|408|[ Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Python3](./solutions/408.%20Valid%20Word%20Abbreviation.py)|39 ms|
+|408|[ Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)|[Python3](./solutions/408.%20Valid%20Word%20Abbreviation.py)|27 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Python3](./solutions/410.%20Split%20Array%20Largest%20Sum.py)|3418 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Python3](./solutions/412.%20Fizz%20Buzz.py)|59 ms|
