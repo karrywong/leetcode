@@ -5,44 +5,39 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    #Leetcode recursion, time O(N), space O(N) due to recursion stack
-#     def flattenTree(self, node):
-#         if not node:
+    # Time O(N), N = |V|, space O(N)
+    def flatten(self, root: Optional[TreeNode]) -> None:
+        if root is None:
+            return None
+        left_tail = self.flatten(root.left)
+        right_tail = self.flatten(root.right)
+        
+        if left_tail is None:
+            left_tail = root
+        else:
+            left_tail.right = root.right
+            root.right = root.left
+            root.left = None
+        
+        return right_tail if right_tail is not None else left_tail
+​
+#         """
+#         Do not return anything, modify root in-place instead.
+#         """        
+#         #Morris traversal, time O(N), space O(1), super smart
+#         if not root:
 #             return None
         
-#         if not node.left and not node.right:
-#             return node
-        
-#         leftTail = self.flattenTree(node.left)
-#         rightTail = self.flattenTree(node.right)
-        
-#         if leftTail:
-#             leftTail.right = node.right
-#             node.right = node.left
-#             node.left = None
-        
-#         return rightTail if rightTail else leftTail
-    
-    def flatten(self, root: Optional[TreeNode]) -> None:
-        """
-        Do not return anything, modify root in-place instead.
-        """
-        # return self.flattenTree(root)
-        
-        #Leetcode solution time O(N), space O(1), super smart
-        if not root:
-            return None
-        
-        node = root
-        while node:
-            if node.left: #if node has left child
-                #Find rightmost child
-                rightmost = node.left 
-                while rightmost.right:
-                    rightmost = rightmost.right
+#         node = root
+#         while node:
+#             if node.left: #if node has left child
+#                 #Find rightmost child
+#                 rightmost = node.left 
+#                 while rightmost.right:
+#                     rightmost = rightmost.right
                 
-                rightmost.right = node.right
-                node.right = node.left
-                node.left = None
+#                 rightmost.right = node.right
+#                 node.right = node.left
+#                 node.left = None
                 
-            node = node.right
+#             node = node.right
