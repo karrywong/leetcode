@@ -253,6 +253,7 @@
 |316|[ Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./solutions/316.%20Remove%20Duplicate%20Letters.cpp)|7 ms|
 |317|[ Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[Python3](./solutions/317.%20Shortest%20Distance%20from%20All%20Buildings.py)|4445 ms|
 |318|[ Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[Python3](./solutions/318.%20Maximum%20Product%20of%20Word%20Lengths.py)|312 ms|
+|320|[ Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[Python3](./solutions/320.%20Generalized%20Abbreviation.py)|124 ms|
 |321|[ Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|[Python3](./solutions/321.%20Create%20Maximum%20Number.py)|792 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2326 ms|
 |323|[ Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[Python3](./solutions/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph.py)|132 ms|
