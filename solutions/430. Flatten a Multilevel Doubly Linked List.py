@@ -9,16 +9,17 @@ class Node:
 """
 ​
 class Solution:
-    def flatten(self, head: 'Optional[Node]') -> 'Optional[Node]':
+    def flatten(self, head: Optional['Node']) -> Optional['Node']:
         #Leetcode DFS - recursion, time O(N), space O(N)
         if not head:
             return head
-        sentinel = Node(None, None, head, None) # sentinel to ensure the `prev` pointer is never none
+        sentinel = Node() # sentinel to ensure the `prev` pointer is never none
+        sentinel.next=head
         self.dfs(sentinel, head)
         sentinel.next.prev = None #detach the sentinel from the real head
         return sentinel.next
     
-    def dfs(self, prev, curr): #return the tail of the flatten list
+    def dfs(self, prev: Optional['Node'], curr: Optional['Node']) -> Optional['Node']: #return the tail of the flatten list
         if not curr:
             return prev
         
