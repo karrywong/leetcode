@@ -47,3 +47,12 @@ class Solution:
         # while i + 1 < 2 * L - max_len:
         #     i += 1
         #     if i % 2 and s[i // 2] != s[i // 2 + i % 2]:
+        #         continue
+        #     cur_len, left, right = 1 + i % 2, i // 2, i // 2 + i % 2
+        #     while left - 1 >= 0 and right + 1 <= L - 1 and s[left - 1] == s[right + 1]:
+        #         left -= 1
+        #         right += 1
+        #         cur_len += 2
+        #     if cur_len > max_len:
+        #         max_len, res = cur_len, s[left:right + 1]
+        # return res
