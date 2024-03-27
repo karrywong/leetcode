@@ -14,6 +14,8 @@ class Solution:
                 return None
             
             p = left + (right-left)//2
+            # if (left + right) % 2: p += 1 //#left middle point, ceil(n)
+            # if (left + right) % 2: p += randint(0,1)
             node = TreeNode(nums[p])
             node.left = helper(left, p-1)
             node.right = helper(p+1,right)
