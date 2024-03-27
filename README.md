@@ -703,6 +703,7 @@
 |2476|[ Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[C++](./solutions/2476.%20Closest%20Nodes%20Queries%20in%20a%20Binary%20Search%20Tree.cpp)|385 ms|
 |2498|[ Frog Jump II](https://leetcode.com/problems/frog-jump-ii/)|[C++](./solutions/2498.%20Frog%20Jump%20II.cpp)|164 ms|
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|44 ms|
+|2536|[ Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Python3](./solutions/2536.%20Increment%20Submatrices%20by%20One.py)|1016 ms|
 |2553|[ Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[C++](./solutions/2553.%20Separate%20the%20Digits%20in%20an%20Array.cpp)|8 ms|
 |2596|[ Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|[Python3](./solutions/2596.%20Check%20Knight%20Tour%20Configuration.py)|11 ms|
 |2597|[ The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[Python3](./solutions/2597.%20The%20Number%20of%20Beautiful%20Subsets.py)|350 ms|
