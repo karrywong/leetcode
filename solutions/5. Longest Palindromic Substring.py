@@ -1,23 +1,23 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        # #Soln 2 - O(n^2), logical w expand around center
-        # def expandAroundCenter(s,left,right):
-        #     l, r = left, right
-        #     while l>=0 and r<=len(s)-1 and s[l] == s[r]:
-        #         l -= 1
-        #         r += 1
-        #     l += 1
-        #     r -= 1
-        #     return r-l+1, l, r
-        # start, end, length = 0,0,1
-        # for i in range(len(s)):
-        #     len1, l1, r1 = expandAroundCenter(s, i, i)
-        #     len2, l2, r2 = expandAroundCenter(s, i, i+1)
-        #     if len1 > len2 and len1 > length:
-        #         start, end, length = l1, r1, len1
-        #     elif len1 <= len2 and len2 > length:
-        #         start, end, length = l2, r2, len2
-        # return s[start:end+1]
+        # #Soln 2 - O(n^2), space O(1), idea is to expand around center
+        def expand(l:int, r:int) -> Tuple[int,int]:
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                l -= 1
+                r += 1
+            l += 1
+            r -= 1
+            return l, r
+        ans_left, ans_right, ans_length = 0, 0, 0
+        for i in range(len(s)):
+            left1, right1 = expand(i, i)
+            left2, right2 = expand(i, i+1)
+            len1, len2 = right1-left1+1, right2-left2+1
+            if len1 > len2 and len1 > ans_length:
+                ans_left, ans_right, ans_length = left1, right1, len1
+            elif len2 >= len1 and len2 > ans_length:
+                ans_left, ans_right, ans_length = left2, right2, len2
+        return s[ans_left:ans_right+1]
         
         # #Soln 1 - by ZitaoWang, Dynamic Programming O(n^2)
         # ans = ''
@@ -42,17 +42,8 @@ class Solution:
         #                 max_len = j - i + 1
         # return ans
         
-        ### Soln 3 - Old attempt
-        L, max_len, res, i = len(s), 1, s[0], -1
-        while i + 1 < 2 * L - max_len:
-            i += 1
-            if i % 2 and s[i // 2] != s[i // 2 + i % 2]:
-                continue
-            cur_len, left, right = 1 + i % 2, i // 2, i // 2 + i % 2
-            while left - 1 >= 0 and right + 1 <= L - 1 and s[left - 1] == s[right + 1]:
-                left -= 1
-                right += 1
-                cur_len += 2
-            if cur_len > max_len:
-                max_len, res = cur_len, s[left:right + 1]
-        return res
+        # ### Soln 3 - Old attempt, 
+        # L, max_len, res, i = len(s), 1, s[0], -1
+        # while i + 1 < 2 * L - max_len:
+        #     i += 1
+        #     if i % 2 and s[i // 2] != s[i // 2 + i % 2]:
