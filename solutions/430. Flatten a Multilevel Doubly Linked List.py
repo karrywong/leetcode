@@ -7,20 +7,19 @@ class Node:
         self.next = next
         self.child = child
 """
-​
 class Solution:
     def flatten(self, head: Optional['Node']) -> Optional['Node']:
         #Leetcode DFS - recursion, time O(N), space O(N)
-        if not head:
-            return head
-        sentinel = Node() # sentinel to ensure the `prev` pointer is never none
-        sentinel.next=head
-        self.dfs(sentinel, head)
-        sentinel.next.prev = None #detach the sentinel from the real head
+        if head is None:
+            return None
+        sentinel = Node()
+        sentinel.next = head
+        self.dfs(prev=sentinel, curr=head)
+        head.prev = None
         return sentinel.next
     
     def dfs(self, prev: Optional['Node'], curr: Optional['Node']) -> Optional['Node']: #return the tail of the flatten list
-        if not curr:
+        if curr is None:
             return prev
         
         curr.prev = prev
