@@ -566,7 +566,7 @@
 |1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python3](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py)|177 ms|
 |1356|[ Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)|[Python3](./solutions/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits.py)|121 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|104 ms|
-|1367|[ Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[Python3](./solutions/1367.%20Linked%20List%20in%20Binary%20Tree.py)|170 ms|
+|1367|[ Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[Python3](./solutions/1367.%20Linked%20List%20in%20Binary%20Tree.py)|97 ms|
 |1368|[ Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)|[Python3](./solutions/1368.%20Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid.py)|404 ms|
 |1394|[ Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[Python3](./solutions/1394.%20Find%20Lucky%20Integer%20in%20an%20Array.py)|87 ms|
 |1396|[ Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Python3](./solutions/1396.%20Design%20Underground%20System.py)|267 ms|
