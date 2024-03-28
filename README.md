@@ -352,7 +352,7 @@
 |524|[ Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Python3](./solutions/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting.py)|138 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python3](./solutions/525.%20Contiguous%20Array.py)|1199 ms|
 |526|[ Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Python3](./solutions/526.%20Beautiful%20Arrangement.py)|2080 ms|
-|528|[ Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Python3](./solutions/528.%20Random%20Pick%20with%20Weight.py)|171 ms|
+|528|[ Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)|[Python3](./solutions/528.%20Random%20Pick%20with%20Weight.py)|167 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[C++](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.cpp)|17 ms|
 |535|[ Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Python3](./solutions/535.%20Encode%20and%20Decode%20TinyURL.py)|49 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python3](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.py)|76 ms|
