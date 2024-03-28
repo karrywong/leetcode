@@ -40,7 +40,7 @@
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|88 ms|
 |37|[ Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Python3](./solutions/37.%20Sudoku%20Solver.py)|208 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[Python3](./solutions/38.%20Count%20and%20Say.py)|44 ms|
-|39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|90 ms|
+|39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|51 ms|
 |41|[ First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Python3](./solutions/41.%20First%20Missing%20Positive.py)|1329 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|60 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Python3](./solutions/43.%20Multiply%20Strings.py)|242 ms|
