@@ -6,30 +6,33 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        # #soln 1 - Leetcode recursive preorder traversal
-        # def preorder(r, cur_sum):
-        #     nonlocal root_to_leaf
-        #     if r:
-        #         cur_sum = cur_sum * 10 + r.val
-        #         if not r.right and not r.left:
-        #             root_to_leaf += cur_sum
-        #         preorder(r.left, cur_sum)
-        #         preorder(r.right, cur_sum)
-        # root_to_leaf = 0
-        # preorder(root, 0)
-        # return root_to_leaf
-        
-        #soln 0 - first attempt,  recursive preorder traversal: node -> left -> right
-        #More challenging, 437. Path Sum III
-        def helper(root, val=0):
-            nonlocal ans
-            if not root:
-                return
-            val += root.val
-            if not root.right and not root.left:
-                ans += val 
-            helper(root.left, val*10)
-            helper(root.right, val*10)
+        #soln 1 - time O(N), space O(N)
         ans = 0
-        helper(root)
+        def dfs(node: Optional[TreeNode], prev_val:int=0) -> None:
+            nonlocal ans
+            if node:
+                prev_val = prev_val*10 + node.val
+                
+                if node.left is None and node.right is None:
+                    ans += prev_val
+                
+                dfs(node.left,prev_val)
+                dfs(node.right,prev_val)
+            return
+        dfs(root)
         return ans
+        
+        # #soln 0 - first attempt,  recursive preorder traversal: node -> left -> right
+        # #More challenging, 437. Path Sum III
+        # def helper(root, val=0):
+        #     nonlocal ans
+        #     if not root:
+        #         return
+        #     val += root.val
+        #     if not root.right and not root.left:
+        #         ans += val 
+        #     helper(root.left, val*10)
+        #     helper(root.right, val*10)
+        # ans = 0
+        # helper(root)
+        # return ans
