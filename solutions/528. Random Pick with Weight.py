@@ -12,20 +12,15 @@ class Solution:
         #         return idx
         
         # Binary search # Time O(NlogN)
-        l, r = 0, len(self.lst)-1
+        l, r = 0, len(self.lst)
         while l < r:
-            mid = (l+r) // 2
-            if guess == self.lst[mid]:
-                l = mid
-                break
-            elif guess < self.lst[mid]:
-                r = mid
-            else:
+            mid = l + (r-l) // 2
+            if guess > self.lst[mid]:
                 l = mid + 1
+            else:
+                r = mid
         return l
         
-                
-​
 ​
 # Your Solution object will be instantiated and called as such:
 # obj = Solution(w)
