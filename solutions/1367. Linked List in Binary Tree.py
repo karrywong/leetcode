@@ -31,18 +31,20 @@ class Solution:
         #     return i == len(dp) or dfs(root.left, i) or dfs(root.right, i)
         # return dfs(root, 0)
         
-        #Brute force, inspired by lee215
-        #Time O(N*min(L,H)), Space O(H), w/ N = tree size, L = len(head), H = tree height
-        def helper(linklst: ListNode, node: TreeNode) -> bool:
-            if not linklst:
+        # Brute force, inspired by lee215
+        # Time O(N*min(L,H)), Space O(H), w/ N = tree size, L = len(head), H = tree height
+        def helper(linklst:Optional[ListNode], node:Optional[TreeNode]) -> bool:
+            if linklst is None:
                 return True
-            if not node:
+            if node is None:
                 return False
-            return linklst.val == node.val and (helper(linklst.next, node.left) or helper(linklst.next, node.right))
-        if not root:
+            if linklst.val == node.val:
+                return helper(linklst.next, node.left) or helper(linklst.next, node.right)
+            return False
+        if root is None:
             return False
         return helper(head, root) or self.isSubPath(head, root.left) or self.isSubPath(head, root.right)
-        
+​
 #         #Failed attempt - not include all checking possibilities
 #         def helper(linklst: ListNode, node: TreeNode) -> bool:
 #             if not linklst:
