@@ -162,7 +162,7 @@
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Python3](./solutions/191.%20Number%20of%201%20Bits.py)|36 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[C++](./solutions/198.%20House%20Robber.cpp)|0 ms|
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Python3](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.py)|42 ms|
-|200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|448 ms|
+|200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|230 ms|
 |201|[ Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[Python3](./solutions/201.%20Bitwise%20AND%20of%20Numbers%20Range.py)|52 ms|
 |202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[Python3](./solutions/202.%20Happy%20Number.py)|58 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|68 ms|
