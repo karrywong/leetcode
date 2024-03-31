@@ -394,6 +394,7 @@
 |691|[ Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)|[Python3](./solutions/691.%20Stickers%20to%20Spell%20Word.py)|2536 ms|
 |692|[ Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Python3](./solutions/692.%20Top%20K%20Frequent%20Words.py)|59 ms|
 |693|[ Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|[Python3](./solutions/693.%20Binary%20Number%20with%20Alternating%20Bits.py)|41 ms|
+|694|[ Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)|[Python3](./solutions/694.%20Number%20of%20Distinct%20Islands.py)|148 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|154 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[Python3](./solutions/697.%20Degree%20of%20an%20Array.py)|338 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|68 ms|
