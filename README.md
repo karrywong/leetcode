@@ -584,7 +584,7 @@
 |1557|[ Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)|[Python3](./solutions/1557.%20Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.py)|1156 ms|
 |1566|[ Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)|[Python3](./solutions/1566.%20Detect%20Pattern%20of%20Length%20M%20Repeated%20K%20or%20More%20Times.py)|32 ms|
 |1567|[ Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)|[Python3](./solutions/1567.%20Maximum%20Length%20of%20Subarray%20With%20Positive%20Product.py)|858 ms|
-|1570|[ Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[C++](./solutions/1570.%20Dot%20Product%20of%20Two%20Sparse%20Vectors.cpp)|152 ms|
+|1570|[ Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)|[Python3](./solutions/1570.%20Dot%20Product%20of%20Two%20Sparse%20Vectors.py)|1286 ms|
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python3](./solutions/1572.%20Matrix%20Diagonal%20Sum.py)|112 ms|
 |1573|[ Number of Ways to Split a String](https://leetcode.com/problems/number-of-ways-to-split-a-string/)|[Python3](./solutions/1573.%20Number%20of%20Ways%20to%20Split%20a%20String.py)|453 ms|
 |1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[Python3](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.py)|1178 ms|
