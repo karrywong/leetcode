@@ -600,7 +600,7 @@
 |1631|[ Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[Python3](./solutions/1631.%20Path%20With%20Minimum%20Effort.py)|1038 ms|
 |1634|[ Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/)|[Python3](./solutions/1634.%20Add%20Two%20Polynomials%20Represented%20as%20Linked%20Lists.py)|897 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[Python3](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|636 ms|
-|1644|[ Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Python3](./solutions/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.py)|280 ms|
+|1644|[ Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[Python3](./solutions/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.py)|132 ms|
 |1650|[ Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Python3](./solutions/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.py)|100 ms|
 |1652|[ Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Python3](./solutions/1652.%20Defuse%20the%20Bomb.py)|44 ms|
 |1657|[ Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Python3](./solutions/1657.%20Determine%20if%20Two%20Strings%20Are%20Close.py)|135 ms|
