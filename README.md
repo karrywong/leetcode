@@ -628,7 +628,7 @@
 |1780|[ Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Python3](./solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|32 ms|
 |1790|[ Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Python3](./solutions/1790.%20Check%20if%20One%20String%20Swap%20Can%20Make%20Strings%20Equal.py)|32 ms|
 |1822|[ Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)|[Python3](./solutions/1822.%20Sign%20of%20the%20Product%20of%20an%20Array.py)|78 ms|
-|1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Python3](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.py)|47 ms|
+|1823|[ Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)|[Python3](./solutions/1823.%20Find%20the%20Winner%20of%20the%20Circular%20Game.py)|40 ms|
 |1836|[ Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)|[Python3](./solutions/1836.%20Remove%20Duplicates%20From%20an%20Unsorted%20Linked%20List.py)|1624 ms|
 |1845|[ Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Python3](./solutions/1845.%20Seat%20Reservation%20Manager.py)|997 ms|
 |1868|[ Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)|[Python3](./solutions/1868.%20Product%20of%20Two%20Run-Length%20Encoded%20Arrays.py)|4507 ms|
