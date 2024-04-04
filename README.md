@@ -469,7 +469,7 @@
 |908|[ Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[Python3](./solutions/908.%20Smallest%20Range%20I.py)|136 ms|
 |910|[ Smallest Range II](https://leetcode.com/problems/smallest-range-ii/)|[Python3](./solutions/910.%20Smallest%20Range%20II.py)|188 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python3](./solutions/912.%20Sort%20an%20Array.py)|671 ms|
-|918|[ Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[Python3](./solutions/918.%20Maximum%20Sum%20Circular%20Subarray.py)|1186 ms|
+|918|[ Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)|[Python3](./solutions/918.%20Maximum%20Sum%20Circular%20Subarray.py)|365 ms|
 |923|[ 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[Python3](./solutions/923.%203Sum%20With%20Multiplicity.py)|149 ms|
 |925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Python3](./solutions/925.%20Long%20Pressed%20Name.py)|61 ms|
 |929|[ Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Python3](./solutions/929.%20Unique%20Email%20Addresses.py)|80 ms|
