@@ -1,5 +1,28 @@
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
+#         # DFS time O(M*N), space O(M*N)
+#         m, n = len(board), len(board[0])
+#         x,y = click
+#         if board[x][y] == "M":
+#             board[x][y] = "X"
+#             return board
+        
+#         dxy = ((0,1),(1,1),(1,0),(1,-1),(0,-1),(-1,-1),(-1,0),(-1,1))
+#         def dfs(i:int, j:int) -> None:
+#             if board[i][j] == "E":
+#                 nghs = [(i+dx, j+dy) for dx,dy in dxy if 0<=i+dx<m and 0<=j+dy<n]
+#                 cnt_mine = sum([board[i_next][j_next] == "M" for i_next, j_next in nghs])
+#                 if cnt_mine > 0:
+#                     board[i][j] = str(cnt_mine)
+#                 else:
+#                     board[i][j] = "B"
+#                     for i_next, j_next in nghs:
+#                         dfs(i_next, j_next)
+#             return
+#         dfs(x,y)
+#         return board
+        
+        
         # BFS time O(M*N), space O(M*N)
         m, n = len(board), len(board[0])
         x,y = click
