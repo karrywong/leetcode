@@ -14,6 +14,5 @@ class Solution:
         while m > 1:
             lst.pop(cur)
             m -= 1
-            cur += k-1
-            cur %= m
+            cur = (cur + k-1) % m
         return lst[0]
