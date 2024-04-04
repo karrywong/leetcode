@@ -53,7 +53,7 @@
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./solutions/50.%20Pow(x%2C%20n).cpp)|0 ms|
 |51|[ N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](./solutions/51.%20N-Queens.py)|73 ms|
 |52|[ N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Python3](./solutions/52.%20N-Queens%20II.py)|83 ms|
-|53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|983 ms|
+|53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|560 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Python3](./solutions/54.%20Spiral%20Matrix.py)|37 ms|
 |55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](./solutions/55.%20Jump%20Game.py)|492 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./solutions/56.%20Merge%20Intervals.cpp)|37 ms|
