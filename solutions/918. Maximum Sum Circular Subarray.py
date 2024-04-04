@@ -21,45 +21,49 @@ class Solution:
 #             dq.append(j)
 #         return ans
 ​
-        #Soln 2 - rewrite sum, modification from Kadane's algorithm
-        #Time O(N), space O(N)
-        def kadane(A):
-            ans = cur_sum = A[0]
-            for i in range(1,len(A)):
-                cur_sum = max(A[i], cur_sum + A[i])
-                ans = max(ans, cur_sum)
-            return ans 
+        #Soln 2 - minimum subrray, modification from Kadane's algorithm
+        #Time O(N), space O(1)
+        cur_max = cur_min = 0
+        max_sum = min_sum = nums[0]
+        total_sum = 0
         
-        total_sum = sum(nums)
-        if len(nums) == 1:
-            return nums[0]
-        ans1 = kadane(nums)
-        nums_neg = [-1*num for num in nums]
-        ans2 = total_sum + kadane(nums_neg[1:])
-        ans3 = total_sum + kadane(nums_neg[:-1])
-        return max(ans1, ans2, ans3)
+        for num in nums:
+            cur_max = max(num, cur_max+num)
+            max_sum = max(max_sum, cur_max)
+            
+            cur_min = min(num, cur_min+num)
+            min_sum = min(min_sum, cur_min)
+            
+            total_sum += num
+            
+        if total_sum == min_sum:
+            return max_sum
+        return max(max_sum, total_sum-min_sum) 
+​
         
-#         #Soln 1 - Next Array, modification from Kadane's algorithm
+#         # Soln 1 - prefix and suffix sums, modification from Kadane's algorithm
 #         #Time O(N), space O(N)
 #         n = len(nums)
-#         ans = cur_sum = nums[0]
-#         for i in range(1,n):
-#             cur_sum = max(nums[i], cur_sum + nums[i])
-#             ans = max(ans, cur_sum)
-#         print(ans)
-#         #all 2-interval subarrays. For each i, we want to know
-#         # the maximum of sum(A[j:]) with j >= i+2
-#         rightsums = [0]*(n-1) + [nums[-1]]
-#         maxright = [0]*(n-1) + [nums[-1]]
-#         for i in range(n-2,-1,-1): 
-#             rightsums[i] += rightsums[i+1] + nums[i] # rightsums[i] = sum(A[i:])
-#             maxright[i] = max(maxright[i+1], rightsums[i])  #maxright[i] = max_{j >= i} rightsums[j]
+#         right_max = [0]*n
+#         right_max[-1] = nums[-1]
+#         suffix_sum = nums[-1]
         
-#         leftsum = 0
-#         for i in range(n-2):
-#             leftsum += nums[i]
-#             ans = max(ans, leftsum + maxright[i+2])
-#         return ans
+#         for i in range(n-2,-1,-1):
+#             suffix_sum += nums[i]
+#             right_max[i] = max(right_max[i+1], suffix_sum)
+            
+#         cur_sum = 0 
+#         max_sum = nums[0]
+#         special_sum = nums[0]
+#         prefix_sum = 0
+#         for i in range(n):
+#             cur_sum = max(nums[i], cur_sum+nums[i])
+#             max_sum = max(max_sum, cur_sum)
+            
+#             prefix_sum += nums[i]
+#             if i+1<n:
+#                 special_sum = max(special_sum, prefix_sum+right_max[i+1])
+#         return max(max_sum, special_sum)
         
         # #TLE: Brute force from Kadane's algorithm, time O(N^2), space O(1)
         # ans = nums[0]
