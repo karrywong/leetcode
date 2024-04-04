@@ -1,10 +1,18 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        # soln 3 - time O(N), dynamic programming
-        for i in range(1, len(nums)):
-            if nums[i-1] > 0:
-                nums[i] += nums[i-1]
-        return max(nums)
+        # # DP in-place, time O(N), space O(1)
+        # for i in range(1, len(nums)):
+        #     if nums[i-1] > 0:
+        #         nums[i] += nums[i-1]
+        # return max(nums)
+        
+        #soln 1 - Kadane's algorithm, time O(N), space O(1)
+        #https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm
+        cur_sum = max_sum = nums[0]
+        for num in nums[1:]:
+            cur_sum = max(num, cur_sum+num)
+            max_sum = max(max_sum, cur_sum)
+        return max_sum
         
 #         #soln 2 - O(NlogN), Leetcode divide and conquer
 #         def findBestSubarray(nums, l, r):
@@ -34,18 +42,3 @@ class Solution:
 #             return max(combined, left_half, right_half)
         
 #         return findBestSubarray(nums, 0, len(nums)-1)
-    
-        #soln 1 - Kadane's algorithm, time O(N), space O(1)
-        #https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm
-        # cur_sum = max_sum = nums[0]
-        # for i in range(1, len(nums)):
-        #     cur_sum = max(nums[i], cur_sum + nums[i])
-        #     max_sum = max(cur_sum, max_sum)
-        # return max_sum
-        
-        # #soln 0 - brute force O(N^2), time exceeded
-        # ans, n = nums[0], len(nums)
-        # for i in range(1,n+1):
-        #     for j in range(n-i+1):
-        #         ans = max(ans, sum(nums[j:i+j]))
-        # return ans
