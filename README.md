@@ -671,6 +671,7 @@
 |2083|[ Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter/)|[Python3](./solutions/2083.%20Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter.py)|86 ms|
 |2086|[ Minimum Number of Food Buckets to Feed the Hamsters](https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/)|[C++](./solutions/2086.%20Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters.cpp)|14 ms|
 |2087|[ Minimum Cost Homecoming of a Robot in a Grid](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)|[Python3](./solutions/2087.%20Minimum%20Cost%20Homecoming%20of%20a%20Robot%20in%20a%20Grid.py)|1706 ms|
+|2090|[ K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)|[Python3](./solutions/2090.%20K%20Radius%20Subarray%20Averages.py)|1083 ms|
 |2092|[ Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/)|[Python3](./solutions/2092.%20Find%20All%20People%20With%20Secret.py)|3694 ms|
 |2096|[ Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)|[Python3](./solutions/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py)|609 ms|
 |2097|[ Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)|[Python3](./solutions/2097.%20Valid%20Arrangement%20of%20Pairs.py)|2808 ms|
