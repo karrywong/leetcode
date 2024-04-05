@@ -351,6 +351,7 @@
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python3](./solutions/509.%20Fibonacci%20Number.py)|24 ms|
 |516|[ Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Python3](./solutions/516.%20Longest%20Palindromic%20Subsequence.py)|1723 ms|
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Python3](./solutions/518.%20Coin%20Change%202.py)|387 ms|
+|523|[ Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[Python3](./solutions/523.%20Continuous%20Subarray%20Sum.py)|825 ms|
 |524|[ Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Python3](./solutions/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting.py)|138 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python3](./solutions/525.%20Contiguous%20Array.py)|1199 ms|
 |526|[ Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Python3](./solutions/526.%20Beautiful%20Arrangement.py)|2080 ms|
