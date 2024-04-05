@@ -453,7 +453,7 @@
 |860|[ Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Python3](./solutions/860.%20Lemonade%20Change.py)|913 ms|
 |862|[ Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|[Python3](./solutions/862.%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K.py)|1881 ms|
 |863|[ All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Python3](./solutions/863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree.py)|39 ms|
-|865|[ Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Python3](./solutions/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py)|43 ms|
+|865|[ Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Python3](./solutions/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py)|27 ms|
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python3](./solutions/867.%20Transpose%20Matrix.py)|72 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Python3](./solutions/869.%20Reordered%20Power%20of%202.py)|32 ms|
 |870|[ Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[Python3](./solutions/870.%20Advantage%20Shuffle.py)|854 ms|
