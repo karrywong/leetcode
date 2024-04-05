@@ -418,6 +418,7 @@
 |717|[ 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)|[Python3](./solutions/717.%201-bit%20and%202-bit%20Characters.py)|44 ms|
 |718|[ Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Python3](./solutions/718.%20Maximum%20Length%20of%20Repeated%20Subarray.py)|4972 ms|
 |721|[ Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Python3](./solutions/721.%20Accounts%20Merge.py)|208 ms|
+|724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Python3](./solutions/724.%20Find%20Pivot%20Index.py)|120 ms|
 |729|[ My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[Python3](./solutions/729.%20My%20Calendar%20I.py)|307 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|117 ms|
 |735|[ Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Python3](./solutions/735.%20Asteroid%20Collision.py)|88 ms|
