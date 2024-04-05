@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        #soln 1 - recursion
+        #soln 1 - recursion, time O(N), space O(N)
         ans = []
         if not root:
             return root
@@ -23,7 +23,7 @@ class Solution:
         helper(root, 0)
         return ans
     
-        # #soln 0 - first attempt w deque
+        # #soln 0 - first attempt w deque, time O(N), space O(N)
         # if not root: return root
         # ans = []
         # queue = collections.deque([root])
