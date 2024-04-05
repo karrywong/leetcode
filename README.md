@@ -624,7 +624,7 @@
 |1738|[ Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|[Python3](./solutions/1738.%20Find%20Kth%20Largest%20XOR%20Coordinate%20Value.py)|5391 ms|
 |1740|[ Find Distance in a Binary Tree](https://leetcode.com/problems/find-distance-in-a-binary-tree/)|[Python3](./solutions/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py)|67 ms|
 |1746|[ Maximum Subarray Sum After One Operation](https://leetcode.com/problems/maximum-subarray-sum-after-one-operation/)|[Python3](./solutions/1746.%20Maximum%20Subarray%20Sum%20After%20One%20Operation.py)|1256 ms|
-|1762|[ Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[C++](./solutions/1762.%20Buildings%20With%20an%20Ocean%20View.cpp)|155 ms|
+|1762|[ Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/)|[Python3](./solutions/1762.%20Buildings%20With%20an%20Ocean%20View.py)|490 ms|
 |1768|[ Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Python3](./solutions/1768.%20Merge%20Strings%20Alternately.py)|38 ms|
 |1779|[ Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[Python3](./solutions/1779.%20Find%20Nearest%20Point%20That%20Has%20the%20Same%20X%20or%20Y%20Coordinate.py)|744 ms|
 |1780|[ Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[Python3](./solutions/1780.%20Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.py)|32 ms|
