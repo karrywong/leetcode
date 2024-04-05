@@ -2,15 +2,15 @@ class Solution:
     def simplifyPath(self, path: str) -> str:
         #LeetCode soln, clean, time O(N), space O(N)
         stack = []
-        for portion in path.split("/"):
-            if portion == "..":
+        for p in path.split("/"):
+            if p == "..":
                 if stack:
                     stack.pop()
-            elif portion == '.' or not portion:
+            elif p == "." or not p:
                 continue
             else:
-                stack.append(portion)
-        return "/" + "/".join(stack)
+                stack.append(p)
+        return "/"+"/".join(stack)
         
 #         #First attempt, code messy, time O(N), space O(N)
 #         stack = ['/']
