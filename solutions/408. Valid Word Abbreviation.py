@@ -2,7 +2,7 @@ class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
         # Cleaner impl by sgxu79, time O(len(abbr)), space O(1)
         w_ptr, num = 0, 0
-        for i, char in enumerate(abbr):
+        for char in abbr:
             if char.isalpha():
                 w_ptr += num
                 if w_ptr >= len(word) or char != word[w_ptr]:
