@@ -16,8 +16,7 @@ class Solution:
                 nums1[ptr] = nums2[ptr2]
                 ptr2 -= 1
             elif ptr2 == -1:
-                nums1[ptr] = nums1[ptr1]
-                ptr1 -= 1
+                break
             elif nums2[ptr2] <= nums1[ptr1]:
                 nums1[ptr] = nums1[ptr1]
                 ptr1 -= 1
