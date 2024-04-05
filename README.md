@@ -483,7 +483,7 @@
 |958|[ Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)|[Python3](./solutions/958.%20Check%20Completeness%20of%20a%20Binary%20Tree.py)|54 ms|
 |968|[ Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)|[Python3](./solutions/968.%20Binary%20Tree%20Cameras.py)|40 ms|
 |973|[ K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[Python3](./solutions/973.%20K%20Closest%20Points%20to%20Origin.py)|1265 ms|
-|974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Python3](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.py)|312 ms|
+|974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Python3](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.py)|224 ms|
 |976|[ Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)|[Python3](./solutions/976.%20Largest%20Perimeter%20Triangle.py)|203 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[C++](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.cpp)|54 ms|
 |979|[ Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[Python3](./solutions/979.%20Distribute%20Coins%20in%20Binary%20Tree.py)|67 ms|
