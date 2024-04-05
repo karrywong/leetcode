@@ -30,19 +30,19 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        def btFromPreorder(lst):
-            if lst[0] == 'None':
-                lst.pop(0)
+        def btFromPreorder(dq):
+            if dq[0] == 'None':
+                dq.popleft()
                 return None
             
-            root = TreeNode(lst[0])
-            lst.pop(0)
-            root.left = btFromPreorder(lst)
-            root.right = btFromPreorder(lst)
+            root = TreeNode(dq[0])
+            dq.popleft()
+            root.left = btFromPreorder(dq)
+            root.right = btFromPreorder(dq)
             return root
             
-        data_list = data.split(',')
-        return btFromPreorder(data_list)
+        data_queue = deque(data.split(','))
+        return btFromPreorder(data_queue)
         
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
