@@ -249,7 +249,7 @@
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|2000 ms|
 |310|[ Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[Python3](./solutions/310.%20Minimum%20Height%20Trees.py)|585 ms|
 |311|[ Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[Python3](./solutions/311.%20Sparse%20Matrix%20Multiplication.py)|60 ms|
-|314|[ Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[C++](./solutions/314.%20Binary%20Tree%20Vertical%20Order%20Traversal.cpp)|9 ms|
+|314|[ Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[Python3](./solutions/314.%20Binary%20Tree%20Vertical%20Order%20Traversal.py)|35 ms|
 |315|[ Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[Python3](./solutions/315.%20Count%20of%20Smaller%20Numbers%20After%20Self.py)|3995 ms|
 |316|[ Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./solutions/316.%20Remove%20Duplicate%20Letters.cpp)|7 ms|
 |317|[ Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[Python3](./solutions/317.%20Shortest%20Distance%20from%20All%20Buildings.py)|4445 ms|
