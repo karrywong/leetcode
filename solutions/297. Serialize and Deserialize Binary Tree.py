@@ -14,7 +14,7 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        def preorder(node, string): #preorder traversal
+        def preorder(node, string) -> str: #preorder traversal
             if not node:
                 string += 'None,'
             else:
@@ -30,7 +30,7 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        def btFromPreorder(dq):
+        def btFromPreorder(dq) -> Optional[TreeNode]:
             if dq[0] == 'None':
                 dq.popleft()
                 return None
