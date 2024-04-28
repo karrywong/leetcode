@@ -70,7 +70,7 @@
 |68|[ Text Justification](https://leetcode.com/problems/text-justification/)|[Python3](./solutions/68.%20Text%20Justification.py)|65 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Python3](./solutions/69.%20Sqrt(x).py)|55 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](./solutions/70.%20Climbing%20Stairs.py)|55 ms|
-|71|[ Simplify Path](https://leetcode.com/problems/simplify-path/)|[Python3](./solutions/71.%20Simplify%20Path.py)|37 ms|
+|71|[ Simplify Path](https://leetcode.com/problems/simplify-path/)|[Python3](./solutions/71.%20Simplify%20Path.py)|41 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[Python3](./solutions/72.%20Edit%20Distance.py)|247 ms|
 |73|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Python3](./solutions/73.%20Set%20Matrix%20Zeroes.py)|145 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|68 ms|
