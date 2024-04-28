@@ -9,23 +9,30 @@ class Node:
 ​
 class Solution:
     def treeToDoublyList(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        #Leetcode's soln, time O(N), space O(N)
-        def inorder(node): #inorder traversal
-            nonlocal last, first
-            if node:
-                inorder(node.left)
-                if last: # link the previous node with current node
-                    last.right = node
-                    node.left = last 
-                else:
-                    first = node
-                last = node
-                inorder(node.right)
-                    
-        if not root:
-            return None
-        first, last = None, None
-        inorder(root)
-        last.right = first
-        first.left = last
-        return first
+        def helper(node: 'Optional[Node]') -> Tuple['Optional[Node]', 'Optional[Node]']:
+            if node is None:
+                return None, None
+            
+            left_head, left_tail = helper(node.left)
+            right_head, right_tail = helper(node.right)
+            
+            if left_head:
+                node.left = left_tail
+                left_tail.right = node
+            else:
+                left_head = node
+                
+            if right_tail:
+                node.right = right_head
+                right_head.left = node
+            else:
+                right_tail = node
+            
+            return left_head, right_tail
+        
+        if root is None: return root
+        head, tail = helper(root)
+        head.left = tail
+        tail.right = head
+        
+        return head
