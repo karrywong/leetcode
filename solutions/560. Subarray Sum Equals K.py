@@ -3,18 +3,35 @@ from collections import defaultdict
 ​
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        #time O(N), space O(N)
-        lib = defaultdict(int)
-        ans, cur_sum = 0, 0
+        # Two ideas:
+        # cur_sum == target, ans += 1
+        # bookkeep # occurence of cur_sum
+        # if cur_sum-target in lookup, cur_sum - (cur_sum-target) = target
+        # ans += lookup[cur_sum-target]
         
+        # brute-force, compute all possible subarray, time: O(N^3), space O(1)
+        
+        # Time O(N), space O(N), N = len(nums)
+        ans = cur_sum = 0
+        lookup = defaultdict(int)
         for num in nums:
             cur_sum += num
-            #situation 1: prefix sum equal targetSum
             if cur_sum == k:
                 ans += 1
-            #situation 2: subarray starting in middle equal targetSum
-            #proof: cur_sum - (cur_sum - target) = target
-            ans += lib[cur_sum-k]
-            #update
-            lib[cur_sum] += 1
+                
+            ans += lookup[cur_sum-k]
+            lookup[cur_sum] += 1
         return ans
+    
+    # [3,2,1], target = 3
+    # a = 1, cur_sum = 6, ans = 1
+    # ans += lookup[3]
+    # {3:1, 5:1, 6:1}
+    
+    # [1,1,1], target = 2
+    #      | 
+    # ans = 2, cur_sum = 3
+    # lookup = {1:1, 2:1, 3:1}
+            
+        
+        
