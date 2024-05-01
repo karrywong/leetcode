@@ -610,6 +610,7 @@
 |1650|[ Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/)|[Python3](./solutions/1650.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20III.py)|51 ms|
 |1652|[ Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)|[Python3](./solutions/1652.%20Defuse%20the%20Bomb.py)|44 ms|
 |1657|[ Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[Python3](./solutions/1657.%20Determine%20if%20Two%20Strings%20Are%20Close.py)|135 ms|
+|1658|[ Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Python3](./solutions/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.py)|832 ms|
 |1660|[ Correct a Binary Tree](https://leetcode.com/problems/correct-a-binary-tree/)|[Python3](./solutions/1660.%20Correct%20a%20Binary%20Tree.py)|184 ms|
 |1668|[ Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)|[Python3](./solutions/1668.%20Maximum%20Repeating%20Substring.py)|28 ms|
 |1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Python3](./solutions/1672.%20Richest%20Customer%20Wealth.py)|71 ms|
