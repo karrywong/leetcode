@@ -730,3 +730,4 @@
 |2956|[ Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Python3](./solutions/2956.%20Find%20Common%20Elements%20Between%20Two%20Arrays.py)|117 ms|
 |2962|[ Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|[Python3](./solutions/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py)|860 ms|
 |3101|[ Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|[Python3](./solutions/3101.%20Count%20Alternating%20Subarrays.py)|787 ms|
+|3164|[ Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|[Python3](./solutions/3164.%20Find%20the%20Number%20of%20Good%20Pairs%20II.py)|1002 ms|
