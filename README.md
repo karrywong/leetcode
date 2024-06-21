@@ -725,6 +725,7 @@
 |2611|[ Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|[Python3](./solutions/2611.%20Mice%20and%20Cheese.py)|637 ms|
 |2667|[ Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)|[JavaScript](./solutions/2667.%20Create%20Hello%20World%20Function.js)|57 ms|
 |2762|[ Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/)|[Python3](./solutions/2762.%20Continuous%20Subarrays.py)|570 ms|
+|2810|[ Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|[Python3](./solutions/2810.%20Faulty%20Keyboard.py)|49 ms|
 |2824|[ Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|[Python3](./solutions/2824.%20Count%20Pairs%20Whose%20Sum%20is%20Less%20than%20Target.py)|55 ms|
 |2848|[ Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Python3](./solutions/2848.%20Points%20That%20Intersect%20With%20Cars.py)|75 ms|
 |2956|[ Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Python3](./solutions/2956.%20Find%20Common%20Elements%20Between%20Two%20Arrays.py)|117 ms|
