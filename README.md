@@ -717,6 +717,7 @@
 |2452|[ Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)|[C++](./solutions/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.cpp)|21 ms|
 |2461|[ Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/)|[C++](./solutions/2461.%20Maximum%20Sum%20of%20Distinct%20Subarrays%20With%20Length%20K.cpp)|186 ms|
 |2476|[ Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)|[C++](./solutions/2476.%20Closest%20Nodes%20Queries%20in%20a%20Binary%20Search%20Tree.cpp)|385 ms|
+|2487|[ Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)|[Python3](./solutions/2487.%20Remove%20Nodes%20From%20Linked%20List.py)|418 ms|
 |2498|[ Frog Jump II](https://leetcode.com/problems/frog-jump-ii/)|[C++](./solutions/2498.%20Frog%20Jump%20II.cpp)|164 ms|
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|44 ms|
 |2536|[ Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Python3](./solutions/2536.%20Increment%20Submatrices%20by%20One.py)|1016 ms|
