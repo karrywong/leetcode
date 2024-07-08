@@ -735,3 +735,4 @@
 |3101|[ Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|[Python3](./solutions/3101.%20Count%20Alternating%20Subarrays.py)|787 ms|
 |3164|[ Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|[Python3](./solutions/3164.%20Find%20the%20Number%20of%20Good%20Pairs%20II.py)|1002 ms|
 |3201|[ Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)|[Python3](./solutions/3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.py)|928 ms|
+|3202|[ Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|[Python3](./solutions/3202.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II.py)|4946 ms|
