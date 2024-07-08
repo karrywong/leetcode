@@ -5,24 +5,31 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        #Leetcode soln 1
-        dummyhead = ListNode(0)
-        curr = dummyhead
+        # time O(N), space O(N)
+        ans = ListNode(0)
+        cur = ans
         carry = 0
         while l1 or l2:
-            x = l1.val if l1 else 0
-            y = l2.val if l2 else 0
-            sval = carry + x + y
-            carry, r = divmod(sval, 10)
-            curr.next = ListNode(r)
-            curr = curr.next
-            if l1: l1 = l1.next
-            if l2: l2 = l2.next
+            if l1:
+                x = l1.val 
+                l1 = l1.next 
+            else:
+                x = 0
                 
-        if carry > 0: curr.next = ListNode(carry)
-        return dummyhead.next
-            
-        #my solution
+            if l2:
+                y = l2.val
+                l2 = l2.next
+            else:
+                y = 0
+            total = x + y + carry
+            carry, val = divmod(total, 10)
+            cur.next = ListNode(val)
+            cur = cur.next
+        if carry:
+            cur.next = ListNode(carry)
+        return ans.next
+    
+        # naive
         #n = 0
         #i = 0
         #while l1 or l2:
@@ -42,3 +49,4 @@ class Solution:
         #    ans_tail.next = ListNode(r)
         #    ans_tail = ans_tail.next
         #return ans
+            
