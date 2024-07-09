@@ -1,14 +1,14 @@
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
-        #soln 0 - first attempt, two pointers + hashtable, optimized
         #Time O(N), Space O(1)
-        seen, l = {}, 0
+        seen = {}
+        left = 0
         ans = 0
-        for r, ele in enumerate(s):
-            seen[ele] = r
+        for right, char in enumerate(s):
+            seen[char] = right
             if len(seen) > 2:
-                temp = min(seen, key = seen.get)
-                l = seen[temp] + 1
-                del seen[temp]
-            ans = max(ans, r-l+1)
+                idx = min(seen.values())
+                left = seen[s[idx]]+1
+                del seen[s[idx]]
+            ans = max(ans, right-left+1)
         return ans
