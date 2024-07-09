@@ -22,8 +22,8 @@ class Solution:
         for r, ele in enumerate(s):
             seen[ele] = r
             if len(seen) > k:
-                temp = min(seen, key = seen.get)
-                l = seen[temp] + 1
-                del seen[temp]
+                idx = min(seen.values())
+                l = idx + 1
+                del seen[s[idx]]
             ans = max(ans, r-l+1)
         return ans
