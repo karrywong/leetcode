@@ -1,24 +1,26 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        # #Soln 2 - O(n^2), space O(1), idea is to expand around center
-        def expand(l:int, r:int) -> Tuple[int,int]:
+        # Time O(N^2), space O(1)
+        def expand(l, r) -> Tuple[int, int, int]:
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 l -= 1
                 r += 1
             l += 1
             r -= 1
-            return l, r
-        ans_left, ans_right, ans_length = 0, 0, 0
+            return l, r, r-l+1
+            
+        left, right, ans_len = 0, 0, 0
         for i in range(len(s)):
-            left1, right1 = expand(i, i)
-            left2, right2 = expand(i, i+1)
-            len1, len2 = right1-left1+1, right2-left2+1
-            if len1 > len2 and len1 > ans_length:
-                ans_left, ans_right, ans_length = left1, right1, len1
-            elif len2 >= len1 and len2 > ans_length:
-                ans_left, ans_right, ans_length = left2, right2, len2
-        return s[ans_left:ans_right+1]
-        
+            odd_left, odd_right, odd_len = expand(i, i)
+            even_left, even_right, even_len = expand(i, i+1)
+            if odd_len > even_len and odd_len > ans_len:
+                left, right = odd_left, odd_right
+                ans_len = odd_len
+            elif even_len > odd_len and even_len > ans_len:
+                left, right = even_left, even_right
+                ans_len = even_len
+        return s[left: right+1]
+    
         # #Soln 1 - by ZitaoWang, Dynamic Programming O(n^2)
         # ans = ''
         # max_len = 0
@@ -42,7 +44,7 @@ class Solution:
         #                 max_len = j - i + 1
         # return ans
         
-        # ### Soln 3 - Old attempt, 
+        # ### Soln
         # L, max_len, res, i = len(s), 1, s[0], -1
         # while i + 1 < 2 * L - max_len:
         #     i += 1
