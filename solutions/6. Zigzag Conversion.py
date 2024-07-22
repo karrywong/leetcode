@@ -1,5 +1,18 @@
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
+        n = len(s)
+        if numRows == 1 or numRows >= n:
+            return s
+        ans = []
+        step = 2*numRows - 2
+        for i in range(numRows):
+            for j in range(i, n+step, step):
+                if 0 < i < numRows-1 and 0<= j - 2*i < n:
+                    ans.append(s[j-2*i])
+                if 0 <= j < n:
+                    ans.append(s[j])                    
+        return "".join(ans)
+    
         #Leetcode visit by row, much cleaner, time O(N), space O(N)
         n = len(s)
         if numRows == 1 or numRows >= n: return s
