@@ -7,7 +7,7 @@
 |3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python3](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)|54 ms|
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.cpp)|36 ms|
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Python3](./solutions/5.%20Longest%20Palindromic%20Substring.py)|281 ms|
-|6|[ Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Python3](./solutions/6.%20Zigzag%20Conversion.py)|51 ms|
+|6|[ Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Python3](./solutions/6.%20Zigzag%20Conversion.py)|48 ms|
 |7|[ Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python3](./solutions/7.%20Reverse%20Integer.py)|32 ms|
 |8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Python3](./solutions/8.%20String%20to%20Integer%20(atoi).py)|45 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python3](./solutions/9.%20Palindrome%20Number.py)|64 ms|
