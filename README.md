@@ -730,6 +730,7 @@
 |2810|[ Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)|[Python3](./solutions/2810.%20Faulty%20Keyboard.py)|49 ms|
 |2824|[ Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)|[Python3](./solutions/2824.%20Count%20Pairs%20Whose%20Sum%20is%20Less%20than%20Target.py)|55 ms|
 |2848|[ Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)|[Python3](./solutions/2848.%20Points%20That%20Intersect%20With%20Cars.py)|75 ms|
+|2933|[ High-Access Employees](https://leetcode.com/problems/high-access-employees/)|[Python3](./solutions/2933.%20High-Access%20Employees.py)|167 ms|
 |2956|[ Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/)|[Python3](./solutions/2956.%20Find%20Common%20Elements%20Between%20Two%20Arrays.py)|117 ms|
 |2962|[ Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|[Python3](./solutions/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py)|860 ms|
 |3101|[ Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|[Python3](./solutions/3101.%20Count%20Alternating%20Subarrays.py)|787 ms|
