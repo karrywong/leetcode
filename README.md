@@ -723,6 +723,7 @@
 |2531|[ Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/)|[C++](./solutions/2531.%20Make%20Number%20of%20Distinct%20Characters%20Equal.cpp)|44 ms|
 |2536|[ Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)|[Python3](./solutions/2536.%20Increment%20Submatrices%20by%20One.py)|1016 ms|
 |2553|[ Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)|[C++](./solutions/2553.%20Separate%20the%20Digits%20in%20an%20Array.cpp)|8 ms|
+|2595|[ Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/)|[Python3](./solutions/2595.%20Number%20of%20Even%20and%20Odd%20Bits.py)|33 ms|
 |2596|[ Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/)|[Python3](./solutions/2596.%20Check%20Knight%20Tour%20Configuration.py)|11 ms|
 |2597|[ The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)|[Python3](./solutions/2597.%20The%20Number%20of%20Beautiful%20Subsets.py)|350 ms|
 |2611|[ Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/)|[Python3](./solutions/2611.%20Mice%20and%20Cheese.py)|637 ms|
