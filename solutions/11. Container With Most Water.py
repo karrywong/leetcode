@@ -1,16 +1,13 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-         ### Soln 0 - first attempt two pointers
+        left, right = 0, len(height)-1
         ans = 0
-        l, r = 0, len(height) - 1
-        while l < r:
-            width = r-l
-            if height[l] < height[r]:
-                ans = max(ans, height[l] * width)
-                l += 1
-            else: 
-                ans = max(ans, height[r] * width)
-                r -= 1
+        while left < right:
+            width = right-left
+            if height[left] >= height[right]:
+                ans = max(ans, height[right]*width)
+                right -= 1
+            else:
+                ans = max(ans, height[left]*width)
+                left += 1
         return ans
-                
-        
