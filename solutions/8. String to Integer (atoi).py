@@ -47,3 +47,8 @@ class Solution:
 #             pt += 1
         
 #         if ans == None: return 0
+#         if sign == "-": ans *= -1
+        
+#         if ans < -2**31: ans = -2**31
+#         elif ans > 2**31 - 1: ans = 2**31 - 1
+#         return ans
