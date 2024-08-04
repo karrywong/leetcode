@@ -1,37 +1,25 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        # Max and Min values for the integers
-        INT_MAX = 2147483647
-        INT_MIN = -2147483648
-        # Trimmed string
-        s = s.lstrip()
-        # Counter
-        i = 0
-        # Flag to indicate if the number is negative
-        isNegative = len(s) > 1 and s[0] == '-'
-        # Flag to indicate if the number is positive
-        isPositive = len(s) > 1 and s[0] == '+'
-        if isNegative:
-            i += 1
-        elif isPositive:
-            i += 1
-        # This will store the converted number
-        number = 0
-        # Loop for each numeric character in the string iff numeric characters are leading
-        # characters in the string
-        while i < len(s) and '0' <= s[i] <= '9':
-            number = number * 10 + (ord(s[i]) - ord('0'))
-            i += 1
-        # Give back the sign to the number
-        if isNegative:
-            number = -number
-        # Edge cases - integer overflow and underflow
-        if number < INT_MIN:
-            return INT_MIN
-        if number > INT_MAX:
-            return INT_MAX
-        return number
+        # improved, time O(N), space O(1)
+        upper_bound = 2**31-1
+        lower_bound = 2**31       
         
+        s = s.lstrip() # trimmed string
+        is_pos = len(s) > 1 and s[0] == "+"
+        is_neg = len(s) > 1 and s[0] == "-"
+        idx = 1 if is_pos or is_neg else 0
+        
+        ans = 0
+        while idx < len(s) and s[idx].isdigit():
+            ans = ans*10 + int(s[idx])
+            if not is_neg and ans > upper_bound:
+                return upper_bound
+            if is_neg and ans > lower_bound:
+                return -lower_bound
+            idx += 1
+​
+        return -ans if is_neg else ans
+            
 #         #soln 0 - first attempt, failure in interview       
 #         pt, temp, ans = 0, 0, None
 #         sign, signs = None, ["+", "-"]
@@ -59,8 +47,3 @@ class Solution:
 #             pt += 1
         
 #         if ans == None: return 0
-#         if sign == "-": ans *= -1
-        
-#         if ans < -2**31: ans = -2**31
-#         elif ans > 2**31 - 1: ans = 2**31 - 1
-#         return ans
