@@ -28,7 +28,7 @@
 |24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Python3](./solutions/24.%20Swap%20Nodes%20in%20Pairs.py)|32 ms|
 |25|[ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Python3](./solutions/25.%20Reverse%20Nodes%20in%20k-Group.py)|44 ms|
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.cpp)|15 ms|
-|27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./solutions/27.%20Remove%20Element.cpp)|0 ms|
+|27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[Python3](./solutions/27.%20Remove%20Element.py)|47 ms|
 |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Python3](./solutions/28.%20Implement%20strStr().py)|28 ms|
 |29|[ Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Python3](./solutions/29.%20Divide%20Two%20Integers.py)|20 ms|
 |30|[ Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)|[Python3](./solutions/30.%20Substring%20with%20Concatenation%20of%20All%20Words.py)|105 ms|
