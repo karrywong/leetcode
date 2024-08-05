@@ -9,11 +9,10 @@ class Solution:
         return answer
         
         # #Recent attempt - hashtable, Time O(N), Space O(N)
-        # n = int(len(nums)/2)
-        # lib = collections.defaultdict(int)
-        # for num in nums:
-        #     lib[num] += 1
-        #     if lib[num] > n:
+        # n = len(nums)//2
+        # counter = collections.Counter(nums)
+        # for num, freq in counter.items():
+        #     if freq > n:
         #         return num
         
         # #old attempt - use count(), Time O(k*N), Space O(k)
