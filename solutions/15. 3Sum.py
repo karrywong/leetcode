@@ -42,3 +42,15 @@ class Solution:
 #                 else:
 #                     ans.append([nums[i], nums[l], nums[r]])
 #                     l += 1
+#                     r -= 1
+#                     while l < r and nums[l] == nums[l-1]:
+#                         l += 1
+        
+#         ans = []
+#         nums.sort()
+#         for i in range(len(nums)-2):
+#             if nums[i] > 0:
+#                 break
+#             if i == 0 or nums[i] != nums[i-1]:
+#                 twoSum(i, ans)
+#         return ans
