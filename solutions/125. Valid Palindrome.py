@@ -1,24 +1,24 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        #Two pointers, time O(N), space O(1)
-        i, j = 0, len(s)-1
-        while i < j:
-            if not s[i].isalnum():
-                i += 1
+        left, right = 0, len(s)-1
+        while left < right:
+            if not s[left].isalnum():
+                left += 1
                 continue
-        
-            if not s[j].isalnum():
-                j -= 1
+            if not s[right].isalnum():
+                right -= 1
                 continue
-                
-            if s[i].lower() != s[j].lower():
+​
+            if s[left].lower() != s[right].lower():
                 return False
-            
-            i += 1
-            j -= 1
-        return True
+            left += 1
+            right -= 1
         
-        #Direct reversal, time O(N), space O(N)
-        temp = [l for l in s.lower() if l.isalnum()]
-        # temp = "".join(temp)
-        return temp[::-1] == temp
+        return True
+    
+        # #Direct reversal, time O(N), space O(N)
+        # temp = [l for l in s.lower() if l.isalnum()]
+        # # temp = "".join(temp)
+        # return temp[::-1] == temp
+            
+                
