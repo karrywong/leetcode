@@ -11,11 +11,11 @@ class Solution:
 #         return False
         
         #soln 1
-        i = 0
-        if not s: return True
+        idx = 0
         for e in t:
-            if s[i] == e:
-                i += 1
-                if i == len(s): return True
-        return False
+            if idx == len(s):
+                break
+            if s[idx] == e:
+                idx += 1
+        return idx == len(s)
         
