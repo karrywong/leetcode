@@ -10,10 +10,10 @@ class Solution:
                 temp = nums[i] + nums[l] + nums[r]
                 if abs(target - temp) < abs(diff):
                     diff = target - temp
-                    if diff == 0: return target
+                if diff == 0: break
                 if temp < target:
                     l += 1
                 else:
                     r -= 1
-            if diff == 0: return target
+            if diff == 0: break
         return target - diff
