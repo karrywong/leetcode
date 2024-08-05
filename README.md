@@ -211,7 +211,7 @@
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|78 ms|
 |257|[ Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Python3](./solutions/257.%20Binary%20Tree%20Paths.py)|40 ms|
 |258|[ Add Digits](https://leetcode.com/problems/add-digits/)|[Python3](./solutions/258.%20Add%20Digits.py)|36 ms|
-|259|[ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[Python3](./solutions/259.%203Sum%20Smaller.py)|756 ms|
+|259|[ 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/)|[Python3](./solutions/259.%203Sum%20Smaller.py)|478 ms|
 |261|[ Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)|[Python3](./solutions/261.%20Graph%20Valid%20Tree.py)|92 ms|
 |263|[ Ugly Number](https://leetcode.com/problems/ugly-number/)|[Python3](./solutions/263.%20Ugly%20Number.py)|32 ms|
 |264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Python3](./solutions/264.%20Ugly%20Number%20II.py)|171 ms|
