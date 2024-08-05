@@ -7,9 +7,19 @@ class Solution:
     
     # Time O(m+n), space O(1)
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
-        """
-        Do not return anything, modify nums1 in-place instead.
-        """     
+        # # attempt 1
+        # ptr1, ptr2, ptr = m-1, n-1, m+n-1
+        # while ptr > -1:
+        #     if ptr2==-1 or (ptr1 > -1 and nums1[ptr1] >= nums2[ptr2]):
+        #         nums1[ptr] = nums1[ptr1]
+        #         ptr1 -= 1
+        #     elif ptr1==-1 or (ptr2 > -1 and nums1[ptr1] < nums2[ptr2]):
+        #         nums1[ptr] = nums2[ptr2]
+        #         ptr2 -= 1
+        #     ptr -= 1
+        # return 
+        
+        # attempt 2
         ptr1, ptr2, ptr = m-1, n-1, n+m-1
         while ptr1 >= 0 or ptr2 >= 0:
             if ptr1 == -1:
@@ -24,24 +34,6 @@ class Solution:
                 nums1[ptr] = nums2[ptr2]
                 ptr2 -= 1
             ptr -= 1
-    
-#         ptr1, ptr2 = 0, 0
-#         ans = []
-#         while ptr1 < m or ptr2 < n:
-#             if ptr1 == m:
-#                 ans.append(nums2[ptr2])
-#                 ptr2 += 1
-#             elif ptr2 == n:
-#                 ans.append(nums1[ptr1])
-#                 ptr1 += 1
-#             elif nums1[ptr1] <= nums2[ptr2]:
-#                 ans.append(nums1[ptr1])
-#                 ptr1 += 1
-#             else: 
-#                 ans.append(nums2[ptr2])
-#                 ptr2 += 1
-        
-#         return ans
 ​
         # #soln 2 - LeetCode backward, Time O(M+N), Space O(1)
         # p1, p2 = m-1, n-1
