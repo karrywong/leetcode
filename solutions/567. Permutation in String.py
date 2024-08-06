@@ -1,5 +1,5 @@
 class Solution:
-    def checkInclusion(self, s1: str, s2: str) -> bool:
+    def checkInclusion(self, s1: str, s2: str) -> bool:        
         ### Soln 1 - Leetcode Sliding window + Hashmap
         n1, n2 = len(s1), len(s2)
         if n1 > n2 : return False
