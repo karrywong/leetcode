@@ -6,6 +6,15 @@
 ​
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        # alternative, time O(N), space O(1)
+        slow = fast = head
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next 
+            if fast == slow:
+                return True
+        return False
+    
         #soln 2 - Leetcode Floyd's algorithm
         if head is None: return False
         slow = head
@@ -25,7 +34,3 @@ class Solution:
         #     nodes_seen.add(head)
         #     head = head.next
         # return False
-        
-#         #soln 0 - first attempt
-#         if not head or not head.next: 
-#             return False
