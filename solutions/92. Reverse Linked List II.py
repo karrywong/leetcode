@@ -29,46 +29,24 @@ class Solution:
         
         #Leetcode iterative reversal, slight more difficult than 206. Reverse Linked List
         #Time O(N), space O(1)
-        cur, prev = head, None
+        prev = None
+        cur = head
         while left > 1:
             prev = cur
             cur = cur.next
-            left, right = left-1, right-1
+            left -= 1
+            right -= 1
         
-        tail, start = cur, prev
-        # print(tail.val, start.val)
-        while right:
+        tail, font = cur, prev # 2, 1
+        while right > 0:
             cur.next, prev, cur = prev, cur, cur.next
             right -= 1
         
-        if start:
-            start.next = prev
+        # print(cur.val, prev.val) #5,4
+        if font: 
+            font.next = prev
         else:
             head = prev
         tail.next = cur
+        
         return head
-        
-#         #First attempt, time O(N), space O(N)
-#         if left == right:
-#             return head
-        
-#         ptr = head
-#         sentinel = ListNode(0, head)
-#         ptr1 = sentinel
-#         for i in range(left-1):
-#             ptr = ptr.next
-#             ptr1 = ptr1.next
-        
-#         stack = []
-#         for i in range(right-left+1):
-#             stack.append(ptr)
-#             ptr = ptr.next
-        
-#         prev = stack.pop()
-#         ptr1.next = prev
-#         while stack:
-#             prev.next = stack.pop()
-#             prev = prev.next
-#         prev.next = ptr
-        
-#         return sentinel.next
