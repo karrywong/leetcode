@@ -129,7 +129,7 @@
 |134|[ Gas Station](https://leetcode.com/problems/gas-station/)|[Python3](./solutions/134.%20Gas%20Station.py)|480 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[C++](./solutions/136.%20Single%20Number.cpp)|30 ms|
 |137|[ Single Number II](https://leetcode.com/problems/single-number-ii/)|[Python3](./solutions/137.%20Single%20Number%20II.py)|52 ms|
-|138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Python3](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.py)|36 ms|
+|138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Python3](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.py)|29 ms|
 |139|[ Word Break](https://leetcode.com/problems/word-break/)|[Python3](./solutions/139.%20Word%20Break.py)|67 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python3](./solutions/141.%20Linked%20List%20Cycle.py)|52 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|48 ms|
