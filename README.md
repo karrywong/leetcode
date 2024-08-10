@@ -507,7 +507,7 @@
 |1024|[ Video Stitching](https://leetcode.com/problems/video-stitching/)|[Python3](./solutions/1024.%20Video%20Stitching.py)|70 ms|
 |1044|[ Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/)|[Python3](./solutions/1044.%20Longest%20Duplicate%20Substring.py)|4291 ms|
 |1046|[ Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Python3](./solutions/1046.%20Last%20Stone%20Weight.py)|24 ms|
-|1047|[ Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python3](./solutions/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.py)|98 ms|
+|1047|[ Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python3](./solutions/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.py)|59 ms|
 |1048|[ Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[Python3](./solutions/1048.%20Longest%20String%20Chain.py)|132 ms|
 |1051|[ Height Checker](https://leetcode.com/problems/height-checker/)|[C++](./solutions/1051.%20Height%20Checker.cpp)|0 ms|
 |1053|[ Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/)|[C++](./solutions/1053.%20Previous%20Permutation%20With%20One%20Swap.cpp)|14 ms|
