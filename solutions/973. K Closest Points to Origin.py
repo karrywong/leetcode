@@ -14,7 +14,6 @@ class Solution:
                 heapq.heappush(hp,[dist,*point]) #O(logk)
                 continue
             heapq.heappushpop(hp, [dist,*point]) #O(logk)
-         
         return [[h[1], h[2]] for h in hp]
     
     def squared_distance(self, point: List[int]) -> int:
