@@ -645,6 +645,7 @@
 |1891|[ Cutting Ribbons](https://leetcode.com/problems/cutting-ribbons/)|[Python3](./solutions/1891.%20Cutting%20Ribbons.py)|2408 ms|
 |1901|[ Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)|[Python3](./solutions/1901.%20Find%20a%20Peak%20Element%20II.py)|2015 ms|
 |1920|[ Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)|[C++](./solutions/1920.%20Build%20Array%20from%20Permutation.cpp)|13 ms|
+|1922|[ Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)|[Python3](./solutions/1922.%20Count%20Good%20Numbers.py)|30 ms|
 |1926|[ Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)|[Python3](./solutions/1926.%20Nearest%20Exit%20from%20Entrance%20in%20Maze.py)|630 ms|
 |1940|[ Longest Common Subsequence Between Sorted Arrays](https://leetcode.com/problems/longest-common-subsequence-between-sorted-arrays/)|[Python3](./solutions/1940.%20Longest%20Common%20Subsequence%20Between%20Sorted%20Arrays.py)|286 ms|
 |1945|[ Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[Python3](./solutions/1945.%20Sum%20of%20Digits%20of%20String%20After%20Convert.py)|51 ms|
