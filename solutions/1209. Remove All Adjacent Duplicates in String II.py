@@ -1,4 +1,5 @@
 class Solution:
+    # recent attempt, Time O(N), space O(N)
     def removeDuplicates(self, s: str, k: int) -> str:
         stack = []
         for idx, cur_char in enumerate(s):
