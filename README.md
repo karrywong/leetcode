@@ -541,6 +541,7 @@
 |1197|[ Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)|[Python3](./solutions/1197.%20Minimum%20Knight%20Moves.py)|4630 ms|
 |1201|[ Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Python3](./solutions/1201.%20Ugly%20Number%20III.py)|42 ms|
 |1202|[ Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Python3](./solutions/1202.%20Smallest%20String%20With%20Swaps.py)|1053 ms|
+|1209|[ Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Python3](./solutions/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.py)|79 ms|
 |1213|[ Intersection of Three Sorted Arrays](https://leetcode.com/problems/intersection-of-three-sorted-arrays/)|[Python3](./solutions/1213.%20Intersection%20of%20Three%20Sorted%20Arrays.py)|80 ms|
 |1214|[ Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)|[Python3](./solutions/1214.%20Two%20Sum%20BSTs.py)|138 ms|
 |1218|[ Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)|[Python3](./solutions/1218.%20Longest%20Arithmetic%20Subsequence%20of%20Given%20Difference.py)|524 ms|
