@@ -18,7 +18,6 @@ class Solution:
             else:
                 nums1[ptr] = nums2[ptr2]
                 ptr2 -= 1
-            
             ptr -= 1
         return 
 ​
