@@ -6,22 +6,25 @@
 #         self.right = None
 ​
 class Solution:
-    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode': 
-        #One pass with DFS
-        self.ans = None
-        def dfs(node: 'TreeNode', t1: int, t2: int) -> bool:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':         
+        # Time O(N), space O(N)
+        self.ans: 'TreeNode'
+        check = {p.val, q.val}
+        def dfs(node: 'TreeNode') -> bool:
             if node is None:
                 return False
-            left_bo = dfs(node.left, t1, t2)
-            right_bo = dfs(node.right, t1, t2)
-            cur = True if node.val == t1 or node.val == t2 else False
-            if left_bo+right_bo+cur >= 2: 
+            
+            left_bo = dfs(node.left)
+            right_bo = dfs(node.right)
+            bo = node.val in check
+            if left_bo + right_bo + bo == 2: 
                 self.ans = node
-            return left_bo or right_bo or cur
+                return True
+            return left_bo or right_bo or bo 
         
-        dfs(root, p.val, q.val)
+        dfs(root)
         return self.ans
-        
+​
 #         #Two-pass DFS, Time O(N), space O(N)
 #         def dfs(node: 'TreeNode', target: int) -> List['TreeNode']:
 #             if node is None:
@@ -39,14 +42,3 @@ class Solution:
 #                 right_lst.append(node)
 #                 return right_lst
 #             return []
-            
-#         p_lst = dfs(root, p.val)
-#         q_lst = dfs(root, q.val)
-        
-#         ptr = -1
-#         prev = None
-#         while abs(ptr) < len(p_lst)+1 and abs(ptr) < len(q_lst)+1 and p_lst[ptr].val == q_lst[ptr].val:
-#             prev = p_lst[ptr]                
-#             ptr -= 1
-#         return prev
-​
