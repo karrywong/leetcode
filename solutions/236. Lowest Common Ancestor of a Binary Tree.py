@@ -1,3 +1,29 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+​
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':         
+        # Time O(N), space O(N)
+        self.ans: 'TreeNode'
+        check = {p.val, q.val}
+        def dfs(node: 'TreeNode') -> bool:
+            if node is None:
+                return False
+            
+            left_bo = dfs(node.left)
+            right_bo = dfs(node.right)
+            bo = node.val in check
+            if left_bo + right_bo + bo == 2: 
+                self.ans = node
+                return True
+            return left_bo or right_bo or bo 
+        
+        dfs(root)
+        return self.ans
 ​
 #         #Two-pass DFS, Time O(N), space O(N)
 #         def dfs(node: 'TreeNode', target: int) -> List['TreeNode']:
