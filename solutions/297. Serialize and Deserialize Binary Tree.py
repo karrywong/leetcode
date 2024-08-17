@@ -4,8 +4,6 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-from collections import deque 
-​
 ​
 class Codec:
     #Leetcode soln - DFS, preorder transversal
@@ -16,33 +14,47 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        def preorder(node:Optional[TreeNode]) -> list[Optional[int]]:
+        # node.val + left, right
+        # deque = [1, 2, None, None, 3, 4, None, None, 5, None, None]
+        lst = []
+        def dfs(node:Optional[TreeNode]) -> None:
             if node is None:
-                return ['None']
-            return [str(node.val)] + preorder(node.left) + preorder(node.right)
-        return ",".join(preorder(root))
+                lst.append('None')
+                return
+            
+            lst.append(str(node.val))
+            dfs(node.left)
+            dfs(node.right)
+            return
+        
+        dfs(root)
+        print(" ".join(lst))
+        return " ".join(lst)
 ​
+    def get_data(self) -> str:
+        for char in self.lst:
+            yield char
+        
     def deserialize(self, data:str) -> Optional[TreeNode]:
         """Decodes your encoded data to tree.
         
         :type data: str
         :rtype: TreeNode
         """
-        def get_data(datas: list[str]) -> str:
-            i = datas.popleft()
-            yield i
-            
-        def helper() -> Optional[TreeNode]:
-            val = next(get_data(dq))
-            if val == 'None':
+        self.lst = data.split()
+        gen_data = self.get_data()
+        def helper() -> TreeNode:
+            char = next(gen_data)
+            if char == 'None':
                 return None
-            node = TreeNode(int(val))
+        
+            node = TreeNode(int(char))
             node.left = helper()
             node.right = helper()
             return node
-        dq = deque(data.split(','))
-        return helper()
         
+        return helper()
+    
 # Your Codec object will be instantiated and called as such:
 # ser = Codec()
 # deser = Codec()
