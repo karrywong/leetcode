@@ -1,3 +1,26 @@
+import heapq
+# import random
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        max_num = max(nums)
+        min_num = min(nums)
+        
+        count = [0] * (max_num-min_num+1)
+        for num in nums:
+            count[num - min_num] += 1
+        
+        for idx in range(len(count)-1,-1, -1):
+            k -= count[idx]
+            if k <= 0:
+                ans = idx
+                break
+                
+        return ans + min_num
+        
+#         # min heap, time O(Nlogk), space O(k)
+#         hp = []
+#         heapq.heapify(hp)
+​
 #         for num in nums:
 #             if len(hp) < k:
 #                 heapq.heappush(hp, num)
@@ -38,23 +61,3 @@
 #             store_ind = l
 #             for i in range(l,r):
 #                 if lst[i] < pivot:
-#                     lst[store_ind], lst[i] = lst[i], lst[store_ind]
-#                     store_ind += 1
-#             lst[store_ind], lst[r] = lst[r], lst[store_ind]
-#             return store_ind
-​
-#         def quick_select(left:int, right:int, k_smallest:int, lst:List[int]) -> None:
-#             if left == right:
-#                 return
-#             pivot_ind = random.randint(left, right)
-#             pivot_ind = partition(left, right, pivot_ind, lst)
-​
-#             if pivot_ind < k_smallest: #go right
-#                 quick_select(pivot_ind+1, right, k_smallest, lst)
-#             elif pivot_ind > k_smallest: #go left
-#                 quick_select(left, pivot_ind-1, k_smallest, lst)
-#             return
-​
-#         n = len(nums)
-#         quick_select(0, n-1, n-k, nums)
-#         return nums[n-k]
