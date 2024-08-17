@@ -174,7 +174,7 @@
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Python3](./solutions/210.%20Course%20Schedule%20II.py)|170 ms|
 |213|[ House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Python3](./solutions/213.%20House%20Robber%20II.py)|60 ms|
 |214|[ Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Python3](./solutions/214.%20Shortest%20Palindrome.py)|88 ms|
-|215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|473 ms|
+|215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|441 ms|
 |216|[ Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python3](./solutions/216.%20Combination%20Sum%20III.py)|55 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|811 ms|
 |218|[ The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[Python3](./solutions/218.%20The%20Skyline%20Problem.py)|178 ms|
