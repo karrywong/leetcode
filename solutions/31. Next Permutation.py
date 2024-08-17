@@ -18,26 +18,31 @@ class Solution:
             swap_idx += 1
         swap_idx -= 1
         nums[idx], nums[swap_idx] = nums[swap_idx], nums[idx]
-        nums[idx+1:]=nums[idx+1:][::-1] # can be further optimized to achieve O(1) space
+        # nums[idx+1:]=nums[idx+1:][::-1] # can be further optimized to achieve O(1) space
+        left, right = idx+1, len(nums)-1
+        while left < right:
+            nums[left], nums[right] = nums[right], nums[left]
+            left += 1
+            right -= 1
         return nums
     
-        #Time O(N), space O(N)
-        #Modified Jake's solution for 556. Next Greater Element III
-        n = len(nums)
-        if n == 1: return nums
-        # get index of first digit from right smaller than predecessor, return -1 if none
-        j = -2
-        while j > -n-1 and nums[j] >= nums[j+1]:
-            j -= 1
-        if j == -n-1: 
-            nums.reverse()
-        else:
-            # get index of first digit from right larger than digits[j]
-            i = -1  
-            while nums[j] >= nums[i]:
-                i -= 1
-            ## swap digits at i and j
-            nums[i],nums[j] = nums[j],nums[i]
-            # Sort the remaining digits in ascedning order
-            if j < -1:
-                nums[j+1:] = nums[j+1:][::-1]            
+        # #Time O(N), space O(N)
+        # #Modified Jake's solution for 556. Next Greater Element III
+        # n = len(nums)
+        # if n == 1: return nums
+        # # get index of first digit from right smaller than predecessor, return -1 if none
+        # j = -2
+        # while j > -n-1 and nums[j] >= nums[j+1]:
+        #     j -= 1
+        # if j == -n-1: 
+        #     nums.reverse()
+        # else:
+        #     # get index of first digit from right larger than digits[j]
+        #     i = -1  
+        #     while nums[j] >= nums[i]:
+        #         i -= 1
+        #     ## swap digits at i and j
+        #     nums[i],nums[j] = nums[j],nums[i]
+        #     # Sort the remaining digits in ascedning order
+        #     if j < -1:
+        #         nums[j+1:] = nums[j+1:][::-1]            
