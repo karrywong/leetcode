@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-        #Mock w/ Haotian 8/28/2022 Leung ge 8/17/2024
+        #Mock w/ Haotian 8/28/2022 Leung ge 8/17/2024, time O(N), space O(N)
         #1. ans = max(ans, left_len + right_len + 1)
         #2. return max(left_len, right_len)
         ans = 0 #longestLen
