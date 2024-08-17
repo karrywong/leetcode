@@ -1,3 +1,35 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+​
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':         
+        # Time O(N), space O(N)
+        self.ans: 'TreeNode'
+        check = {p.val, q.val}
+        def dfs(node: 'TreeNode') -> bool:
+            if node is None:
+                return False
+            
+            left_bo = dfs(node.left)
+            right_bo = dfs(node.right)
+            bo = node.val in check
+            if left_bo + right_bo + bo == 2: 
+                self.ans = node
+                return True
+            return left_bo or right_bo or bo 
+        
+        dfs(root)
+        return self.ans
+​
+#         #Two-pass DFS, Time O(N), space O(N)
+#         def dfs(node: 'TreeNode', target: int) -> List['TreeNode']:
+#             if node is None:
+#                 return []
+#             if node.val == target:
 #                 return [node]
             
 #             left_lst = dfs(node.left, target)
@@ -18,35 +50,3 @@
 #         prev = None
 #         while abs(ptr) < len(p_lst)+1 and abs(ptr) < len(q_lst)+1 and p_lst[ptr].val == q_lst[ptr].val:
 #             prev = p_lst[ptr]                
-#             ptr -= 1
-#         return prev
-​
-#         # Karry's solution w Haotian's
-#         htb = {} #key=cur.val, value=prev.val
-#         queue = collections.deque([root])
-#         pval, qval = p.val, q.val
-#         bo1, bo2 = False, False
-        
-#         while queue and (not bo1 or not bo2):
-#             node = queue.popleft()
-#             if node.val == pval: bo1 = True
-#             elif node.val == qval: bo2 = True
-#             if node.left:
-#                 htb[node.left] = node
-#                 queue.append(node.left)
-#             if node.right:
-#                 htb[node.right] = node
-#                 queue.append(node.right)
-#         #existing while loop, either queue is empty or p and q are both in htb
-        
-#         pset = set([p])
-#         while p.val != root.val:
-#             p = htb[p]
-#             pset.add(p)
-        
-#         while q.val != root.val:
-#             if q in pset: return q
-#             q = htb[q]
-#         return q
-            
-        
