@@ -6,13 +6,13 @@ class Solution:
             return ""
         dict_t = collections.Counter(t)
         required = len(dict_t)
-        l, r = 0, 0 
+        l = 0
         formed = 0
         window_counts = collections.Counter()
         
         ans = (float('inf'), None, None)
-        
-        while r < len(s):
+​
+        for r in range(len(s)):
             char = s[r]
             window_counts[char] += 1;
             
@@ -30,5 +30,4 @@ class Solution:
                     formed -= 1
                 
                 l += 1
-            r += 1
         return "" if ans[0] == float('inf') else ''.join(s[ans[1]:ans[2]+1])
