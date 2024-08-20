@@ -8,16 +8,19 @@ from collections import deque
 ​
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        #soln 2 - Leetcode DFS
-        if not root: return []
         ans = []
-        def helper(node, level):
+        if not root: 
+            return ans
+        def helper(node:Optional[TreeNode], level:int) -> None:
+            if node is None:
+                return
             if level == len(ans):
                 ans.append(node.val)
+            
+            for child in (node.right, node.left):
+                helper(child, level+1)
+            return
 ​
-            for child in [node.right, node.left]:
-                if child:
-                    helper(child, level+1)
         helper(root, 0)
         return ans
     
