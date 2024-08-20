@@ -21,8 +21,7 @@ class Solution:
                 left = mid+1
             else: 
                 right = mid
-        left = left if nums[left] == target else -1
-        ans = [left]
+        left_ans = left if nums[left] == target else -1
         
         left, right = 0, len(nums)
         while left < right:
@@ -31,9 +30,8 @@ class Solution:
                 left = mid+1
             else:
                 right = mid
-        right = right-1 if nums[right-1] == target else -1
-        ans.append(right)
-        return ans
+        right_ans = right-1 if nums[right-1] == target else -1
+        return [left_ans, right_ans]
     
         # Testing
         # nums = [5,7,7,8,8,10], target = 8
