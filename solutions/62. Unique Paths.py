@@ -1,18 +1,22 @@
 class Solution:
-    def __init__(self):
-        self.lib = {}
     def uniquePaths(self, m: int, n: int) -> int:
-        #third attempt, recursion w memoization, slow
-        if m == 1 or n == 1:
-            return 1
-        if (m,n) in self.lib:
-            return self.lib[(m,n)]
+        # time O(M*N), space O(M*N)
+        lookup = {} #(m,n)
         
-        temp = self.uniquePaths(m-1, n) + self.uniquePaths(m, n-1)
-        self.lib[(m,n)] = temp
-        self.lib[(n,m)] = temp
-        return temp
+        def helper(m: int, n: int) -> int:
+            if m==1 or n==1:
+                return 1
+            if (m,n) in lookup:
+                return lookup[(m,n)]
+            elif (n,m) in lookup:
+                return lookup[(n,m)]
+            
+            steps = helper(m-1, n) + helper(m, n-1)
+            lookup[(m,n)] = steps
+            return steps
         
+        return helper(m,n)
+​
         #second attempt - nCk, Time less than O((M+N)^2), Space O(1)
         # return math.comb(m+n-2, m-1) 
         # return math.factorial(m + n - 2) // math.factorial(n - 1) // math.factorial(m - 1)
