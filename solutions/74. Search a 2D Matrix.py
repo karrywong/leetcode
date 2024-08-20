@@ -6,7 +6,8 @@ class Solution:
         l, r = 0, m * n - 1
         while l <= r:
             mid = l + (r-l) // 2
-            val = matrix[mid // n][mid % n]
+            row, col = divmod(mid, n)
+            val = matrix[row][col]
             if target == val:
                 return True
             elif target < val:
