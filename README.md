@@ -364,7 +364,7 @@
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python3](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.py)|76 ms|
 |541|[ Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Python3](./solutions/541.%20Reverse%20String%20II.py)|32 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|925 ms|
-|543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Python3](./solutions/543.%20Diameter%20of%20Binary%20Tree.py)|56 ms|
+|543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Python3](./solutions/543.%20Diameter%20of%20Binary%20Tree.py)|49 ms|
 |545|[ Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)|[Python3](./solutions/545.%20Boundary%20of%20Binary%20Tree.py)|40 ms|
 |547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Python3](./solutions/547.%20Number%20of%20Provinces.py)|338 ms|
 |548|[ Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum/)|[Python3](./solutions/548.%20Split%20Array%20with%20Equal%20Sum.py)|3234 ms|
