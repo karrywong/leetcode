@@ -1,26 +1,3 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-class Solution:
-    def subtreeWithAllDeepest(self, root: TreeNode) -> TreeNode:
-        # two-pass, time O(N), space O(N)
-        lookup = {None:-1}
-        def helper(node, parent=None):
-            lookup[node] = lookup.get(parent) + 1
-            if node.left: 
-                helper(node.left, node)
-            if node.right:
-                helper(node.right, node)
-            return
-        helper(root)
-        depth = max(lookup.values())
-        
-        def get_ans(node) -> TreeNode:
-            if not node:
-                return None
             if lookup[node] == depth:
                 return node
             
@@ -55,3 +32,17 @@ class Solution:
 #                 left = dfs(node.left)
 #                 right = dfs(node.right)
 #                 depth = max(left, right) + 1
+#                 htb[node] = depth
+#                 return depth
+#             return htb[node]
+#         dfs(root) #htb built
+        
+#         while root:
+#             left_depth = htb[root.left] if root.left else 0
+#             right_depth = htb[root.right] if root.right else 0
+#             if left_depth == right_depth:
+#                 return root
+#             elif left_depth > right_depth:
+#                 root = root.left
+#             else: #left_depth < right_depth
+#                 root = root.right
