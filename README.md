@@ -275,7 +275,7 @@
 |343|[ Integer Break](https://leetcode.com/problems/integer-break/)|[Python3](./solutions/343.%20Integer%20Break.py)|36 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|196 ms|
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Python3](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.py)|58 ms|
-|347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Python3](./solutions/347.%20Top%20K%20Frequent%20Elements.py)|95 ms|
+|347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Python3](./solutions/347.%20Top%20K%20Frequent%20Elements.py)|87 ms|
 |348|[ Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[Python3](./solutions/348.%20Design%20Tic-Tac-Toe.py)|88 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|40 ms|
 |350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python3](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.py)|44 ms|
