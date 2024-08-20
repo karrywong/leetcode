@@ -42,3 +42,6 @@ class Solution:
 #             grid[x][y] = 0
             
 #             return cost
+        
+#         ans = helper(0,0,1)
+#         return -1 if ans == max_int else ans
