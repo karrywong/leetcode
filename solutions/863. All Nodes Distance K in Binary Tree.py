@@ -10,11 +10,13 @@ from collections import deque
 ​
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
+        # two-pass, time O(N), space O(N)
         def _dfs(node: TreeNode, parent_node:TreeNode=None) -> None:
-            if node:
-                lookup[node] = parent_node
-                _dfs(node.left, node)
-                _dfs(node.right, node)                
+            if not node:
+                return
+            lookup[node] = parent_node
+            _dfs(node.left, node)
+            _dfs(node.right, node)                
             return 
         
         ans = []
