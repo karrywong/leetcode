@@ -37,14 +37,8 @@ class Solution:
         counter = Counter(nums)
         hp = [] 
         for val, freq in counter.items():
-            if len(hp) == k:
-                heapq.heappushpop(hp, (freq,val))
-            else:
-                heapq.heappush(hp, (freq,val))
-        return [val for _, val in hp]
-    
-        # #Heapq built-in nlargest function, time O(Nlogk), space O(N)
-        # if k == len(nums):
-        #     return nums
-        # count = Counter(nums)   
-        # return heapq.nlargest(k, count.keys(), key=count.get)        
+            # if len(hp) == k:
+            #     heapq.heappushpop(hp, (freq,val))
+            # else:
+            #     heapq.heappush(hp, (freq,val))
+            if len(hp) < k:
