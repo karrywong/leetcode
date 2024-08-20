@@ -42,3 +42,14 @@ class Solution:
             # else:
             #     heapq.heappush(hp, (freq,val))
             if len(hp) < k:
+                heapq.heappush(hp, (freq,val))
+            elif hp[0][0] < freq:
+                heapq.heappop(hp)
+                heapq.heappush(hp, (freq,val))
+        return [val for _, val in hp]
+    
+        # #Heapq built-in nlargest function, time O(Nlogk), space O(N)
+        # if k == len(nums):
+        #     return nums
+        # count = Counter(nums)   
+        # return heapq.nlargest(k, count.keys(), key=count.get)        
