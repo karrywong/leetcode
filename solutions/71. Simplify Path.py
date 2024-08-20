@@ -1,22 +1,22 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:    
-        # time O(N), space O(N)
+        # time O(N), path O(N)
         stack = []
-        for ele in path.split("/"):
-            if ele == "..":
-                if stack:
-                    stack.pop()          
-            elif ele == "" or ele == ".":
+        for word in path.split('/'):
+            if word == "..":
+                if len(stack) > 0:
+                    stack.pop()
+            elif word == "." or len(word) == 0:
                 continue
             else:
-                stack.append(ele)
+                stack.append(word)
                 
             # #TODO: 
             # # not begin with digit
             # if ele[0].isdigit() or ele[0] == "_":
             #     continue
-        
-        return "/" + ("/").join(stack)
+            
+        return "/" + "/".join(stack)
     
 # Testing
 # path = "/home/"
