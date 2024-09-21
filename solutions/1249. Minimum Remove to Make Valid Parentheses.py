@@ -1,35 +1,3 @@
-class Solution:
-    # "(()))" -> "", "()", "(())" 
-    
-    # time O(N), N = len(s), space O(N)
-    def minRemoveToMakeValid(self, s: str) -> str:
-        # stack: list[tuple] (idx)
-        stack = [] # parenthesis to remove
-        for idx, char in enumerate(s): 
-            if char == "(":
-                stack.append(idx)
-            elif char == ")":
-                if stack and s[stack[-1]] == "(":
-                    stack.pop()
-                else:
-                    stack.append(idx)
-        if not stack:
-            return s
-        
-        ans_list = []
-        ptr = 0
-        for idx, char in enumerate(s):
-            if ptr < len(stack) and idx == stack[ptr]:
-                ptr += 1
-                continue
-            ans_list.append(char)
-        return "".join(ans_list)
-    
-# Testing 
-# s = "e(t(c)o)d)"
-#      |
-# stack = [(),9)], ptr = 0
-# ans_list[e,(, t, ..., d]
 ​
 #         #Two-pass string builder
 #         # Pass 1: compute balance; remove extra rightmost ")"
@@ -57,3 +25,29 @@ class Solution:
         
         # mock practice on 4/20
         # time O(N), space O(N), N = len(s)
+        # pass with stack on (,), unbalance note index into removed index
+        # while stack ->into removed index
+        
+        to_removed = []
+        stack = [] # record ( index
+        
+        for i, char in enumerate(s):
+            if char == "(":
+                stack.append(i)
+            elif char == ")":
+                if stack:
+                    stack.pop()
+                else:
+                    to_removed.append(i)
+        
+        to_removed.extend(stack) # sorted
+        # return "".join([s[i] for i in range(len(s)) if i not in to_removed])
+        
+        ptr = 0
+        res = []
+        for i,char in enumerate(s):
+            if ptr < len(to_removed) and i == to_removed[ptr]:
+                ptr += 1
+                continue
+            res.append(char)
+        return "".join(res)
