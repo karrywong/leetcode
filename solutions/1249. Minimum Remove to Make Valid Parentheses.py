@@ -30,7 +30,30 @@ class Solution:
 #      |
 # stack = [(),9)], ptr = 0
 # ans_list[e,(, t, ..., d]
-    
 ​
+#         #Two-pass string builder
+#         # Pass 1: compute balance; remove extra rightmost ")"
+#         first_pass_chars = []
+#         balance = 0
+#         for char in s:
+#             if char == "(":
+#                 balance += 1
+#             elif char == ")":
+#                 if balance == 0:
+#                     continue
+#                 balance -= 1
+#             first_pass_chars.append(char)
+#         # balance >= 0     
         
-                    
+#         second_pass_chars = []
+#         for i in range(len(first_pass_chars)-1, -1, -1):
+#             c = first_pass_chars[i]
+#             if balance > 0 and c == "(":
+#                 balance -= 1
+#                 continue
+#             second_pass_chars.append(c)
+                
+#         return "".join(second_pass_chars[::-1])
+        
+        # mock practice on 4/20
+        # time O(N), space O(N), N = len(s)
