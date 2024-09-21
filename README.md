@@ -554,7 +554,7 @@
 |1232|[ Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Python3](./solutions/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.py)|112 ms|
 |1239|[ Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)|[Python3](./solutions/1239.%20Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.py)|96 ms|
 |1248|[ Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|[Python3](./solutions/1248.%20Count%20Number%20of%20Nice%20Subarrays.py)|976 ms|
-|1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Python3](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py)|83 ms|
+|1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Python3](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py)|86 ms|
 |1260|[ Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[Python3](./solutions/1260.%20Shift%202D%20Grid.py)|229 ms|
 |1281|[ Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Python3](./solutions/1281.%20Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer.py)|38 ms|
 |1289|[ Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/)|[Python3](./solutions/1289.%20Minimum%20Falling%20Path%20Sum%20II.py)|912 ms|
