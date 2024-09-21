@@ -1,42 +1,29 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        # #soln 2 - Leetcode optimized DP, bottom-up w tabulation
-        # #time O(N), space O(1)
-        # n = len(nums)
-        # if n <= 2: return max(nums)
-        # RobNextNext = 0
-        # RobNext = nums[n-1]
-        # for i in range(n-2, -1, -1):
-        #     current = max(RobNext, RobNextNext+nums[i])
-        #     RobNextNext = RobNext
-        #     RobNext = current
-        # return current
+        # [2,7,9,3,1,100]
+        # [2,7,11,10,12,111]
         
-        # #soln 1 - recursion with memoization
-        # n = len(nums)
-        # memo = {}
-        # def helper(i):
-        #     if i >= n:
-        #         return 0
-        #     if i in memo:
-        #         return memo[i]
-        #     val = max(helper(i+1), helper(i+2) + nums[i])
-        #     memo[i] = val
-        #     return val
-        # return helper(0)
+        # time O(N), space O(1)
+        rob, not_rob = 0,0
+        not_rob_prev = 0
+        for num in nums:
+            not_rob_prev = not_rob
+            not_rob = rob
+            rob = max(not_rob_prev+num, not_rob)
+        return max(rob, not_rob)
+            
+#         # time O(N), space O(N)
+#         if len(nums) == 1:
+#             return nums[0]
+#         elif len(nums) == 2:
+#             return max(nums)
         
-        #soln 3 - recursion w/ cache
-        @lru_cache(maxsize = None)
-        def helper(i):
-            if i >= len(nums):
-                return 0
-            return max(helper(i+1), helper(i+2) + nums[i])
-        return helper(0)
+#         rob_gain = nums
+#         rob_gain[2] += rob_gain[0]
         
-        # #soln 0 - dynamic programming
-        # n = len(nums)
-        # if n <= 2: return max(nums)
-        # nums[2] += nums[0]
-        # for i in range(3,n):
-        #     nums[i] += max(nums[i-2], nums[i-3])
-        # return max(nums[-2],nums[-1])
+#         for i in range(3, len(nums)):
+#             rob_gain[i] += max(rob_gain[i-2], rob_gain[i-3])
+            
+#         return max(rob_gain[-1], rob_gain[-2])
+        
+        
