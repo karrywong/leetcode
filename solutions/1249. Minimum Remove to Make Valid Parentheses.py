@@ -63,3 +63,22 @@ class Solution:
         to_removed = []
         stack = [] # record ( index
         
+        for i, char in enumerate(s):
+            if char == "(":
+                stack.append(i)
+            elif char == ")":
+                if stack:
+                    stack.pop()
+                else:
+                    to_removed.append(i)
+        
+        to_removed.extend(stack) # sorted
+        # return "".join([s[i] for i in range(len(s)) if i not in to_removed])
+        
+        ptr = 0
+        res = []
+        for i,char in enumerate(s):
+            if ptr < len(to_removed) and i == to_removed[ptr]:
+                ptr += 1
+                continue
+            res.append(char)
