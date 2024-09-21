@@ -742,5 +742,6 @@
 |2962|[ Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)|[Python3](./solutions/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py)|860 ms|
 |3101|[ Count Alternating Subarrays](https://leetcode.com/problems/count-alternating-subarrays/)|[Python3](./solutions/3101.%20Count%20Alternating%20Subarrays.py)|787 ms|
 |3164|[ Find the Number of Good Pairs II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii/)|[Python3](./solutions/3164.%20Find%20the%20Number%20of%20Good%20Pairs%20II.py)|1002 ms|
+|3186|[ Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)|[Python3](./solutions/3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting.py)|1331 ms|
 |3201|[ Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/)|[Python3](./solutions/3201.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.py)|928 ms|
 |3202|[ Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)|[Python3](./solutions/3202.%20Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II.py)|4946 ms|
