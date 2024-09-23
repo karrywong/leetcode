@@ -1,22 +1,22 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        ## soln 3 - my solution, time O(N^2), space O(N^2)
-        ans, seen = set(), set()
-        def _is_two_sum(nums: List[int], idx:int) -> None:
+        def _is_two_sum(arr: List[int], idx: int) -> None:
             target = -nums[idx]
-            lookup = set() # target - x
-            for num in nums[idx+1:]:
+            lookup = set()
+            for num in arr[idx+1:]:
                 if num in lookup:
-                    ans.add(tuple(sorted([num, target-num, nums[idx]])))
-                lookup.add(target-num)
+                    ans.add(tuple(sorted([num, target-num, arr[idx]])))
+                lookup.add(target - num)
             return
         
-        for idx, num in enumerate(nums):
-            if num not in seen:
-                _is_two_sum(nums, idx)
-                seen.add(num)
+        seen = set()
+        ans = set()
+        for i in range(len(nums)):
+            if nums[i] not in seen:
+                _is_two_sum(nums, i)
+                seen.add(nums[i])
         return list(ans)
-        
+​
         # #soln 2 - Leetcode w no-sorting
         # res, dups = set(), set()
         # seen = {}
