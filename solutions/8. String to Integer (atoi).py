@@ -1,54 +1,41 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        # improved, time O(N), space O(1)
-        upper_bound = 2**31-1
-        lower_bound = 2**31       
-        
-        s = s.lstrip() # trimmed string
-        is_pos = len(s) > 1 and s[0] == "+"
-        is_neg = len(s) > 1 and s[0] == "-"
-        idx = 1 if is_pos or is_neg else 0
-        
+        s=s.lstrip()
         ans = 0
-        while idx < len(s) and s[idx].isdigit():
-            ans = ans*10 + int(s[idx])
-            if not is_neg and ans > upper_bound:
-                return upper_bound
-            if is_neg and ans > lower_bound:
-                return -lower_bound
-            idx += 1
+        ptr = 0
+        multipler = 1
+        
+        if len(s) == 0 or s[0] not in ("+", "-") and not s[0].isdigit():
+            return ans
+        elif s[0] in ("+", "-"):
+            multipler = -1 if s[0]=="-" else 1
+            ptr += 1
 ​
-        return -ans if is_neg else ans
-            
-#         #soln 0 - first attempt, failure in interview       
-#         pt, temp, ans = 0, 0, None
-#         sign, signs = None, ["+", "-"]
-#         while pt < len(s):
-#             if s[pt] == " ": 
-#                 if ans == None: #white space
-#                     pt += 1
-#                     continue 
-#                 else:
-#                     break
-            
-#             if s[pt] in signs: 
-#                 if sign == None and ans == None:
-#                     sign = s[pt]
-#                 else:
-#                     break
-                    
-#             if s[pt].isnumeric():
-#                 temp *= 10
-#                 temp += (ord(s[pt]) - ord('0'))
-#             ans = temp
-                
-#             if not (s[pt].isnumeric() or s[pt] in signs): 
-#                 break
-#             pt += 1
+        upper_bound = 2**31-1
+        lower_bound = 2**31
+        while ptr < len(s) and s[ptr].isdigit():
+            ans = ans*10 + int(s[ptr])
+            if multipler == 1 and ans > upper_bound: return upper_bound
+            if multipler == -1 and ans > lower_bound: return -1*lower_bound
+            ptr += 1
+        return ans*multipler
+​
+#         # improved, time O(N), space O(1)
+#         upper_bound = 2**31-1
+#         lower_bound = 2**31       
         
-#         if ans == None: return 0
-#         if sign == "-": ans *= -1
+#         s = s.lstrip() # trimmed string
+#         is_pos = len(s) > 1 and s[0] == "+"
+#         is_neg = len(s) > 1 and s[0] == "-"
+#         idx = 1 if is_pos or is_neg else 0
         
-#         if ans < -2**31: ans = -2**31
-#         elif ans > 2**31 - 1: ans = 2**31 - 1
-#         return ans
+#         ans = 0
+#         while idx < len(s) and s[idx].isdigit():
+#             ans = ans*10 + int(s[idx])
+#             if not is_neg and ans > upper_bound:
+#                 return upper_bound
+#             if is_neg and ans > lower_bound:
+#                 return -lower_bound
+#             idx += 1
+​
+#         return -ans if is_neg else ans
