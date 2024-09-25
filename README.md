@@ -517,7 +517,7 @@
 |1062|[ Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/)|[Python3](./solutions/1062.%20Longest%20Repeating%20Substring.py)|71 ms|
 |1086|[ High Five](https://leetcode.com/problems/high-five/)|[Python3](./solutions/1086.%20High%20Five.py)|76 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|36 ms|
-|1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|362 ms|
+|1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|453 ms|
 |1099|[ Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)|[Python3](./solutions/1099.%20Two%20Sum%20Less%20Than%20K.py)|43 ms|
 |1101|[ The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)|[Python3](./solutions/1101.%20The%20Earliest%20Moment%20When%20Everyone%20Become%20Friends.py)|112 ms|
 |1114|[ Print in Order](https://leetcode.com/problems/print-in-order/)|[Python3](./solutions/1114.%20Print%20in%20Order.py)|77 ms|
