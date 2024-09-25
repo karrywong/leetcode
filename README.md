@@ -198,7 +198,7 @@
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Python3](./solutions/240.%20Search%20a%202D%20Matrix%20II.py)|222 ms|
 |241|[ Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Python3](./solutions/241.%20Different%20Ways%20to%20Add%20Parentheses.py)|43 ms|
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Python3](./solutions/242.%20Valid%20Anagram.py)|40 ms|
-|243|[ Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Python3](./solutions/243.%20Shortest%20Word%20Distance.py)|68 ms|
+|243|[ Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Python3](./solutions/243.%20Shortest%20Word%20Distance.py)|63 ms|
 |244|[ Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)|[Python3](./solutions/244.%20Shortest%20Word%20Distance%20II.py)|136 ms|
 |245|[ Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/)|[Python3](./solutions/245.%20Shortest%20Word%20Distance%20III.py)|983 ms|
 |249|[ Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)|[Python3](./solutions/249.%20Group%20Shifted%20Strings.py)|36 ms|
