@@ -1,11 +1,21 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        ptr = 0
+        ptr = 0 
         for idx, num in enumerate(nums):
-            if ptr == 0 or nums[ptr-1] != num:
-                nums[ptr] = num
-                ptr += 1
-        return ptr
+            if idx == 0 or num == nums[ptr]:
+                continue
+            nums[ptr+1] = num
+            ptr += 1
+        
+        return ptr+1
+    
+        # # Same but with ptr-1
+        # ptr = 0
+        # for idx, num in enumerate(nums):
+        #     if ptr == 0 or nums[ptr-1] != num:
+        #         nums[ptr] = num
+        #         ptr += 1
+        # return ptr
 ​
         ### Soln 3 - two pointer,
         # if not nums: return 0
