@@ -431,7 +431,7 @@
 |743|[ Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[Python3](./solutions/743.%20Network%20Delay%20Time.py)|696 ms|
 |744|[ Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)|[Python3](./solutions/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target.py)|101 ms|
 |746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python3](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.py)|44 ms|
-|752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Python3](./solutions/752.%20Open%20the%20Lock.py)|1204 ms|
+|752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Python3](./solutions/752.%20Open%20the%20Lock.py)|428 ms|
 |759|[ Employee Free Time](https://leetcode.com/problems/employee-free-time/)|[Python3](./solutions/759.%20Employee%20Free%20Time.py)|89 ms|
 |760|[ Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Python3](./solutions/760.%20Find%20Anagram%20Mappings.py)|44 ms|
 |762|[ Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Python3](./solutions/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation.py)|299 ms|
