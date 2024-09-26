@@ -12,7 +12,7 @@ class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
         # two-pass, time O(N), space O(N)
         def _dfs(node: TreeNode, parent_node:TreeNode=None) -> None:
-            if not node:
+            if node is None:
                 return
             lookup[node] = parent_node
             _dfs(node.left, node)
