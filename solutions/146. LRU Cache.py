@@ -47,3 +47,35 @@ class LRUCache:
             self.add_to_tail(node)
         else:
             val = -1
+        return val
+​
+    def put(self, key: int, value: int) -> None:
+        if key in self.dict:
+            self.remove(self.dict[key])
+            new_node = ListNode(key,value)
+            self.add_to_tail(new_node)
+            self.dict[key] = new_node
+            return
+​
+        if len(self.dict) >= self.capacity:
+            node_to_remove = self.head.next
+            self.remove(node_to_remove)
+            del self.dict[node_to_remove.key]
+            
+        new_node = ListNode(key,value)
+        self.add_to_tail(new_node)
+        self.dict[key] = new_node
+        
+    def add_to_tail(self, node:ListNode) -> None:
+        prev_end = self.tail.prev
+        prev_end.next, node.prev = node, prev_end
+        node.next, self.tail.prev = self.tail, node
+    
+    def remove(self, node) -> None:
+        node.next.prev, node.prev.next = node.prev, node.next
+        
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
+​
